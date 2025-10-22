@@ -1,0 +1,46 @@
+game_id,game_date,team_blue,team_red,winning_team,game_time,gold_diff,gold_diff_at14
+45323,2023-02-06,Team Vitality,Excel Esports,Team Vitality,3246,-2300,-951
+45322,2023-02-06,MAD Lions,G2 Esports,MAD Lions,1490,8600,-142
+45321,2023-02-06,SK Gaming,Fnatic,SK Gaming,1796,6100,1147
+45320,2023-02-06,KOI,Astralis,KOI,1846,16000,541
+45319,2023-02-06,Team BDS,Team Heretics,Team BDS,2273,8500,37
+45318,2023-02-05,G2 Esports,KOI,G2 Esports,1634,15100,3229
+45317,2023-02-05,Astralis,Fnatic,Astralis,1617,11600,1181
+45316,2023-02-05,Team Heretics,MAD Lions,MAD Lions,2006,-500,1701
+45315,2023-02-05,Team BDS,Team Vitality,Team Vitality,2673,-3300,-2298
+45314,2023-02-05,SK Gaming,Excel Esports,SK Gaming,2102,8200,-2553
+45313,2023-02-04,KOI,Team Vitality,KOI,2033,9600,977
+45312,2023-02-04,Fnatic,MAD Lions,MAD Lions,1492,-11500,-7709
+45311,2023-02-04,G2 Esports,Team BDS,G2 Esports,1886,10000,82
+45310,2023-02-04,Excel Esports,Team Heretics,Team Heretics,1577,-14400,-2277
+45309,2023-02-04,Astralis,SK Gaming,Astralis,2322,4400,-2102
+44941,2023-01-30,Fnatic,Team Heretics,Team Heretics,2440,-5400,2936
+44940,2023-01-30,G2 Esports,Team Vitality,Team Vitality,2211,-12400,-1863
+44939,2023-01-30,SK Gaming,KOI,SK Gaming,1778,9600,305
+44938,2023-01-30,Team BDS,MAD Lions,Team BDS,2392,8300,1759
+44937,2023-01-30,Excel Esports,Astralis,Astralis,1884,-10700,-3423
+44936,2023-01-29,KOI,MAD Lions,MAD Lions,1813,-11900,-3062
+44935,2023-01-29,Excel Esports,Fnatic,Fnatic,2105,-1100,1488
+44934,2023-01-29,Team Heretics,G2 Esports,G2 Esports,1125,-13700,-8048
+44933,2023-01-29,Team Vitality,SK Gaming,SK Gaming,1867,-8500,427
+44932,2023-01-29,Astralis,Team BDS,Team BDS,1910,-14000,-925
+44931,2023-01-28,MAD Lions,Excel Esports,MAD Lions,1538,12000,1723
+44930,2023-01-28,SK Gaming,G2 Esports,SK Gaming,2082,5800,922
+44929,2023-01-28,Team Heretics,KOI,Team Heretics,2673,8900,984
+44928,2023-01-28,Fnatic,Team BDS,Team BDS,2288,-11300,-2727
+44927,2023-01-28,Team Vitality,Astralis,Team Vitality,1892,7600,-74
+44618,2023-01-23,MAD Lions,Team Vitality,Team Vitality,1762,-10700,-2593
+44617,2023-01-23,KOI,Fnatic,Fnatic,2072,-12000,1894
+44616,2023-01-23,G2 Esports,Astralis,G2 Esports,1493,16200,3847
+44615,2023-01-23,Team BDS,Excel Esports,Excel Esports,2773,-5200,1029
+44614,2023-01-23,Team Heretics,SK Gaming,SK Gaming,1928,-5600,-307
+44613,2023-01-22,Fnatic,G2 Esports,G2 Esports,1435,-17300,-7109
+44612,2023-01-22,Excel Esports,KOI,KOI,2426,-3900,-1930
+44611,2023-01-22,Team Vitality,Team Heretics,Team Vitality,1701,11500,1640
+44610,2023-01-22,Astralis,MAD Lions,MAD Lions,1761,-9200,-539
+44609,2023-01-22,SK Gaming,Team BDS,Team BDS,2412,-9600,184
+44608,2023-01-21,Team Vitality,Fnatic,Team Vitality,1982,1800,362
+44607,2023-01-21,MAD Lions,SK Gaming,MAD Lions,1659,13900,1929
+44606,2023-01-21,Astralis,Team Heretics,Team Heretics,2155,-5800,2155
+44605,2023-01-21,KOI,Team BDS,KOI,2193,11600,1432
+44604,2023-01-21,Excel Esports,G2 Esports,G2 Esports,1826,-14500,-3187
