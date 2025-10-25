@@ -1,0 +1,667 @@
+role,tier,champion,opponent,winrate
+jungle,master_plus,Amumu,Others,50.0
+jungle,master_plus,Bel'Veth,Ekko,58.06
+jungle,master_plus,Bel'Veth,Graves,50.65
+jungle,master_plus,Bel'Veth,Jarvan IV,43.48
+jungle,master_plus,Bel'Veth,Kha'Zix,43.24
+jungle,master_plus,Bel'Veth,Lee Sin,50.94
+jungle,master_plus,Bel'Veth,Others,50.0
+jungle,master_plus,Bel'Veth,Qiyana,53.85
+jungle,master_plus,Bel'Veth,Rengar,55.26
+jungle,master_plus,Bel'Veth,Sylas,59.09
+jungle,master_plus,Bel'Veth,Talon,40.0
+jungle,master_plus,Bel'Veth,Viego,52.27
+jungle,master_plus,Brand,Others,50.0
+jungle,master_plus,Briar,Graves,34.0
+jungle,master_plus,Briar,Lee Sin,44.19
+jungle,master_plus,Briar,Others,50.0
+jungle,master_plus,Briar,Viego,50.0
+jungle,master_plus,Diana,Ekko,58.14
+jungle,master_plus,Diana,Elise,50.0
+jungle,master_plus,Diana,Graves,54.4
+jungle,master_plus,Diana,Gwen,51.43
+jungle,master_plus,Diana,Hecarim,48.78
+jungle,master_plus,Diana,Jarvan IV,52.81
+jungle,master_plus,Diana,Jax,41.67
+jungle,master_plus,Diana,Kayn,50.0
+jungle,master_plus,Diana,Kha'Zix,40.3
+jungle,master_plus,Diana,Kindred,45.45
+jungle,master_plus,Diana,Lee Sin,52.1
+jungle,master_plus,Diana,Nidalee,52.83
+jungle,master_plus,Diana,Others,50.0
+jungle,master_plus,Diana,Qiyana,57.53
+jungle,master_plus,Diana,Rengar,41.51
+jungle,master_plus,Diana,Sylas,50.93
+jungle,master_plus,Diana,Talon,42.86
+jungle,master_plus,Diana,Viego,41.51
+jungle,master_plus,Diana,Wukong,55.88
+jungle,master_plus,Diana,Xin Zhao,43.75
+jungle,master_plus,Diana,Zed,56.94
+jungle,master_plus,Dr. Mundo,Others,50.0
+jungle,master_plus,Ekko,Bel'Veth,41.94
+jungle,master_plus,Ekko,Diana,41.86
+jungle,master_plus,Ekko,Elise,55.56
+jungle,master_plus,Ekko,Graves,57.26
+jungle,master_plus,Ekko,Hecarim,48.21
+jungle,master_plus,Ekko,Jarvan IV,51.95
+jungle,master_plus,Ekko,Kayn,51.06
+jungle,master_plus,Ekko,Kha'Zix,62.12
+jungle,master_plus,Ekko,Lee Sin,55.56
+jungle,master_plus,Ekko,Nidalee,52.78
+jungle,master_plus,Ekko,Others,50.0
+jungle,master_plus,Ekko,Qiyana,59.04
+jungle,master_plus,Ekko,Rengar,50.91
+jungle,master_plus,Ekko,Shaco,48.72
+jungle,master_plus,Ekko,Sylas,49.35
+jungle,master_plus,Ekko,Talon,38.6
+jungle,master_plus,Ekko,Viego,46.23
+jungle,master_plus,Ekko,Wukong,36.36
+jungle,master_plus,Ekko,Xin Zhao,67.24
+jungle,master_plus,Ekko,Zed,54.0
+jungle,master_plus,Elise,Diana,50.0
+jungle,master_plus,Elise,Ekko,44.44
+jungle,master_plus,Elise,Graves,40.0
+jungle,master_plus,Elise,Jarvan IV,50.91
+jungle,master_plus,Elise,Kha'Zix,47.5
+jungle,master_plus,Elise,Lee Sin,61.73
+jungle,master_plus,Elise,Others,50.0
+jungle,master_plus,Elise,Qiyana,45.83
+jungle,master_plus,Elise,Rengar,60.0
+jungle,master_plus,Elise,Sylas,55.56
+jungle,master_plus,Elise,Talon,53.13
+jungle,master_plus,Elise,Viego,62.86
+jungle,master_plus,Evelynn,Graves,54.0
+jungle,master_plus,Evelynn,Kha'Zix,55.56
+jungle,master_plus,Evelynn,Lee Sin,51.28
+jungle,master_plus,Evelynn,Others,50.0
+jungle,master_plus,Evelynn,Qiyana,51.52
+jungle,master_plus,Evelynn,Sylas,46.81
+jungle,master_plus,Evelynn,Viego,50.0
+jungle,master_plus,Fiddlesticks,Graves,44.68
+jungle,master_plus,Fiddlesticks,Jarvan IV,58.82
+jungle,master_plus,Fiddlesticks,Lee Sin,44.12
+jungle,master_plus,Fiddlesticks,Others,50.0
+jungle,master_plus,Fiddlesticks,Viego,48.57
+jungle,master_plus,Gragas,Others,50.0
+jungle,master_plus,Graves,Bel'Veth,49.35
+jungle,master_plus,Graves,Briar,66.0
+jungle,master_plus,Graves,Diana,45.6
+jungle,master_plus,Graves,Ekko,42.74
+jungle,master_plus,Graves,Elise,60.61
+jungle,master_plus,Graves,Evelynn,46.0
+jungle,master_plus,Graves,Fiddlesticks,56.52
+jungle,master_plus,Graves,Gwen,52.11
+jungle,master_plus,Graves,Hecarim,46.43
+jungle,master_plus,Graves,Ivern,54.84
+jungle,master_plus,Graves,Jarvan IV,51.64
+jungle,master_plus,Graves,Jax,44.62
+jungle,master_plus,Graves,Karthus,58.06
+jungle,master_plus,Graves,Kayn,46.15
+jungle,master_plus,Graves,Kha'Zix,55.87
+jungle,master_plus,Graves,Kindred,51.59
+jungle,master_plus,Graves,Lee Sin,47.42
+jungle,master_plus,Graves,Lillia,50.57
+jungle,master_plus,Graves,Master Yi,55.71
+jungle,master_plus,Graves,Naafiri,43.33
+jungle,master_plus,Graves,Nidalee,42.33
+jungle,master_plus,Graves,Nocturne,49.15
+jungle,master_plus,Graves,Nunu & Willump,56.52
+jungle,master_plus,Graves,Others,50.0
+jungle,master_plus,Graves,Pantheon,46.81
+jungle,master_plus,Graves,Qiyana,54.84
+jungle,master_plus,Graves,Rek'Sai,48.1
+jungle,master_plus,Graves,Rengar,50.0
+jungle,master_plus,Graves,Shaco,61.02
+jungle,master_plus,Graves,Sylas,47.01
+jungle,master_plus,Graves,Taliyah,65.12
+jungle,master_plus,Graves,Talon,45.16
+jungle,master_plus,Graves,Udyr,38.3
+jungle,master_plus,Graves,Viego,49.31
+jungle,master_plus,Graves,Volibear,44.44
+jungle,master_plus,Graves,Wukong,48.57
+jungle,master_plus,Graves,Xin Zhao,54.01
+jungle,master_plus,Graves,Zac,58.46
+jungle,master_plus,Graves,Zed,47.14
+jungle,master_plus,Graves,Zyra,45.61
+jungle,master_plus,Gwen,Diana,48.57
+jungle,master_plus,Gwen,Graves,47.89
+jungle,master_plus,Gwen,Jarvan IV,56.6
+jungle,master_plus,Gwen,Kha'Zix,33.33
+jungle,master_plus,Gwen,Lee Sin,54.0
+jungle,master_plus,Gwen,Others,50.0
+jungle,master_plus,Gwen,Sylas,49.06
+jungle,master_plus,Gwen,Viego,49.23
+jungle,master_plus,Gwen,Xin Zhao,61.29
+jungle,master_plus,Hecarim,Diana,51.22
+jungle,master_plus,Hecarim,Ekko,51.79
+jungle,master_plus,Hecarim,Graves,53.57
+jungle,master_plus,Hecarim,Jarvan IV,50.0
+jungle,master_plus,Hecarim,Karthus,35.48
+jungle,master_plus,Hecarim,Kayn,52.38
+jungle,master_plus,Hecarim,Kha'Zix,52.24
+jungle,master_plus,Hecarim,Kindred,44.44
+jungle,master_plus,Hecarim,Lee Sin,45.13
+jungle,master_plus,Hecarim,Nidalee,45.65
+jungle,master_plus,Hecarim,Others,50.0
+jungle,master_plus,Hecarim,Qiyana,51.25
+jungle,master_plus,Hecarim,Rek'Sai,39.39
+jungle,master_plus,Hecarim,Rengar,40.91
+jungle,master_plus,Hecarim,Shaco,54.55
+jungle,master_plus,Hecarim,Sylas,45.68
+jungle,master_plus,Hecarim,Talon,57.63
+jungle,master_plus,Hecarim,Viego,55.34
+jungle,master_plus,Hecarim,Xin Zhao,57.81
+jungle,master_plus,Hecarim,Zed,53.23
+jungle,master_plus,Ivern,Graves,45.16
+jungle,master_plus,Ivern,Jarvan IV,59.38
+jungle,master_plus,Ivern,Others,50.0
+jungle,master_plus,Ivern,Viego,59.38
+jungle,master_plus,Ivern,Zed,45.45
+jungle,master_plus,Jarvan IV,Bel'Veth,57.45
+jungle,master_plus,Jarvan IV,Diana,47.78
+jungle,master_plus,Jarvan IV,Ekko,47.44
+jungle,master_plus,Jarvan IV,Elise,49.09
+jungle,master_plus,Jarvan IV,Evelynn,56.67
+jungle,master_plus,Jarvan IV,Fiddlesticks,41.18
+jungle,master_plus,Jarvan IV,Graves,48.37
+jungle,master_plus,Jarvan IV,Gwen,43.4
+jungle,master_plus,Jarvan IV,Hecarim,50.0
+jungle,master_plus,Jarvan IV,Ivern,40.63
+jungle,master_plus,Jarvan IV,Jax,41.86
+jungle,master_plus,Jarvan IV,Karthus,37.84
+jungle,master_plus,Jarvan IV,Kayn,42.42
+jungle,master_plus,Jarvan IV,Kha'Zix,41.35
+jungle,master_plus,Jarvan IV,Kindred,46.55
+jungle,master_plus,Jarvan IV,Lee Sin,51.71
+jungle,master_plus,Jarvan IV,Lillia,48.48
+jungle,master_plus,Jarvan IV,Master Yi,51.85
+jungle,master_plus,Jarvan IV,Naafiri,49.02
+jungle,master_plus,Jarvan IV,Nidalee,60.87
+jungle,master_plus,Jarvan IV,Nocturne,55.56
+jungle,master_plus,Jarvan IV,Nunu & Willump,64.71
+jungle,master_plus,Jarvan IV,Others,50.0
+jungle,master_plus,Jarvan IV,Pantheon,43.75
+jungle,master_plus,Jarvan IV,Qiyana,47.73
+jungle,master_plus,Jarvan IV,Rek'Sai,48.53
+jungle,master_plus,Jarvan IV,Rengar,53.41
+jungle,master_plus,Jarvan IV,Shaco,41.3
+jungle,master_plus,Jarvan IV,Sylas,51.79
+jungle,master_plus,Jarvan IV,Talon,44.12
+jungle,master_plus,Jarvan IV,Viego,50.57
+jungle,master_plus,Jarvan IV,Volibear,44.44
+jungle,master_plus,Jarvan IV,Wukong,42.68
+jungle,master_plus,Jarvan IV,Xin Zhao,47.96
+jungle,master_plus,Jarvan IV,Zac,47.06
+jungle,master_plus,Jarvan IV,Zed,52.59
+jungle,master_plus,Jarvan IV,Zyra,54.55
+jungle,master_plus,Jax,Diana,58.33
+jungle,master_plus,Jax,Graves,55.38
+jungle,master_plus,Jax,Jarvan IV,58.14
+jungle,master_plus,Jax,Lee Sin,45.16
+jungle,master_plus,Jax,Master Yi,40.0
+jungle,master_plus,Jax,Others,50.0
+jungle,master_plus,Jax,Rengar,47.62
+jungle,master_plus,Jax,Sylas,39.13
+jungle,master_plus,Jax,Viego,43.42
+jungle,master_plus,Jax,Xin Zhao,51.02
+jungle,master_plus,Karthus,Graves,41.94
+jungle,master_plus,Karthus,Hecarim,64.52
+jungle,master_plus,Karthus,Jarvan IV,61.11
+jungle,master_plus,Karthus,Lee Sin,57.58
+jungle,master_plus,Karthus,Nidalee,46.67
+jungle,master_plus,Karthus,Others,50.0
+jungle,master_plus,Karthus,Qiyana,47.83
+jungle,master_plus,Karthus,Sylas,47.46
+jungle,master_plus,Karthus,Viego,54.76
+jungle,master_plus,Karthus,Zed,62.86
+jungle,master_plus,Kayn,Diana,50.0
+jungle,master_plus,Kayn,Ekko,48.94
+jungle,master_plus,Kayn,Graves,53.85
+jungle,master_plus,Kayn,Hecarim,47.62
+jungle,master_plus,Kayn,Jarvan IV,57.58
+jungle,master_plus,Kayn,Kha'Zix,47.06
+jungle,master_plus,Kayn,Kindred,71.88
+jungle,master_plus,Kayn,Lee Sin,56.72
+jungle,master_plus,Kayn,Others,50.0
+jungle,master_plus,Kayn,Qiyana,45.45
+jungle,master_plus,Kayn,Rengar,44.19
+jungle,master_plus,Kayn,Sylas,51.56
+jungle,master_plus,Kayn,Talon,38.78
+jungle,master_plus,Kayn,Viego,53.52
+jungle,master_plus,Kayn,Xin Zhao,58.06
+jungle,master_plus,Kayn,Zed,48.57
+jungle,master_plus,Kha'Zix,Bel'Veth,56.76
+jungle,master_plus,Kha'Zix,Diana,59.15
+jungle,master_plus,Kha'Zix,Ekko,38.24
+jungle,master_plus,Kha'Zix,Elise,52.5
+jungle,master_plus,Kha'Zix,Evelynn,44.44
+jungle,master_plus,Kha'Zix,Graves,44.13
+jungle,master_plus,Kha'Zix,Gwen,66.67
+jungle,master_plus,Kha'Zix,Hecarim,47.76
+jungle,master_plus,Kha'Zix,Jarvan IV,58.65
+jungle,master_plus,Kha'Zix,Kayn,52.94
+jungle,master_plus,Kha'Zix,Kindred,47.46
+jungle,master_plus,Kha'Zix,Lee Sin,44.6
+jungle,master_plus,Kha'Zix,Lillia,45.95
+jungle,master_plus,Kha'Zix,Master Yi,47.22
+jungle,master_plus,Kha'Zix,Naafiri,45.61
+jungle,master_plus,Kha'Zix,Nidalee,42.86
+jungle,master_plus,Kha'Zix,Others,50.0
+jungle,master_plus,Kha'Zix,Qiyana,56.67
+jungle,master_plus,Kha'Zix,Rengar,32.14
+jungle,master_plus,Kha'Zix,Shaco,38.71
+jungle,master_plus,Kha'Zix,Sylas,58.18
+jungle,master_plus,Kha'Zix,Talon,50.65
+jungle,master_plus,Kha'Zix,Viego,52.85
+jungle,master_plus,Kha'Zix,Wukong,51.92
+jungle,master_plus,Kha'Zix,Xin Zhao,55.74
+jungle,master_plus,Kha'Zix,Zed,45.88
+jungle,master_plus,Kindred,Diana,54.55
+jungle,master_plus,Kindred,Graves,48.41
+jungle,master_plus,Kindred,Hecarim,55.56
+jungle,master_plus,Kindred,Jarvan IV,53.7
+jungle,master_plus,Kindred,Kayn,28.13
+jungle,master_plus,Kindred,Kha'Zix,52.63
+jungle,master_plus,Kindred,Lee Sin,46.39
+jungle,master_plus,Kindred,Nidalee,53.33
+jungle,master_plus,Kindred,Others,50.0
+jungle,master_plus,Kindred,Qiyana,53.19
+jungle,master_plus,Kindred,Sylas,64.06
+jungle,master_plus,Kindred,Viego,55.17
+jungle,master_plus,Kindred,Xin Zhao,48.21
+jungle,master_plus,Kindred,Zed,58.97
+jungle,master_plus,Lee Sin,Bel'Veth,49.06
+jungle,master_plus,Lee Sin,Briar,55.81
+jungle,master_plus,Lee Sin,Diana,47.9
+jungle,master_plus,Lee Sin,Ekko,44.44
+jungle,master_plus,Lee Sin,Elise,38.75
+jungle,master_plus,Lee Sin,Evelynn,48.72
+jungle,master_plus,Lee Sin,Fiddlesticks,55.88
+jungle,master_plus,Lee Sin,Graves,52.58
+jungle,master_plus,Lee Sin,Gwen,46.0
+jungle,master_plus,Lee Sin,Hecarim,54.87
+jungle,master_plus,Lee Sin,Jarvan IV,48.66
+jungle,master_plus,Lee Sin,Jax,54.84
+jungle,master_plus,Lee Sin,Karthus,42.42
+jungle,master_plus,Lee Sin,Kayn,43.28
+jungle,master_plus,Lee Sin,Kha'Zix,55.47
+jungle,master_plus,Lee Sin,Kindred,53.61
+jungle,master_plus,Lee Sin,Lillia,55.0
+jungle,master_plus,Lee Sin,Master Yi,48.35
+jungle,master_plus,Lee Sin,Naafiri,58.54
+jungle,master_plus,Lee Sin,Nidalee,57.58
+jungle,master_plus,Lee Sin,Nocturne,45.24
+jungle,master_plus,Lee Sin,Others,50.0
+jungle,master_plus,Lee Sin,Pantheon,47.62
+jungle,master_plus,Lee Sin,Poppy,39.47
+jungle,master_plus,Lee Sin,Qiyana,57.53
+jungle,master_plus,Lee Sin,Rek'Sai,54.0
+jungle,master_plus,Lee Sin,Rengar,52.94
+jungle,master_plus,Lee Sin,Shaco,43.18
+jungle,master_plus,Lee Sin,Sylas,50.33
+jungle,master_plus,Lee Sin,Taliyah,48.48
+jungle,master_plus,Lee Sin,Talon,52.63
+jungle,master_plus,Lee Sin,Udyr,30.0
+jungle,master_plus,Lee Sin,Viego,55.26
+jungle,master_plus,Lee Sin,Volibear,54.55
+jungle,master_plus,Lee Sin,Warwick,36.67
+jungle,master_plus,Lee Sin,Wukong,53.92
+jungle,master_plus,Lee Sin,Xin Zhao,47.44
+jungle,master_plus,Lee Sin,Zac,47.46
+jungle,master_plus,Lee Sin,Zed,54.43
+jungle,master_plus,Lee Sin,Zyra,54.55
+jungle,master_plus,Lillia,Graves,49.43
+jungle,master_plus,Lillia,Jarvan IV,51.52
+jungle,master_plus,Lillia,Kha'Zix,55.56
+jungle,master_plus,Lillia,Lee Sin,45.0
+jungle,master_plus,Lillia,Others,50.0
+jungle,master_plus,Lillia,Sylas,46.88
+jungle,master_plus,Lillia,Viego,38.46
+jungle,master_plus,Master Yi,Graves,44.29
+jungle,master_plus,Master Yi,Jarvan IV,46.15
+jungle,master_plus,Master Yi,Jax,60.0
+jungle,master_plus,Master Yi,Kha'Zix,52.78
+jungle,master_plus,Master Yi,Lee Sin,51.65
+jungle,master_plus,Master Yi,Others,50.0
+jungle,master_plus,Master Yi,Qiyana,55.32
+jungle,master_plus,Master Yi,Rengar,54.55
+jungle,master_plus,Master Yi,Sylas,44.64
+jungle,master_plus,Master Yi,Talon,52.78
+jungle,master_plus,Master Yi,Viego,54.93
+jungle,master_plus,Master Yi,Xin Zhao,71.43
+jungle,master_plus,Master Yi,Zed,53.66
+jungle,master_plus,Morgana,Others,50.0
+jungle,master_plus,Naafiri,Graves,56.67
+jungle,master_plus,Naafiri,Jarvan IV,50.0
+jungle,master_plus,Naafiri,Kha'Zix,51.92
+jungle,master_plus,Naafiri,Lee Sin,41.46
+jungle,master_plus,Naafiri,Others,50.0
+jungle,master_plus,Naafiri,Qiyana,45.0
+jungle,master_plus,Naafiri,Rengar,43.75
+jungle,master_plus,Naafiri,Sylas,59.57
+jungle,master_plus,Naafiri,Talon,40.63
+jungle,master_plus,Naafiri,Viego,40.43
+jungle,master_plus,Naafiri,Zed,57.45
+jungle,master_plus,Nidalee,Diana,45.45
+jungle,master_plus,Nidalee,Ekko,45.95
+jungle,master_plus,Nidalee,Graves,58.48
+jungle,master_plus,Nidalee,Hecarim,54.35
+jungle,master_plus,Nidalee,Jarvan IV,39.13
+jungle,master_plus,Nidalee,Karthus,53.33
+jungle,master_plus,Nidalee,Kha'Zix,57.14
+jungle,master_plus,Nidalee,Kindred,46.67
+jungle,master_plus,Nidalee,Lee Sin,43.07
+jungle,master_plus,Nidalee,Others,50.0
+jungle,master_plus,Nidalee,Qiyana,58.06
+jungle,master_plus,Nidalee,Rek'Sai,56.25
+jungle,master_plus,Nidalee,Rengar,51.52
+jungle,master_plus,Nidalee,Shaco,45.45
+jungle,master_plus,Nidalee,Sylas,53.19
+jungle,master_plus,Nidalee,Talon,50.79
+jungle,master_plus,Nidalee,Viego,48.89
+jungle,master_plus,Nidalee,Wukong,46.67
+jungle,master_plus,Nidalee,Xin Zhao,52.44
+jungle,master_plus,Nidalee,Zed,44.12
+jungle,master_plus,Nocturne,Graves,50.85
+jungle,master_plus,Nocturne,Jarvan IV,42.86
+jungle,master_plus,Nocturne,Lee Sin,54.76
+jungle,master_plus,Nocturne,Others,50.0
+jungle,master_plus,Nocturne,Qiyana,57.14
+jungle,master_plus,Nocturne,Sylas,60.0
+jungle,master_plus,Nocturne,Viego,51.28
+jungle,master_plus,Nunu & Willump,Graves,43.48
+jungle,master_plus,Nunu & Willump,Jarvan IV,35.29
+jungle,master_plus,Nunu & Willump,Lee Sin,41.94
+jungle,master_plus,Nunu & Willump,Others,50.0
+jungle,master_plus,Nunu & Willump,Qiyana,48.39
+jungle,master_plus,Nunu & Willump,Sylas,45.24
+jungle,master_plus,Nunu & Willump,Talon,45.45
+jungle,master_plus,Pantheon,Graves,53.19
+jungle,master_plus,Pantheon,Jarvan IV,58.06
+jungle,master_plus,Pantheon,Lee Sin,52.38
+jungle,master_plus,Pantheon,Others,50.0
+jungle,master_plus,Pantheon,Sylas,52.63
+jungle,master_plus,Pantheon,Viego,58.54
+jungle,master_plus,Poppy,Lee Sin,60.53
+jungle,master_plus,Poppy,Others,50.0
+jungle,master_plus,Qiyana,Bel'Veth,46.15
+jungle,master_plus,Qiyana,Diana,42.47
+jungle,master_plus,Qiyana,Ekko,40.96
+jungle,master_plus,Qiyana,Elise,54.17
+jungle,master_plus,Qiyana,Evelynn,48.48
+jungle,master_plus,Qiyana,Graves,45.16
+jungle,master_plus,Qiyana,Hecarim,47.5
+jungle,master_plus,Qiyana,Jarvan IV,51.56
+jungle,master_plus,Qiyana,Karthus,52.17
+jungle,master_plus,Qiyana,Kayn,54.55
+jungle,master_plus,Qiyana,Kha'Zix,43.97
+jungle,master_plus,Qiyana,Kindred,46.81
+jungle,master_plus,Qiyana,Lee Sin,42.47
+jungle,master_plus,Qiyana,Master Yi,44.68
+jungle,master_plus,Qiyana,Naafiri,55.0
+jungle,master_plus,Qiyana,Nidalee,41.94
+jungle,master_plus,Qiyana,Nocturne,42.86
+jungle,master_plus,Qiyana,Nunu & Willump,51.61
+jungle,master_plus,Qiyana,Others,50.0
+jungle,master_plus,Qiyana,Rek'Sai,42.11
+jungle,master_plus,Qiyana,Rengar,46.48
+jungle,master_plus,Qiyana,Shaco,49.06
+jungle,master_plus,Qiyana,Sylas,46.73
+jungle,master_plus,Qiyana,Talon,47.17
+jungle,master_plus,Qiyana,Udyr,43.33
+jungle,master_plus,Qiyana,Viego,51.18
+jungle,master_plus,Qiyana,Wukong,49.02
+jungle,master_plus,Qiyana,Xin Zhao,50.0
+jungle,master_plus,Qiyana,Zac,51.35
+jungle,master_plus,Qiyana,Zed,53.51
+jungle,master_plus,Rammus,Others,50.0
+jungle,master_plus,Rek'Sai,Graves,51.9
+jungle,master_plus,Rek'Sai,Hecarim,60.61
+jungle,master_plus,Rek'Sai,Jarvan IV,53.03
+jungle,master_plus,Rek'Sai,Lee Sin,46.0
+jungle,master_plus,Rek'Sai,Nidalee,43.75
+jungle,master_plus,Rek'Sai,Others,50.0
+jungle,master_plus,Rek'Sai,Qiyana,57.89
+jungle,master_plus,Rek'Sai,Rengar,54.84
+jungle,master_plus,Rek'Sai,Sylas,64.0
+jungle,master_plus,Rek'Sai,Talon,37.21
+jungle,master_plus,Rek'Sai,Viego,54.0
+jungle,master_plus,Rek'Sai,Xin Zhao,52.63
+jungle,master_plus,Rek'Sai,Zed,59.46
+jungle,master_plus,Rengar,Bel'Veth,44.74
+jungle,master_plus,Rengar,Diana,59.26
+jungle,master_plus,Rengar,Ekko,48.21
+jungle,master_plus,Rengar,Elise,40.0
+jungle,master_plus,Rengar,Graves,50.45
+jungle,master_plus,Rengar,Hecarim,60.87
+jungle,master_plus,Rengar,Jarvan IV,46.59
+jungle,master_plus,Rengar,Jax,52.38
+jungle,master_plus,Rengar,Kayn,56.82
+jungle,master_plus,Rengar,Kha'Zix,67.86
+jungle,master_plus,Rengar,Lee Sin,48.31
+jungle,master_plus,Rengar,Master Yi,44.12
+jungle,master_plus,Rengar,Naafiri,56.25
+jungle,master_plus,Rengar,Nidalee,48.48
+jungle,master_plus,Rengar,Others,50.0
+jungle,master_plus,Rengar,Qiyana,53.33
+jungle,master_plus,Rengar,Rek'Sai,45.16
+jungle,master_plus,Rengar,Sylas,44.74
+jungle,master_plus,Rengar,Talon,51.85
+jungle,master_plus,Rengar,Viego,53.42
+jungle,master_plus,Rengar,Volibear,50.0
+jungle,master_plus,Rengar,Wukong,50.0
+jungle,master_plus,Rengar,Xin Zhao,41.3
+jungle,master_plus,Rengar,Zed,60.0
+jungle,master_plus,Sejuani,Others,50.0
+jungle,master_plus,Shaco,Ekko,51.28
+jungle,master_plus,Shaco,Graves,40.0
+jungle,master_plus,Shaco,Hecarim,45.45
+jungle,master_plus,Shaco,Jarvan IV,58.7
+jungle,master_plus,Shaco,Kha'Zix,61.29
+jungle,master_plus,Shaco,Lee Sin,56.67
+jungle,master_plus,Shaco,Nidalee,54.55
+jungle,master_plus,Shaco,Others,50.0
+jungle,master_plus,Shaco,Qiyana,49.09
+jungle,master_plus,Shaco,Sylas,47.83
+jungle,master_plus,Shaco,Talon,44.74
+jungle,master_plus,Shaco,Viego,54.55
+jungle,master_plus,Shaco,Xin Zhao,51.43
+jungle,master_plus,Shaco,Zed,64.71
+jungle,master_plus,Shyvana,Others,50.0
+jungle,master_plus,Skarner,Others,50.0
+jungle,master_plus,Sylas,Bel'Veth,40.91
+jungle,master_plus,Sylas,Diana,49.07
+jungle,master_plus,Sylas,Ekko,50.65
+jungle,master_plus,Sylas,Elise,44.44
+jungle,master_plus,Sylas,Evelynn,53.19
+jungle,master_plus,Sylas,Graves,52.99
+jungle,master_plus,Sylas,Gwen,50.94
+jungle,master_plus,Sylas,Hecarim,54.32
+jungle,master_plus,Sylas,Jarvan IV,47.9
+jungle,master_plus,Sylas,Jax,60.87
+jungle,master_plus,Sylas,Karthus,52.54
+jungle,master_plus,Sylas,Kayn,48.44
+jungle,master_plus,Sylas,Kha'Zix,42.59
+jungle,master_plus,Sylas,Kindred,35.94
+jungle,master_plus,Sylas,Lee Sin,49.67
+jungle,master_plus,Sylas,Lillia,53.13
+jungle,master_plus,Sylas,Master Yi,55.36
+jungle,master_plus,Sylas,Naafiri,40.43
+jungle,master_plus,Sylas,Nidalee,46.24
+jungle,master_plus,Sylas,Nocturne,40.0
+jungle,master_plus,Sylas,Nunu & Willump,52.5
+jungle,master_plus,Sylas,Others,50.0
+jungle,master_plus,Sylas,Pantheon,47.37
+jungle,master_plus,Sylas,Qiyana,53.27
+jungle,master_plus,Sylas,Rek'Sai,36.0
+jungle,master_plus,Sylas,Rengar,55.26
+jungle,master_plus,Sylas,Shaco,52.17
+jungle,master_plus,Sylas,Talon,45.68
+jungle,master_plus,Sylas,Viego,49.21
+jungle,master_plus,Sylas,Wukong,58.73
+jungle,master_plus,Sylas,Xin Zhao,51.38
+jungle,master_plus,Sylas,Zac,37.5
+jungle,master_plus,Sylas,Zed,47.66
+jungle,master_plus,Taliyah,Graves,34.09
+jungle,master_plus,Taliyah,Lee Sin,50.0
+jungle,master_plus,Taliyah,Others,50.0
+jungle,master_plus,Talon,Bel'Veth,60.0
+jungle,master_plus,Talon,Diana,57.14
+jungle,master_plus,Talon,Ekko,61.4
+jungle,master_plus,Talon,Elise,46.88
+jungle,master_plus,Talon,Graves,55.35
+jungle,master_plus,Talon,Hecarim,42.62
+jungle,master_plus,Talon,Jarvan IV,55.88
+jungle,master_plus,Talon,Kayn,58.82
+jungle,master_plus,Talon,Kha'Zix,49.35
+jungle,master_plus,Talon,Lee Sin,47.06
+jungle,master_plus,Talon,Master Yi,44.74
+jungle,master_plus,Talon,Naafiri,59.38
+jungle,master_plus,Talon,Nidalee,49.21
+jungle,master_plus,Talon,Nunu & Willump,54.55
+jungle,master_plus,Talon,Others,50.0
+jungle,master_plus,Talon,Qiyana,54.13
+jungle,master_plus,Talon,Rek'Sai,63.04
+jungle,master_plus,Talon,Rengar,48.15
+jungle,master_plus,Talon,Shaco,55.26
+jungle,master_plus,Talon,Sylas,53.01
+jungle,master_plus,Talon,Viego,47.32
+jungle,master_plus,Talon,Wukong,58.14
+jungle,master_plus,Talon,Xin Zhao,43.1
+jungle,master_plus,Talon,Zed,50.0
+jungle,master_plus,Trundle,Others,50.0
+jungle,master_plus,Trundle,Xin Zhao,45.45
+jungle,master_plus,Udyr,Graves,61.7
+jungle,master_plus,Udyr,Lee Sin,70.0
+jungle,master_plus,Udyr,Others,50.0
+jungle,master_plus,Udyr,Qiyana,56.67
+jungle,master_plus,Vi,Ekko,46.67
+jungle,master_plus,Vi,Graves,40.35
+jungle,master_plus,Vi,Jarvan IV,45.45
+jungle,master_plus,Vi,Kha'Zix,48.39
+jungle,master_plus,Vi,Lee Sin,42.75
+jungle,master_plus,Vi,Others,50.0
+jungle,master_plus,Vi,Qiyana,51.67
+jungle,master_plus,Vi,Sylas,45.45
+jungle,master_plus,Vi,Talon,54.76
+jungle,master_plus,Vi,Viego,34.62
+jungle,master_plus,Viego,Bel'Veth,47.73
+jungle,master_plus,Viego,Briar,50.0
+jungle,master_plus,Viego,Diana,58.49
+jungle,master_plus,Viego,Ekko,53.77
+jungle,master_plus,Viego,Elise,35.29
+jungle,master_plus,Viego,Evelynn,50.0
+jungle,master_plus,Viego,Fiddlesticks,51.43
+jungle,master_plus,Viego,Graves,50.69
+jungle,master_plus,Viego,Gwen,50.77
+jungle,master_plus,Viego,Hecarim,44.66
+jungle,master_plus,Viego,Ivern,40.63
+jungle,master_plus,Viego,Jarvan IV,50.0
+jungle,master_plus,Viego,Jax,56.58
+jungle,master_plus,Viego,Karthus,45.24
+jungle,master_plus,Viego,Kayn,46.48
+jungle,master_plus,Viego,Kha'Zix,47.01
+jungle,master_plus,Viego,Kindred,44.83
+jungle,master_plus,Viego,Lee Sin,44.74
+jungle,master_plus,Viego,Lillia,61.54
+jungle,master_plus,Viego,Master Yi,45.07
+jungle,master_plus,Viego,Naafiri,59.57
+jungle,master_plus,Viego,Nidalee,52.27
+jungle,master_plus,Viego,Nocturne,48.72
+jungle,master_plus,Viego,Others,50.0
+jungle,master_plus,Viego,Pantheon,41.46
+jungle,master_plus,Viego,Qiyana,48.82
+jungle,master_plus,Viego,Rek'Sai,46.0
+jungle,master_plus,Viego,Rengar,47.22
+jungle,master_plus,Viego,Shaco,45.45
+jungle,master_plus,Viego,Sylas,50.79
+jungle,master_plus,Viego,Talon,51.85
+jungle,master_plus,Viego,Volibear,48.57
+jungle,master_plus,Viego,Wukong,47.19
+jungle,master_plus,Viego,Xin Zhao,55.65
+jungle,master_plus,Viego,Zac,48.84
+jungle,master_plus,Viego,Zed,58.59
+jungle,master_plus,Viego,Zyra,37.5
+jungle,master_plus,Volibear,Graves,55.56
+jungle,master_plus,Volibear,Jarvan IV,54.29
+jungle,master_plus,Volibear,Lee Sin,45.45
+jungle,master_plus,Volibear,Others,50.0
+jungle,master_plus,Volibear,Rengar,50.0
+jungle,master_plus,Volibear,Viego,51.43
+jungle,master_plus,Warwick,Lee Sin,63.33
+jungle,master_plus,Warwick,Others,50.0
+jungle,master_plus,Wukong,Diana,44.12
+jungle,master_plus,Wukong,Ekko,63.64
+jungle,master_plus,Wukong,Graves,51.38
+jungle,master_plus,Wukong,Jarvan IV,57.32
+jungle,master_plus,Wukong,Kha'Zix,48.08
+jungle,master_plus,Wukong,Lee Sin,46.6
+jungle,master_plus,Wukong,Nidalee,53.33
+jungle,master_plus,Wukong,Others,50.0
+jungle,master_plus,Wukong,Qiyana,50.0
+jungle,master_plus,Wukong,Rengar,50.0
+jungle,master_plus,Wukong,Sylas,40.91
+jungle,master_plus,Wukong,Talon,41.86
+jungle,master_plus,Wukong,Viego,53.26
+jungle,master_plus,Wukong,Xin Zhao,56.1
+jungle,master_plus,Wukong,Zed,50.0
+jungle,master_plus,Xin Zhao,Diana,56.25
+jungle,master_plus,Xin Zhao,Ekko,32.76
+jungle,master_plus,Xin Zhao,Graves,45.99
+jungle,master_plus,Xin Zhao,Gwen,38.71
+jungle,master_plus,Xin Zhao,Hecarim,42.19
+jungle,master_plus,Xin Zhao,Jarvan IV,51.58
+jungle,master_plus,Xin Zhao,Jax,48.98
+jungle,master_plus,Xin Zhao,Kayn,41.94
+jungle,master_plus,Xin Zhao,Kha'Zix,42.37
+jungle,master_plus,Xin Zhao,Kindred,51.79
+jungle,master_plus,Xin Zhao,Lee Sin,52.56
+jungle,master_plus,Xin Zhao,Master Yi,28.57
+jungle,master_plus,Xin Zhao,Nidalee,47.56
+jungle,master_plus,Xin Zhao,Others,50.0
+jungle,master_plus,Xin Zhao,Qiyana,50.0
+jungle,master_plus,Xin Zhao,Rek'Sai,47.37
+jungle,master_plus,Xin Zhao,Rengar,58.7
+jungle,master_plus,Xin Zhao,Shaco,48.57
+jungle,master_plus,Xin Zhao,Sylas,48.62
+jungle,master_plus,Xin Zhao,Talon,57.14
+jungle,master_plus,Xin Zhao,Trundle,54.55
+jungle,master_plus,Xin Zhao,Viego,44.35
+jungle,master_plus,Xin Zhao,Wukong,41.03
+jungle,master_plus,Xin Zhao,Zed,52.73
+jungle,master_plus,Zac,Graves,41.54
+jungle,master_plus,Zac,Jarvan IV,53.13
+jungle,master_plus,Zac,Lee Sin,52.54
+jungle,master_plus,Zac,Others,50.0
+jungle,master_plus,Zac,Qiyana,48.65
+jungle,master_plus,Zac,Sylas,62.5
+jungle,master_plus,Zac,Viego,51.16
+jungle,master_plus,Zed,Diana,43.06
+jungle,master_plus,Zed,Ekko,46.0
+jungle,master_plus,Zed,Graves,52.86
+jungle,master_plus,Zed,Hecarim,46.77
+jungle,master_plus,Zed,Ivern,54.55
+jungle,master_plus,Zed,Jarvan IV,48.21
+jungle,master_plus,Zed,Karthus,37.14
+jungle,master_plus,Zed,Kayn,51.43
+jungle,master_plus,Zed,Kha'Zix,54.76
+jungle,master_plus,Zed,Kindred,41.03
+jungle,master_plus,Zed,Lee Sin,45.57
+jungle,master_plus,Zed,Master Yi,46.34
+jungle,master_plus,Zed,Naafiri,42.55
+jungle,master_plus,Zed,Nidalee,55.22
+jungle,master_plus,Zed,Others,50.0
+jungle,master_plus,Zed,Qiyana,46.49
+jungle,master_plus,Zed,Rek'Sai,40.54
+jungle,master_plus,Zed,Rengar,40.68
+jungle,master_plus,Zed,Shaco,35.29
+jungle,master_plus,Zed,Sylas,52.34
+jungle,master_plus,Zed,Talon,49.33
+jungle,master_plus,Zed,Viego,41.41
+jungle,master_plus,Zed,Wukong,51.16
+jungle,master_plus,Zed,Xin Zhao,47.27
+jungle,master_plus,Zyra,Graves,54.39
+jungle,master_plus,Zyra,Jarvan IV,45.45
+jungle,master_plus,Zyra,Lee Sin,45.45
+jungle,master_plus,Zyra,Others,50.0
+jungle,master_plus,Zyra,Viego,62.5
