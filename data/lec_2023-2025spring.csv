@@ -1,0 +1,806 @@
+split,game_id,game_date,team_blue,team_red,winning_team,game_time,gold_diff,gold_diff_at14
+LEC Winter 2023,45323,2023-02-06,Team Vitality,GIANTX,Team Vitality,3246,-2300,-951
+LEC Winter 2023,45322,2023-02-06,Movistar KOI,G2 Esports,Movistar KOI,1490,8600,-142
+LEC Winter 2023,45321,2023-02-06,SK Gaming,Fnatic,SK Gaming,1796,6100,1147
+LEC Winter 2023,45320,2023-02-06,Movistar KOI,Astralis,Movistar KOI,1846,16000,541
+LEC Winter 2023,45319,2023-02-06,Team BDS,Team Heretics,Team BDS,2273,8500,37
+LEC Winter 2023,45318,2023-02-05,G2 Esports,Movistar KOI,G2 Esports,1634,15100,3229
+LEC Winter 2023,45317,2023-02-05,Astralis,Fnatic,Astralis,1617,11600,1181
+LEC Winter 2023,45316,2023-02-05,Team Heretics,Movistar KOI,Movistar KOI,2006,-500,1701
+LEC Winter 2023,45315,2023-02-05,Team BDS,Team Vitality,Team Vitality,2673,-3300,-2298
+LEC Winter 2023,45314,2023-02-05,SK Gaming,GIANTX,SK Gaming,2102,8200,-2553
+LEC Winter 2023,45313,2023-02-04,Movistar KOI,Team Vitality,Movistar KOI,2033,9600,977
+LEC Winter 2023,45312,2023-02-04,Fnatic,Movistar KOI,Movistar KOI,1492,-11500,-7709
+LEC Winter 2023,45311,2023-02-04,G2 Esports,Team BDS,G2 Esports,1886,10000,82
+LEC Winter 2023,45310,2023-02-04,GIANTX,Team Heretics,Team Heretics,1577,-14400,-2277
+LEC Winter 2023,45309,2023-02-04,Astralis,SK Gaming,Astralis,2322,4400,-2102
+LEC Winter 2023,44941,2023-01-30,Fnatic,Team Heretics,Team Heretics,2440,-5400,2936
+LEC Winter 2023,44940,2023-01-30,G2 Esports,Team Vitality,Team Vitality,2211,-12400,-1863
+LEC Winter 2023,44939,2023-01-30,SK Gaming,Movistar KOI,SK Gaming,1778,9600,305
+LEC Winter 2023,44938,2023-01-30,Team BDS,Movistar KOI,Team BDS,2392,8300,1759
+LEC Winter 2023,44937,2023-01-30,GIANTX,Astralis,Astralis,1884,-10700,-3423
+LEC Winter 2023,44936,2023-01-29,Movistar KOI,Movistar KOI,Movistar KOI,1813,-11900,-3062
+LEC Winter 2023,44935,2023-01-29,GIANTX,Fnatic,Fnatic,2105,-1100,1488
+LEC Winter 2023,44934,2023-01-29,Team Heretics,G2 Esports,G2 Esports,1125,-13700,-8048
+LEC Winter 2023,44933,2023-01-29,Team Vitality,SK Gaming,SK Gaming,1867,-8500,427
+LEC Winter 2023,44932,2023-01-29,Astralis,Team BDS,Team BDS,1910,-14000,-925
+LEC Winter 2023,44931,2023-01-28,Movistar KOI,GIANTX,Movistar KOI,1538,12000,1723
+LEC Winter 2023,44930,2023-01-28,SK Gaming,G2 Esports,SK Gaming,2082,5800,922
+LEC Winter 2023,44929,2023-01-28,Team Heretics,Movistar KOI,Team Heretics,2673,8900,984
+LEC Winter 2023,44928,2023-01-28,Fnatic,Team BDS,Team BDS,2288,-11300,-2727
+LEC Winter 2023,44927,2023-01-28,Team Vitality,Astralis,Team Vitality,1892,7600,-74
+LEC Winter 2023,44618,2023-01-23,Movistar KOI,Team Vitality,Team Vitality,1762,-10700,-2593
+LEC Winter 2023,44617,2023-01-23,Movistar KOI,Fnatic,Fnatic,2072,-12000,1894
+LEC Winter 2023,44616,2023-01-23,G2 Esports,Astralis,G2 Esports,1493,16200,3847
+LEC Winter 2023,44615,2023-01-23,Team BDS,GIANTX,GIANTX,2773,-5200,1029
+LEC Winter 2023,44614,2023-01-23,Team Heretics,SK Gaming,SK Gaming,1928,-5600,-307
+LEC Winter 2023,44613,2023-01-22,Fnatic,G2 Esports,G2 Esports,1435,-17300,-7109
+LEC Winter 2023,44612,2023-01-22,GIANTX,Movistar KOI,KOI,2426,-3900,-1930
+LEC Winter 2023,44611,2023-01-22,Team Vitality,Team Heretics,Team Vitality,1701,11500,1640
+LEC Winter 2023,44610,2023-01-22,Astralis,Movistar KOI,Movistar KOI,1761,-9200,-539
+LEC Winter 2023,44609,2023-01-22,SK Gaming,Team BDS,Team BDS,2412,-9600,184
+LEC Winter 2023,44608,2023-01-21,Team Vitality,Fnatic,Team Vitality,1982,1800,362
+LEC Winter 2023,44607,2023-01-21,Movistar KOI,SK Gaming,Movistar KOI,1659,13900,1929
+LEC Winter 2023,44606,2023-01-21,Astralis,Team Heretics,Team Heretics,2155,-5800,2155
+LEC Winter 2023,44605,2023-01-21,Movistar KOI,Team BDS,Movistar KOI,2193,11600,1432
+LEC Winter 2023,44604,2023-01-21,GIANTX,G2 Esports,G2 Esports,1826,-14500,-3187
+LEC Winter Groups 2023,46344,2023-02-19,Movistar KOI,Astralis,Movistar KOI,1891,6400,2028
+LEC Winter Groups 2023,46341,2023-02-19,Team Vitality,SK Gaming,SK Gaming,2386,800,4222
+LEC Winter Groups 2023,46109,2023-02-18,Team BDS,Astralis,Team BDS,2171,11700,398
+LEC Winter Groups 2023,46106,2023-02-18,SK Gaming,Team Heretics,SK Gaming,1763,3100,-1701
+LEC Winter Groups 2023,45947,2023-02-13,Movistar KOI,G2 Esports,G2 Esports,1708,-17700,-591
+LEC Winter Groups 2023,45944,2023-02-13,Team Vitality,Movistar KOI,KOI,1998,-2500,-356
+LEC Winter Groups 2023,45742,2023-02-12,G2 Esports,Team BDS,G2 Esports,1864,13100,343
+LEC Winter Groups 2023,45739,2023-02-12,Movistar KOI,Astralis,Movistar KOI,1652,12700,1188
+LEC Winter Groups 2023,45736,2023-02-11,Movistar KOI,SK Gaming,Movistar KOI,1653,12700,2706
+LEC Winter Groups 2023,45733,2023-02-11,Team Vitality,Team Heretics,Team Vitality,1616,14000,3692
+LEC Winter Groups 2023,46345,2023-02-19,Astralis,Movistar KOI,Movistar KOI,1511,-7000,-3176
+LEC Winter Groups 2023,46342,2023-02-19,Team Vitality,SK Gaming,SK Gaming,1441,-15200,-3005
+LEC Winter Groups 2023,46110,2023-02-18,Astralis,Team BDS,Astralis,2341,11300,978
+LEC Winter Groups 2023,46111,2023-02-18,Team BDS,Astralis,Astralis,1724,-14300,-5710
+LEC Winter Groups 2023,46107,2023-02-18,Team Heretics,SK Gaming,SK Gaming,2361,-6800,925
+LEC Winter Groups 2023,45948,2023-02-13,G2 Esports,Movistar KOI,G2 Esports,1735,10400,-309
+LEC Winter Groups 2023,45945,2023-02-13,Movistar KOI,Team Vitality,Movistar KOI,1594,8400,5266
+LEC Winter Groups 2023,45743,2023-02-12,Team BDS,G2 Esports,Team BDS,2186,10900,1830
+LEC Winter Groups 2023,45744,2023-02-12,G2 Esports,Team BDS,G2 Esports,1374,17900,7460
+LEC Winter Groups 2023,45740,2023-02-12,Astralis,Movistar KOI,Astralis,1632,6900,-374
+LEC Winter Groups 2023,45741,2023-02-12,Movistar KOI,Astralis,Movistar KOI,1753,7500,495
+LEC Winter Groups 2023,45737,2023-02-11,SK Gaming,Movistar KOI,KOI,2137,-9600,-1847
+LEC Winter Groups 2023,45734,2023-02-11,Team Vitality,Team Heretics,Team Heretics,1589,-13400,-3562
+LEC Winter Groups 2023,45735,2023-02-11,Team Vitality,Team Heretics,Team Vitality,2381,5700,-61
+LEC Winter Playoffs 2023,46778,2023-02-26,G2 Esports,Movistar KOI,G2 Esports,1514,13500,1632
+LEC Winter Playoffs 2023,46774,2023-02-25,Movistar KOI,Movistar KOI,Movistar KOI,1653,16300,4622
+LEC Winter Playoffs 2023,46473,2023-02-24,Movistar KOI,SK Gaming,Movistar KOI,1932,9500,2270
+LEC Winter Playoffs 2023,46347,2023-02-20,G2 Esports,Movistar KOI,G2 Esports,1730,10400,-1228
+LEC Winter Playoffs 2023,46779,2023-02-26,Movistar KOI,G2 Esports,G2 Esports,1662,-15800,-4363
+LEC Winter Playoffs 2023,46780,2023-02-26,Movistar KOI,G2 Esports,G2 Esports,2489,-5900,547
+LEC Winter Playoffs 2023,46775,2023-02-25,Movistar KOI,Movistar KOI,Movistar KOI,2107,14000,-1178
+LEC Winter Playoffs 2023,46776,2023-02-25,Movistar KOI,Movistar KOI,Movistar KOI,1865,-5900,1572
+LEC Winter Playoffs 2023,46777,2023-02-25,Movistar KOI,Movistar KOI,Movistar KOI,1756,-10100,-2711
+LEC Winter Playoffs 2023,46474,2023-02-24,SK Gaming,Movistar KOI,SK Gaming,1958,9900,623
+LEC Winter Playoffs 2023,46475,2023-02-24,Movistar KOI,SK Gaming,Movistar KOI,1472,15600,3583
+LEC Winter Playoffs 2023,46476,2023-02-24,SK Gaming,Movistar KOI,SK Gaming,2009,7500,387
+LEC Winter Playoffs 2023,46477,2023-02-24,Movistar KOI,SK Gaming,Movistar KOI,1692,11400,4139
+LEC Winter Playoffs 2023,46348,2023-02-20,Movistar KOI,G2 Esports,G2 Esports,1404,-14900,-8069
+LEC Winter Playoffs 2023,46349,2023-02-20,Movistar KOI,G2 Esports,Movistar KOI,1589,9700,3997
+LEC Winter Playoffs 2023,46350,2023-02-20,G2 Esports,Movistar KOI,G2 Esports,2337,8900,-1735
+LEC Spring Season 2023,48429,2023-03-27,Team Heretics,Movistar KOI,Movistar KOI,2078,-4400,122
+LEC Spring Season 2023,48184,2023-03-27,Movistar KOI,Team Vitality,Team Vitality,1597,-15200,-3881
+LEC Spring Season 2023,48183,2023-03-27,Movistar KOI,G2 Esports,G2 Esports,1686,-13900,-6132
+LEC Spring Season 2023,48182,2023-03-27,Astralis,Fnatic,Astralis,2222,6000,-3453
+LEC Spring Season 2023,48181,2023-03-27,Team Heretics,SK Gaming,Team Heretics,1939,11800,2291
+LEC Spring Season 2023,48180,2023-03-27,Team BDS,GIANTX,Team BDS,2350,13000,2990
+LEC Spring Season 2023,48179,2023-03-26,G2 Esports,Fnatic,Fnatic,1963,-4200,1022
+LEC Spring Season 2023,48178,2023-03-26,Team Vitality,Team Heretics,Team Vitality,2275,9200,492
+LEC Spring Season 2023,48177,2023-03-26,Movistar KOI,Team BDS,Team BDS,2374,-2400,419
+LEC Spring Season 2023,48176,2023-03-26,Movistar KOI,SK Gaming,Movistar KOI,2089,14500,3523
+LEC Spring Season 2023,48175,2023-03-26,GIANTX,Astralis,Astralis,1310,-9900,-3556
+LEC Spring Season 2023,48174,2023-03-25,SK Gaming,G2 Esports,G2 Esports,1723,-14200,-1036
+LEC Spring Season 2023,48173,2023-03-25,Fnatic,Movistar KOI,Fnatic,1899,10100,705
+LEC Spring Season 2023,48172,2023-03-25,Team Vitality,Team BDS,Team BDS,2491,3600,-237
+LEC Spring Season 2023,48171,2023-03-25,Movistar KOI,GIANTX,Movistar KOI,2487,7900,1397
+LEC Spring Season 2023,48170,2023-03-25,Team Heretics,Astralis,Astralis,1712,-9500,-956
+LEC Spring Season 2023,47825,2023-03-20,Fnatic,Movistar KOI,Fnatic,1909,14600,-242
+LEC Spring Season 2023,47824,2023-03-20,Team BDS,G2 Esports,G2 Esports,2069,-11800,7
+LEC Spring Season 2023,47823,2023-03-20,Astralis,Team Vitality,Astralis,1816,4000,3942
+LEC Spring Season 2023,47822,2023-03-20,Movistar KOI,Team Heretics,Team Heretics,2188,-7300,2722
+LEC Spring Season 2023,47821,2023-03-20,GIANTX,SK Gaming,SK Gaming,1838,-10800,-2762
+LEC Spring Season 2023,47820,2023-03-19,G2 Esports,Team Vitality,G2 Esports,1858,9600,1175
+LEC Spring Season 2023,47819,2023-03-19,SK Gaming,Movistar KOI,KOI,2189,-6100,947
+LEC Spring Season 2023,47818,2023-03-19,Team Heretics,Fnatic,Fnatic,2438,-11700,-2017
+LEC Spring Season 2023,47817,2023-03-19,GIANTX,Movistar KOI,GIANTX,2101,10400,-402
+LEC Spring Season 2023,47816,2023-03-19,Team BDS,Astralis,Team BDS,2066,6200,-551
+LEC Spring Season 2023,47815,2023-03-18,Movistar KOI,G2 Esports,Movistar KOI,1866,9800,545
+LEC Spring Season 2023,47814,2023-03-18,Team Vitality,SK Gaming,Team Vitality,1857,13000,1861
+LEC Spring Season 2023,47813,2023-03-18,Fnatic,Team BDS,Team BDS,2042,-13100,-1588
+LEC Spring Season 2023,47812,2023-03-18,Team Heretics,GIANTX,Team Heretics,2250,11000,694
+LEC Spring Season 2023,47811,2023-03-18,Astralis,Movistar KOI,Movistar KOI,1703,-14200,-3066
+LEC Spring Season 2023,46955,2023-03-13,Fnatic,Team Vitality,Team Vitality,1408,-17500,-5766
+LEC Spring Season 2023,46954,2023-03-13,G2 Esports,GIANTX,G2 Esports,1527,16200,5666
+LEC Spring Season 2023,46953,2023-03-13,Movistar KOI,Movistar KOI,Movistar KOI,1811,7800,1201
+LEC Spring Season 2023,46952,2023-03-13,SK Gaming,Astralis,SK Gaming,1454,11500,2733
+LEC Spring Season 2023,46951,2023-03-13,Team Heretics,Team BDS,Team BDS,1889,-5000,-694
+LEC Spring Season 2023,46950,2023-03-12,Movistar KOI,Team Heretics,Movistar KOI,2812,900,-2160
+LEC Spring Season 2023,46949,2023-03-12,Astralis,G2 Esports,Astralis,1988,6500,865
+LEC Spring Season 2023,46948,2023-03-12,SK Gaming,Fnatic,SK Gaming,1908,9700,2713
+LEC Spring Season 2023,46947,2023-03-12,GIANTX,Team Vitality,Team Vitality,1853,-12900,-3949
+LEC Spring Season 2023,46946,2023-03-12,Team BDS,Movistar KOI,Team BDS,1926,10500,675
+LEC Spring Season 2023,46945,2023-03-11,G2 Esports,Team Heretics,G2 Esports,1420,11000,2354
+LEC Spring Season 2023,46944,2023-03-11,Astralis,Movistar KOI,Astralis,1702,8400,2737
+LEC Spring Season 2023,46943,2023-03-11,Team Vitality,Movistar KOI,Team Vitality,1684,12700,1724
+LEC Spring Season 2023,46942,2023-03-11,Team BDS,SK Gaming,SK Gaming,2157,-7500,2366
+LEC Spring Season 2023,46941,2023-03-11,GIANTX,Fnatic,GIANTX,1811,5800,145
+LEC Spring Groups 2023,48930,2023-04-16,G2 Esports,Movistar KOI,KOI,1672,-5700,-2036
+LEC Spring Groups 2023,48927,2023-04-16,Astralis,Movistar KOI,Movistar KOI,2277,-15200,-948
+LEC Spring Groups 2023,48788,2023-04-15,G2 Esports,SK Gaming,G2 Esports,1793,14900,1536
+LEC Spring Groups 2023,48785,2023-04-15,Movistar KOI,Fnatic,Movistar KOI,1799,10000,3034
+LEC Spring Groups 2023,48782,2023-04-10,Team BDS,Movistar KOI,Team BDS,1747,13800,2302
+LEC Spring Groups 2023,48779,2023-04-10,Astralis,Team Vitality,Team Vitality,1824,-9600,-500
+LEC Spring Groups 2023,48444,2023-04-09,G2 Esports,Movistar KOI,G2 Esports,1836,13200,3213
+LEC Spring Groups 2023,48441,2023-04-09,Team BDS,SK Gaming,Team BDS,1830,8400,583
+LEC Spring Groups 2023,48438,2023-04-08,Team Vitality,Movistar KOI,Team Vitality,1983,10700,935
+LEC Spring Groups 2023,48435,2023-04-08,Astralis,Fnatic,Astralis,2027,11000,1831
+LEC Spring Groups 2023,48931,2023-04-16,G2 Esports,Movistar KOI,G2 Esports,1281,14200,4571
+LEC Spring Groups 2023,48932,2023-04-16,Movistar KOI,G2 Esports,G2 Esports,2125,-7300,-172
+LEC Spring Groups 2023,48928,2023-04-16,Astralis,Movistar KOI,Movistar KOI,1929,-10200,-2907
+LEC Spring Groups 2023,48789,2023-04-15,SK Gaming,G2 Esports,G2 Esports,1425,-13500,-4643
+LEC Spring Groups 2023,48786,2023-04-15,Fnatic,Movistar KOI,Fnatic,1742,8400,-553
+LEC Spring Groups 2023,48787,2023-04-15,Movistar KOI,Fnatic,Movistar KOI,2167,4700,1952
+LEC Spring Groups 2023,48783,2023-04-10,Movistar KOI,Team BDS,Team BDS,1691,-9600,1333
+LEC Spring Groups 2023,48780,2023-04-10,Astralis,Team Vitality,Team Vitality,1390,-15500,-2624
+LEC Spring Groups 2023,48445,2023-04-09,Movistar KOI,G2 Esports,Movistar KOI,1893,14900,1264
+LEC Spring Groups 2023,48446,2023-04-09,G2 Esports,Movistar KOI,KOI,1682,-12400,-578
+LEC Spring Groups 2023,48442,2023-04-09,SK Gaming,Team BDS,Team BDS,1733,-7100,807
+LEC Spring Groups 2023,48439,2023-04-08,Movistar KOI,Team Vitality,Team Vitality,1752,-9300,-2784
+LEC Spring Groups 2023,48436,2023-04-08,Astralis,Fnatic,Fnatic,1801,-14900,-8027
+LEC Spring Groups 2023,48437,2023-04-08,Astralis,Fnatic,Astralis,1998,7400,407
+LEC Spring Playoffs 2023,48958,2023-04-23,Team BDS,Movistar KOI,Team BDS,2011,5700,568
+LEC Spring Playoffs 2023,48954,2023-04-22,Team Vitality,Movistar KOI,Movistar KOI,1666,-14700,-2186
+LEC Spring Playoffs 2023,48936,2023-04-21,G2 Esports,Movistar KOI,G2 Esports,1661,12000,1170
+LEC Spring Playoffs 2023,48933,2023-04-17,Team BDS,Team Vitality,Team BDS,2192,6600,2537
+LEC Spring Playoffs 2023,48959,2023-04-23,Movistar KOI,Team BDS,Team BDS,1858,-2900,2198
+LEC Spring Playoffs 2023,48960,2023-04-23,Movistar KOI,Team BDS,Movistar KOI,1761,11200,-33
+LEC Spring Playoffs 2023,48961,2023-04-23,Team BDS,Movistar KOI,Movistar KOI,1431,-14000,-7527
+LEC Spring Playoffs 2023,48962,2023-04-23,Team BDS,Movistar KOI,Movistar KOI,1683,-13700,-2513
+LEC Spring Playoffs 2023,48955,2023-04-22,Team Vitality,Movistar KOI,Team Vitality,1609,11300,1490
+LEC Spring Playoffs 2023,48956,2023-04-22,Movistar KOI,Team Vitality,Movistar KOI,2233,11700,895
+LEC Spring Playoffs 2023,48957,2023-04-22,Team Vitality,Movistar KOI,Movistar KOI,1744,-14100,-2016
+LEC Spring Playoffs 2023,48937,2023-04-21,Movistar KOI,G2 Esports,Movistar KOI,1960,8500,4990
+LEC Spring Playoffs 2023,48938,2023-04-21,G2 Esports,Movistar KOI,Movistar KOI,1533,-10000,3035
+LEC Spring Playoffs 2023,48939,2023-04-21,G2 Esports,Movistar KOI,G2 Esports,1841,14000,2093
+LEC Spring Playoffs 2023,48940,2023-04-21,Movistar KOI,G2 Esports,Movistar KOI,1635,7500,-1418
+LEC Spring Playoffs 2023,48934,2023-04-17,Team Vitality,Team BDS,Team BDS,1994,-10400,-1069
+LEC Spring Playoffs 2023,48935,2023-04-17,Team BDS,Team Vitality,Team BDS,2114,3000,-3093
+LEC Summer 2023,50767,2023-07-03,SK Gaming,Fnatic,SK Gaming,1863,6600,-418
+LEC Summer 2023,50766,2023-07-03,Team Heretics,G2 Esports,G2 Esports,2098,-7800,-987
+LEC Summer 2023,50765,2023-07-03,Movistar KOI,Astralis,Movistar KOI,1714,13600,2040
+LEC Summer 2023,50764,2023-07-03,Team Vitality,GIANTX,GIANTX,1705,-10500,-376
+LEC Summer 2023,50763,2023-07-03,Team BDS,Movistar KOI,Team BDS,1762,10800,1821
+LEC Summer 2023,50762,2023-07-02,SK Gaming,Movistar KOI,SK Gaming,1808,12600,-105
+LEC Summer 2023,50761,2023-07-02,Team BDS,Team Vitality,Team BDS,2036,-1900,-1918
+LEC Summer 2023,50760,2023-07-02,Team Heretics,Fnatic,Fnatic,2016,-9200,-4795
+LEC Summer 2023,50759,2023-07-02,G2 Esports,Movistar KOI,G2 Esports,1704,9700,1104
+LEC Summer 2023,50758,2023-07-02,GIANTX,Astralis,GIANTX,1804,2600,-1403
+LEC Summer 2023,50757,2023-07-01,Movistar KOI,Team Heretics,Team Heretics,1624,-12300,-842
+LEC Summer 2023,50756,2023-07-01,Fnatic,Team BDS,Fnatic,2576,3100,1463
+LEC Summer 2023,50755,2023-07-01,GIANTX,G2 Esports,G2 Esports,1705,-16300,-4508
+LEC Summer 2023,50754,2023-07-01,Team Vitality,Movistar KOI,KOI,1962,-9200,-1413
+LEC Summer 2023,50753,2023-07-01,Astralis,SK Gaming,Astralis,2059,11400,227
+LEC Summer 2023,50351,2023-06-26,Fnatic,Team Vitality,Fnatic,1929,12000,3485
+LEC Summer 2023,50350,2023-06-26,Movistar KOI,SK Gaming,SK Gaming,2115,-5700,407
+LEC Summer 2023,50349,2023-06-26,G2 Esports,Astralis,G2 Esports,1662,8700,-713
+LEC Summer 2023,50348,2023-06-26,Movistar KOI,GIANTX,GIANTX,2309,-300,2226
+LEC Summer 2023,50347,2023-06-26,Team BDS,Team Heretics,Team Heretics,1960,-11100,-1534
+LEC Summer 2023,50346,2023-06-25,Movistar KOI,Fnatic,Fnatic,1703,-14300,-96
+LEC Summer 2023,50345,2023-06-25,G2 Esports,SK Gaming,G2 Esports,2015,1800,-1541
+LEC Summer 2023,50344,2023-06-25,Team Heretics,Movistar KOI,KOI,2269,-9100,-1024
+LEC Summer 2023,50343,2023-06-25,Astralis,Team Vitality,Astralis,2069,4500,-392
+LEC Summer 2023,50342,2023-06-25,GIANTX,Team BDS,GIANTX,2290,7500,35
+LEC Summer 2023,50341,2023-06-24,Astralis,Movistar KOI,Movistar KOI,1610,-10300,-254
+LEC Summer 2023,50340,2023-06-24,Team Vitality,G2 Esports,G2 Esports,1567,-12000,-1885
+LEC Summer 2023,50339,2023-06-24,Movistar KOI,Fnatic,Fnatic,1769,-14000,-1028
+LEC Summer 2023,50338,2023-06-24,GIANTX,Team Heretics,GIANTX,1807,9700,2024
+LEC Summer 2023,50337,2023-06-24,SK Gaming,Team BDS,Team BDS,1585,-10500,596
+LEC Summer 2023,49939,2023-06-19,Team Heretics,Team Vitality,Team Heretics,1982,-1400,1372
+LEC Summer 2023,49938,2023-06-19,G2 Esports,Fnatic,G2 Esports,1886,9400,2465
+LEC Summer 2023,49937,2023-06-19,Movistar KOI,Movistar KOI,Movistar KOI,2419,2600,-1219
+LEC Summer 2023,49936,2023-06-19,Team BDS,Astralis,Astralis,1537,-12700,-3948
+LEC Summer 2023,49935,2023-06-19,GIANTX,SK Gaming,SK Gaming,2241,2700,-1046
+LEC Summer 2023,49934,2023-06-18,Astralis,Team Heretics,Team Heretics,1783,-9400,574
+LEC Summer 2023,49933,2023-06-18,Team BDS,Movistar KOI,Team BDS,1777,11000,-573
+LEC Summer 2023,49932,2023-06-18,Movistar KOI,G2 Esports,Movistar KOI,2409,6400,-1093
+LEC Summer 2023,49931,2023-06-18,Fnatic,GIANTX,Fnatic,1977,8400,-390
+LEC Summer 2023,49930,2023-06-18,Team Vitality,SK Gaming,Team Vitality,1854,10800,1750
+LEC Summer 2023,49929,2023-06-17,Fnatic,Astralis,Fnatic,1553,14500,1796
+LEC Summer 2023,49928,2023-06-17,G2 Esports,Team BDS,G2 Esports,1907,18600,3218
+LEC Summer 2023,49927,2023-06-17,Movistar KOI,GIANTX,Movistar KOI,2118,2900,2129
+LEC Summer 2023,49926,2023-06-17,SK Gaming,Team Heretics,Team Heretics,2262,-5100,-3182
+LEC Summer 2023,49925,2023-06-17,Team Vitality,Movistar KOI,Movistar KOI,1796,-10100,-809
+LEC Summer Groups 2023,52269,2023-07-23,Team Heretics,Team BDS,Team Heretics,2319,6100,-3453
+LEC Summer Groups 2023,52266,2023-07-23,Fnatic,SK Gaming,Fnatic,1600,11500,961
+LEC Summer Groups 2023,51945,2023-07-22,Team Heretics,Movistar KOI,Team Heretics,2494,8200,-2136
+LEC Summer Groups 2023,51942,2023-07-22,Fnatic,Movistar KOI,Fnatic,1803,13600,2673
+LEC Summer Groups 2023,51939,2023-07-17,G2 Esports,Team BDS,G2 Esports,1707,11800,4001
+LEC Summer Groups 2023,51936,2023-07-17,GIANTX,SK Gaming,GIANTX,2075,6800,-766
+LEC Summer Groups 2023,51176,2023-07-16,G2 Esports,Movistar KOI,G2 Esports,1924,8600,-864
+LEC Summer Groups 2023,51173,2023-07-16,Team Heretics,Team BDS,Team Heretics,1773,8600,380
+LEC Summer Groups 2023,51170,2023-07-15,SK Gaming,Fnatic,SK Gaming,1955,12000,493
+LEC Summer Groups 2023,51167,2023-07-15,GIANTX,Movistar KOI,GIANTX,1743,8800,1486
+LEC Summer Groups 2023,52270,2023-07-23,Team BDS,Team Heretics,Team Heretics,1749,-10100,-524
+LEC Summer Groups 2023,52267,2023-07-23,Fnatic,SK Gaming,Fnatic,2098,6600,1516
+LEC Summer Groups 2023,51946,2023-07-22,Team Heretics,Movistar KOI,Team Heretics,1716,8800,-63
+LEC Summer Groups 2023,51943,2023-07-22,Fnatic,Movistar KOI,Fnatic,2253,3400,-41
+LEC Summer Groups 2023,51940,2023-07-17,Team BDS,G2 Esports,G2 Esports,1928,-10700,-1253
+LEC Summer Groups 2023,51937,2023-07-17,GIANTX,SK Gaming,SK Gaming,1692,-10000,-3074
+LEC Summer Groups 2023,51938,2023-07-17,GIANTX,SK Gaming,GIANTX,1928,10500,-1799
+LEC Summer Groups 2023,51177,2023-07-16,Movistar KOI,G2 Esports,G2 Esports,1705,-11500,-834
+LEC Summer Groups 2023,51174,2023-07-16,Team BDS,Team Heretics,Team BDS,1578,12300,2426
+LEC Summer Groups 2023,51175,2023-07-16,Team Heretics,Team BDS,Team BDS,1595,-9600,-1821
+LEC Summer Groups 2023,51171,2023-07-15,Fnatic,SK Gaming,SK Gaming,2087,-10600,-15
+LEC Summer Groups 2023,51168,2023-07-15,Movistar KOI,GIANTX,GIANTX,2354,-6300,1395
+LEC Summer Playoffs 2023,52565,2023-07-30,G2 Esports,GIANTX,G2 Esports,1504,11100,1253
+LEC Summer Playoffs 2023,52540,2023-07-29,GIANTX,Fnatic,GIANTX,1721,18300,3628
+LEC Summer Playoffs 2023,52342,2023-07-28,Fnatic,Team Heretics,Team Heretics,1861,-4400,-1745
+LEC Summer Playoffs 2023,52337,2023-07-24,G2 Esports,GIANTX,G2 Esports,1871,17000,4423
+LEC Summer Playoffs 2023,52566,2023-07-30,G2 Esports,GIANTX,G2 Esports,2225,4600,1194
+LEC Summer Playoffs 2023,52567,2023-07-30,GIANTX,G2 Esports,G2 Esports,1434,-15600,-1877
+LEC Summer Playoffs 2023,52541,2023-07-29,Fnatic,GIANTX,GIANTX,1814,-18300,-4752
+LEC Summer Playoffs 2023,52542,2023-07-29,Fnatic,GIANTX,Fnatic,2139,6200,-564
+LEC Summer Playoffs 2023,52543,2023-07-29,GIANTX,Fnatic,GIANTX,1694,4600,-1418
+LEC Summer Playoffs 2023,52343,2023-07-28,Fnatic,Team Heretics,Fnatic,1809,6600,-3448
+LEC Summer Playoffs 2023,52344,2023-07-28,Team Heretics,Fnatic,Fnatic,1740,-11900,581
+LEC Summer Playoffs 2023,52345,2023-07-28,Fnatic,Team Heretics,Fnatic,1576,11500,3074
+LEC Summer Playoffs 2023,52338,2023-07-24,G2 Esports,GIANTX,GIANTX,1735,-14600,-1842
+LEC Summer Playoffs 2023,52339,2023-07-24,G2 Esports,GIANTX,G2 Esports,2119,7500,191
+LEC Summer Playoffs 2023,52340,2023-07-24,GIANTX,G2 Esports,GIANTX,1956,9800,-334
+LEC Summer Playoffs 2023,52341,2023-07-24,G2 Esports,GIANTX,G2 Esports,2310,9900,108
+LEC Season Finals 2023,53422,2023-09-10,G2 Esports,Fnatic,G2 Esports,1657,9400,1460
+LEC Season Finals 2023,53417,2023-09-09,Movistar KOI,Fnatic,Fnatic,1465,-11900,
+LEC Season Finals 2023,53372,2023-09-03,G2 Esports,Movistar KOI,G2 Esports,1246,14700,7490
+LEC Season Finals 2023,53367,2023-09-02,Team BDS,Fnatic,Team BDS,1800,12500,2679
+LEC Season Finals 2023,53293,2023-08-27,GIANTX,Fnatic,Fnatic,1778,-11300,-1286
+LEC Season Finals 2023,53288,2023-08-26,Team BDS,SK Gaming,Team BDS,2521,800,822
+LEC Season Finals 2023,52618,2023-08-20,G2 Esports,Team BDS,G2 Esports,2022,15600,3941
+LEC Season Finals 2023,52613,2023-08-19,Movistar KOI,GIANTX,Movistar KOI,1670,5900,-660
+LEC Season Finals 2023,53423,2023-09-10,Fnatic,G2 Esports,G2 Esports,1529,-12000,-8977
+LEC Season Finals 2023,53424,2023-09-10,G2 Esports,Fnatic,Fnatic,1786,-8500,242
+LEC Season Finals 2023,53425,2023-09-10,G2 Esports,Fnatic,G2 Esports,1416,16100,6178
+LEC Season Finals 2023,53418,2023-09-09,Movistar KOI,Fnatic,Fnatic,2175,-14900,-584
+LEC Season Finals 2023,53419,2023-09-09,Movistar KOI,Fnatic,Movistar KOI,1576,13500,-13
+LEC Season Finals 2023,53420,2023-09-09,Fnatic,Movistar KOI,Movistar KOI,1556,-6900,1681
+LEC Season Finals 2023,53421,2023-09-09,Fnatic,Movistar KOI,Fnatic,1929,8100,2216
+LEC Season Finals 2023,53373,2023-09-03,Movistar KOI,G2 Esports,Movistar KOI,1638,12200,3867
+LEC Season Finals 2023,53374,2023-09-03,G2 Esports,Movistar KOI,G2 Esports,1897,6500,-452
+LEC Season Finals 2023,53375,2023-09-03,Movistar KOI,G2 Esports,G2 Esports,1733,-8900,-1169
+LEC Season Finals 2023,53368,2023-09-02,Fnatic,Team BDS,Fnatic,1570,10800,4752
+LEC Season Finals 2023,53369,2023-09-02,Team BDS,Fnatic,Fnatic,1982,-8500,-434
+LEC Season Finals 2023,53370,2023-09-02,Team BDS,Fnatic,Team BDS,2092,6200,120
+LEC Season Finals 2023,53371,2023-09-02,Fnatic,Team BDS,Fnatic,1932,10300,1563
+LEC Season Finals 2023,53294,2023-08-27,GIANTX,Fnatic,GIANTX,1529,12200,5814
+LEC Season Finals 2023,53295,2023-08-27,Fnatic,GIANTX,GIANTX,1637,-9300,2045
+LEC Season Finals 2023,53296,2023-08-27,Fnatic,GIANTX,Fnatic,1762,11400,2153
+LEC Season Finals 2023,53297,2023-08-27,GIANTX,Fnatic,Fnatic,1891,-10700,-818
+LEC Season Finals 2023,53289,2023-08-26,SK Gaming,Team BDS,Team BDS,1559,-7700,-471
+LEC Season Finals 2023,53290,2023-08-26,SK Gaming,Team BDS,Team BDS,2150,-7300,1105
+LEC Season Finals 2023,52619,2023-08-20,Team BDS,G2 Esports,Team BDS,1588,11000,4119
+LEC Season Finals 2023,52620,2023-08-20,G2 Esports,Team BDS,G2 Esports,1393,12600,4900
+LEC Season Finals 2023,52621,2023-08-20,Team BDS,G2 Esports,G2 Esports,2060,-4800,1726
+LEC Season Finals 2023,52614,2023-08-19,GIANTX,Movistar KOI,Movistar KOI,2484,1700,5541
+LEC Season Finals 2023,52615,2023-08-19,GIANTX,Movistar KOI,Movistar KOI,1873,-9400,-2809
+LEC Winter Season 2024,54236,2024-01-29,SK Gaming,G2 Esports,G2 Esports,1676,-12900,-3843
+LEC Winter Season 2024,54235,2024-01-29,Fnatic,Team Heretics,Fnatic,1926,14100,1861
+LEC Winter Season 2024,54234,2024-01-29,Team BDS,Karmine Corp,Karmine Corp,1640,-11600,-634
+LEC Winter Season 2024,54233,2024-01-29,GIANTX,Natus Vincere,GIANTX,2104,8300,-2441
+LEC Winter Season 2024,54232,2024-01-29,Team Vitality,Movistar KOI,Movistar KOI,1940,-6400,2164
+LEC Winter Season 2024,54231,2024-01-28,Natus Vincere,Team BDS,Team BDS,2363,-8900,732
+LEC Winter Season 2024,54230,2024-01-28,Karmine Corp,SK Gaming,Karmine Corp,1648,9100,1431
+LEC Winter Season 2024,54229,2024-01-28,Fnatic,G2 Esports,G2 Esports,2380,-7600,-1304
+LEC Winter Season 2024,54228,2024-01-28,GIANTX,Movistar KOI,GIANTX,1913,10000,-1123
+LEC Winter Season 2024,54227,2024-01-28,Team Heretics,Team Vitality,Team Vitality,2963,-1500,312
+LEC Winter Season 2024,54226,2024-01-27,Natus Vincere,Karmine Corp,Natus Vincere,1868,10300,-136
+LEC Winter Season 2024,54225,2024-01-27,G2 Esports,GIANTX,G2 Esports,1580,10800,-430
+LEC Winter Season 2024,54224,2024-01-27,Movistar KOI,Fnatic,Movistar KOI,2367,5600,14
+LEC Winter Season 2024,54223,2024-01-27,Team BDS,Team Heretics,Team BDS,1834,9200,-1214
+LEC Winter Season 2024,54222,2024-01-27,SK Gaming,Team Vitality,SK Gaming,1999,11800,2081
+LEC Winter Season 2024,53881,2024-01-22,Team Heretics,Karmine Corp,Team Heretics,1868,12000,949
+LEC Winter Season 2024,53880,2024-01-22,Team Vitality,G2 Esports,Team Vitality,1913,11800,-621
+LEC Winter Season 2024,53879,2024-01-22,Movistar KOI,Natus Vincere,Movistar KOI,1564,11100,1868
+LEC Winter Season 2024,53878,2024-01-22,Fnatic,GIANTX,Fnatic,1688,11100,291
+LEC Winter Season 2024,53877,2024-01-22,SK Gaming,Team BDS,Team BDS,1749,-10300,1389
+LEC Winter Season 2024,53876,2024-01-21,Karmine Corp,Team Vitality,Team Vitality,2420,-6100,250
+LEC Winter Season 2024,53875,2024-01-21,GIANTX,SK Gaming,SK Gaming,1628,-7800,2430
+LEC Winter Season 2024,53874,2024-01-21,G2 Esports,Team Heretics,G2 Esports,1699,15700,1134
+LEC Winter Season 2024,53873,2024-01-21,Natus Vincere,Fnatic,Fnatic,1854,-7000,-1615
+LEC Winter Season 2024,53872,2024-01-21,Movistar KOI,Team BDS,Team BDS,1974,-16500,-1608
+LEC Winter Season 2024,53871,2024-01-20,Karmine Corp,GIANTX,GIANTX,2144,-11800,-944
+LEC Winter Season 2024,53870,2024-01-20,Team BDS,Fnatic,Team BDS,1677,9600,-171
+LEC Winter Season 2024,53869,2024-01-20,G2 Esports,Movistar KOI,G2 Esports,1883,7400,-944
+LEC Winter Season 2024,53868,2024-01-20,Team Heretics,SK Gaming,Team Heretics,1870,14000,592
+LEC Winter Season 2024,53867,2024-01-20,Team Vitality,Natus Vincere,Team Vitality,1722,6900,1261
+LEC Winter Season 2024,53793,2024-01-15,SK Gaming,Fnatic,SK Gaming,1905,6600,1415
+LEC Winter Season 2024,53792,2024-01-15,Karmine Corp,Movistar KOI,Movistar KOI,2042,-5700,2227
+LEC Winter Season 2024,53791,2024-01-15,Team Heretics,GIANTX,Team Heretics,2042,15100,2682
+LEC Winter Season 2024,53790,2024-01-15,G2 Esports,Natus Vincere,Natus Vincere,2260,-6500,-901
+LEC Winter Season 2024,53789,2024-01-15,Team Vitality,Team BDS,Team BDS,1771,-10600,1494
+LEC Winter Season 2024,53788,2024-01-14,Natus Vincere,Team Heretics,Team Heretics,1896,-11800,-927
+LEC Winter Season 2024,53787,2024-01-14,Fnatic,Team Vitality,Fnatic,1781,11400,2567
+LEC Winter Season 2024,53786,2024-01-14,G2 Esports,Karmine Corp,G2 Esports,1925,4100,384
+LEC Winter Season 2024,53785,2024-01-14,Movistar KOI,SK Gaming,SK Gaming,1849,-11600,-475
+LEC Winter Season 2024,53784,2024-01-14,GIANTX,Team BDS,Team BDS,2134,-9000,639
+LEC Winter Season 2024,53701,2024-01-13,Movistar KOI,Team Heretics,Movistar KOI,1657,17400,3709
+LEC Winter Season 2024,53700,2024-01-13,Team Vitality,GIANTX,GIANTX,1964,-4700,-1937
+LEC Winter Season 2024,53699,2024-01-13,Karmine Corp,Fnatic,Fnatic,2370,-10900,206
+LEC Winter Season 2024,53698,2024-01-13,Natus Vincere,SK Gaming,SK Gaming,2080,-12900,-587
+LEC Winter Season 2024,53697,2024-01-13,Team BDS,G2 Esports,G2 Esports,1749,-5100,1145
+LEC Winter Playoffs 2024,55603,2024-02-18,G2 Esports,Movistar KOI,Movistar KOI,1796,-10000,-1708
+LEC Winter Playoffs 2024,55563,2024-02-17,Team BDS,Movistar KOI,Movistar KOI,1916,-9800,453
+LEC Winter Playoffs 2024,55354,2024-02-16,Movistar KOI,Fnatic,Movistar KOI,1893,8200,199
+LEC Winter Playoffs 2024,55295,2024-02-12,SK Gaming,Fnatic,SK Gaming,2585,7400,-1636
+LEC Winter Playoffs 2024,55292,2024-02-12,Movistar KOI,Team Vitality,Movistar KOI,1626,11900,1353
+LEC Winter Playoffs 2024,55287,2024-02-11,G2 Esports,Team BDS,G2 Esports,2103,10700,-955
+LEC Winter Playoffs 2024,55035,2024-02-10,SK Gaming,Team Heretics,Team Heretics,1865,-9800,2950
+LEC Winter Playoffs 2024,55032,2024-02-10,Movistar KOI,GIANTX,Movistar KOI,1387,12300,3410
+LEC Winter Playoffs 2024,55041,2024-02-05,G2 Esports,Fnatic,G2 Esports,1924,13500,2404
+LEC Winter Playoffs 2024,55038,2024-02-05,Team BDS,Team Vitality,Team BDS,1768,10000,447
+LEC Winter Playoffs 2024,54702,2024-02-04,Movistar KOI,Fnatic,Fnatic,1635,-10900,-1873
+LEC Winter Playoffs 2024,54699,2024-02-04,SK Gaming,Team Vitality,Team Vitality,1602,-16100,-4675
+LEC Winter Playoffs 2024,54696,2024-02-03,G2 Esports,GIANTX,G2 Esports,1928,11500,-893
+LEC Winter Playoffs 2024,54693,2024-02-03,Team BDS,Team Heretics,Team BDS,1917,13800,1963
+LEC Winter Playoffs 2024,55604,2024-02-18,G2 Esports,Movistar KOI,G2 Esports,1681,14200,2354
+LEC Winter Playoffs 2024,55605,2024-02-18,Movistar KOI,G2 Esports,G2 Esports,2019,-13000,1053
+LEC Winter Playoffs 2024,55606,2024-02-18,Movistar KOI,G2 Esports,G2 Esports,1989,-9900,483
+LEC Winter Playoffs 2024,55564,2024-02-17,Team BDS,Movistar KOI,Movistar KOI,1710,-8900,-1099
+LEC Winter Playoffs 2024,55565,2024-02-17,Movistar KOI,Team BDS,Team BDS,2244,-10000,-1315
+LEC Winter Playoffs 2024,55566,2024-02-17,Team BDS,Movistar KOI,Team BDS,1955,5200,518
+LEC Winter Playoffs 2024,55567,2024-02-17,Movistar KOI,Team BDS,Movistar KOI,1820,8500,1537
+LEC Winter Playoffs 2024,55355,2024-02-16,Fnatic,Movistar KOI,Fnatic,1737,7400,5651
+LEC Winter Playoffs 2024,55356,2024-02-16,Movistar KOI,Fnatic,Movistar KOI,2233,9300,2266
+LEC Winter Playoffs 2024,55357,2024-02-16,Fnatic,Movistar KOI,Fnatic,2481,8800,331
+LEC Winter Playoffs 2024,55358,2024-02-16,Movistar KOI,Fnatic,Movistar KOI,2007,-500,-1130
+LEC Winter Playoffs 2024,55296,2024-02-12,Fnatic,SK Gaming,Fnatic,1570,5200,109
+LEC Winter Playoffs 2024,55297,2024-02-12,SK Gaming,Fnatic,Fnatic,2015,-4300,2738
+LEC Winter Playoffs 2024,55293,2024-02-12,Movistar KOI,Team Vitality,Movistar KOI,2006,9000,-142
+LEC Winter Playoffs 2024,55288,2024-02-11,Team BDS,G2 Esports,G2 Esports,1899,-9100,567
+LEC Winter Playoffs 2024,55289,2024-02-11,G2 Esports,Team BDS,G2 Esports,1714,11700,2911
+LEC Winter Playoffs 2024,55036,2024-02-10,SK Gaming,Team Heretics,SK Gaming,2316,13500,2416
+LEC Winter Playoffs 2024,55037,2024-02-10,Team Heretics,SK Gaming,SK Gaming,1810,-12700,-536
+LEC Winter Playoffs 2024,55033,2024-02-10,Movistar KOI,GIANTX,Movistar KOI,1659,13000,2754
+LEC Winter Playoffs 2024,55042,2024-02-05,Fnatic,G2 Esports,Fnatic,1843,9800,2763
+LEC Winter Playoffs 2024,55043,2024-02-05,G2 Esports,Fnatic,G2 Esports,1815,3900,-1055
+LEC Winter Playoffs 2024,55039,2024-02-05,Team Vitality,Team BDS,Team BDS,2037,-7700,-108
+LEC Winter Playoffs 2024,54703,2024-02-04,Movistar KOI,Fnatic,Fnatic,2902,-2300,-46
+LEC Winter Playoffs 2024,54700,2024-02-04,Team Vitality,SK Gaming,Team Vitality,1693,8700,-82
+LEC Winter Playoffs 2024,54697,2024-02-03,G2 Esports,GIANTX,G2 Esports,1350,17800,7245
+LEC Winter Playoffs 2024,54694,2024-02-03,Team BDS,Team Heretics,Team BDS,1912,8300,-880
+LEC Spring Season 2024,57447,2024-03-25,Natus Vincere,SK Gaming,SK Gaming,1751,-10500,1434
+LEC Spring Season 2024,57280,2024-03-25,Karmine Corp,Team BDS,Team BDS,1748,-11600,-3615
+LEC Spring Season 2024,57279,2024-03-25,G2 Esports,Team Vitality,Team Vitality,1603,-9100,-2025
+LEC Spring Season 2024,57278,2024-03-25,Fnatic,Movistar KOI,Movistar KOI,1466,-9800,-3045
+LEC Spring Season 2024,57277,2024-03-25,Natus Vincere,SK Gaming,Natus Vincere,1623,12800,476
+LEC Spring Season 2024,57276,2024-03-25,Team Heretics,GIANTX,GIANTX,1890,-11000,63
+LEC Spring Season 2024,57275,2024-03-23,Karmine Corp,Team Heretics,Team Heretics,1879,-12500,572
+LEC Spring Season 2024,57274,2024-03-23,Natus Vincere,G2 Esports,Natus Vincere,2226,7000,1652
+LEC Spring Season 2024,57273,2024-03-23,Team BDS,Movistar KOI,Movistar KOI,1806,-7100,-921
+LEC Spring Season 2024,57272,2024-03-23,Team Vitality,GIANTX,GIANTX,2196,-10800,70
+LEC Spring Season 2024,57271,2024-03-23,SK Gaming,Fnatic,Fnatic,2039,-11700,-2700
+LEC Spring Season 2024,57270,2024-03-22,Team Vitality,Karmine Corp,Team Vitality,1697,12900,3034
+LEC Spring Season 2024,57269,2024-03-22,Movistar KOI,Team Heretics,Team Heretics,1950,-12700,230
+LEC Spring Season 2024,57268,2024-03-22,G2 Esports,SK Gaming,G2 Esports,1688,15400,1980
+LEC Spring Season 2024,57267,2024-03-22,Team BDS,Fnatic,Team BDS,2164,12300,-490
+LEC Spring Season 2024,57266,2024-03-22,GIANTX,Natus Vincere,GIANTX,1743,9900,-28
+LEC Spring Season 2024,56858,2024-03-18,SK Gaming,Karmine Corp,SK Gaming,2528,3600,610
+LEC Spring Season 2024,56857,2024-03-18,Natus Vincere,Movistar KOI,Movistar KOI,1700,-13800,-3049
+LEC Spring Season 2024,56856,2024-03-18,G2 Esports,GIANTX,G2 Esports,1656,13600,2917
+LEC Spring Season 2024,56855,2024-03-18,Team Vitality,Fnatic,Fnatic,1732,-8200,-100
+LEC Spring Season 2024,56854,2024-03-18,Team BDS,Team Heretics,Team Heretics,2003,-13900,374
+LEC Spring Season 2024,56853,2024-03-17,Fnatic,G2 Esports,Fnatic,2022,17400,3554
+LEC Spring Season 2024,56852,2024-03-17,Team Heretics,SK Gaming,Team Heretics,2410,5400,1912
+LEC Spring Season 2024,56851,2024-03-17,Movistar KOI,Karmine Corp,Karmine Corp,1979,-10900,-280
+LEC Spring Season 2024,56850,2024-03-17,Natus Vincere,Team Vitality,Team Vitality,2286,-6800,-2460
+LEC Spring Season 2024,56849,2024-03-17,GIANTX,Team BDS,Team BDS,1962,-8000,13
+LEC Spring Season 2024,56848,2024-03-16,Karmine Corp,Natus Vincere,Natus Vincere,2004,-10200,-2934
+LEC Spring Season 2024,56847,2024-03-16,Movistar KOI,Team Vitality,Team Vitality,2340,-9600,1912
+LEC Spring Season 2024,56846,2024-03-16,G2 Esports,Team Heretics,G2 Esports,1792,13300,2090
+LEC Spring Season 2024,56845,2024-03-16,GIANTX,Fnatic,Fnatic,1626,-10000,-1683
+LEC Spring Season 2024,56844,2024-03-16,SK Gaming,Team BDS,Team BDS,2329,-4000,1616
+LEC Spring Season 2024,56167,2024-03-11,G2 Esports,Karmine Corp,G2 Esports,1815,3600,-3174
+LEC Spring Season 2024,56166,2024-03-11,Team Heretics,Fnatic,Team Heretics,2508,5600,-5020
+LEC Spring Season 2024,56165,2024-03-11,GIANTX,Movistar KOI,GIANTX,1627,8300,-3858
+LEC Spring Season 2024,56164,2024-03-11,SK Gaming,Team Vitality,SK Gaming,1388,17300,5649
+LEC Spring Season 2024,56163,2024-03-11,Natus Vincere,Team BDS,Team BDS,1958,-7300,148
+LEC Spring Season 2024,56162,2024-03-10,Movistar KOI,G2 Esports,G2 Esports,1688,-8500,-4106
+LEC Spring Season 2024,56161,2024-03-10,GIANTX,SK Gaming,SK Gaming,2137,-12700,-157
+LEC Spring Season 2024,56160,2024-03-10,Fnatic,Karmine Corp,Fnatic,1949,8800,2013
+LEC Spring Season 2024,56159,2024-03-10,Team Heretics,Natus Vincere,Team Heretics,1949,12100,2337
+LEC Spring Season 2024,56158,2024-03-10,Team Vitality,Team BDS,Team Vitality,2071,13400,1216
+LEC Spring Season 2024,56157,2024-03-09,Movistar KOI,SK Gaming,Movistar KOI,2207,11100,2423
+LEC Spring Season 2024,56156,2024-03-09,Karmine Corp,GIANTX,Karmine Corp,1914,16900,754
+LEC Spring Season 2024,56155,2024-03-09,Team BDS,G2 Esports,G2 Esports,2297,-7000,-1461
+LEC Spring Season 2024,56154,2024-03-09,Fnatic,Natus Vincere,Fnatic,1837,10200,1111
+LEC Spring Season 2024,56153,2024-03-09,Team Vitality,Team Heretics,Team Vitality,2162,9100,-23
+LEC Spring Playoffs 2024,57862,2024-04-14,G2 Esports,Fnatic,Fnatic,1711,-14100,641
+LEC Spring Playoffs 2024,57814,2024-04-13,Team BDS,Fnatic,Team BDS,1909,16300,3111
+LEC Spring Playoffs 2024,57789,2024-04-08,Fnatic,Team Vitality,Team Vitality,1860,-14200,-648
+LEC Spring Playoffs 2024,57673,2024-04-07,G2 Esports,Team BDS,G2 Esports,2402,2200,-1556
+LEC Spring Playoffs 2024,57786,2024-04-06,Team Vitality,Movistar KOI,Team Vitality,1587,2500,-1883
+LEC Spring Playoffs 2024,57783,2024-04-06,Fnatic,Team Heretics,Team Heretics,1606,-12200,-518
+LEC Spring Playoffs 2024,57639,2024-04-02,GIANTX,Movistar KOI,GIANTX,1889,12200,2312
+LEC Spring Playoffs 2024,57636,2024-04-02,Team Heretics,SK Gaming,SK Gaming,1776,-6400,-2972
+LEC Spring Playoffs 2024,57660,2024-04-01,Fnatic,G2 Esports,G2 Esports,1538,-13700,-1936
+LEC Spring Playoffs 2024,57657,2024-04-01,Team Vitality,Team BDS,Team Vitality,1857,9500,2435
+LEC Spring Playoffs 2024,57457,2024-03-31,G2 Esports,Movistar KOI,G2 Esports,1686,8500,-309
+LEC Spring Playoffs 2024,57454,2024-03-31,Team Heretics,Team BDS,Team BDS,2124,-11200,-1966
+LEC Spring Playoffs 2024,57451,2024-03-30,Fnatic,GIANTX,Fnatic,1722,10000,441
+LEC Spring Playoffs 2024,57448,2024-03-30,Team Vitality,SK Gaming,SK Gaming,1893,-5200,2456
+LEC Spring Playoffs 2024,57863,2024-04-14,G2 Esports,Fnatic,G2 Esports,1746,7900,1338
+LEC Spring Playoffs 2024,57864,2024-04-14,Fnatic,G2 Esports,G2 Esports,1664,-10900,-887
+LEC Spring Playoffs 2024,57865,2024-04-14,Fnatic,G2 Esports,G2 Esports,2097,-10500,-1165
+LEC Spring Playoffs 2024,57815,2024-04-13,Team BDS,Fnatic,Team BDS,1879,11200,3393
+LEC Spring Playoffs 2024,57816,2024-04-13,Fnatic,Team BDS,Fnatic,2124,10500,3101
+LEC Spring Playoffs 2024,57817,2024-04-13,Team BDS,Fnatic,Fnatic,1510,-10400,1228
+LEC Spring Playoffs 2024,57818,2024-04-13,Fnatic,Team BDS,Fnatic,1997,5000,335
+LEC Spring Playoffs 2024,57790,2024-04-08,Fnatic,Team Vitality,Fnatic,1837,10100,1235
+LEC Spring Playoffs 2024,57791,2024-04-08,Team Vitality,Fnatic,Fnatic,1479,-15500,-34
+LEC Spring Playoffs 2024,57792,2024-04-08,Fnatic,Team Vitality,Fnatic,2548,2800,-1203
+LEC Spring Playoffs 2024,57674,2024-04-07,Team BDS,G2 Esports,Team BDS,1970,14500,1065
+LEC Spring Playoffs 2024,57675,2024-04-07,G2 Esports,Team BDS,G2 Esports,1300,13100,6013
+LEC Spring Playoffs 2024,57676,2024-04-07,Team BDS,G2 Esports,G2 Esports,2023,-3500,-495
+LEC Spring Playoffs 2024,57787,2024-04-06,Team Vitality,Movistar KOI,Team Vitality,1909,10200,-858
+LEC Spring Playoffs 2024,57784,2024-04-06,Team Heretics,Fnatic,Fnatic,1947,-9400,-1024
+LEC Spring Playoffs 2024,57785,2024-04-06,Fnatic,Team Heretics,Fnatic,1806,10100,3205
+LEC Spring Playoffs 2024,57640,2024-04-02,GIANTX,Movistar KOI,Movistar KOI,1616,-9000,-200
+LEC Spring Playoffs 2024,57641,2024-04-02,Movistar KOI,GIANTX,Movistar KOI,2170,9800,1663
+LEC Spring Playoffs 2024,57637,2024-04-02,SK Gaming,Team Heretics,Team Heretics,1849,-9000,2077
+LEC Spring Playoffs 2024,57638,2024-04-02,SK Gaming,Team Heretics,Team Heretics,1659,-10500,-706
+LEC Spring Playoffs 2024,57661,2024-04-01,G2 Esports,Fnatic,G2 Esports,1264,7200,1486
+LEC Spring Playoffs 2024,57658,2024-04-01,Team BDS,Team Vitality,Team BDS,1684,12200,-2161
+LEC Spring Playoffs 2024,57659,2024-04-01,Team Vitality,Team BDS,Team BDS,2048,-7200,1916
+LEC Spring Playoffs 2024,57458,2024-03-31,Movistar KOI,G2 Esports,G2 Esports,1882,-3000,504
+LEC Spring Playoffs 2024,57455,2024-03-31,Team Heretics,Team BDS,Team BDS,1503,-15100,-281
+LEC Spring Playoffs 2024,57452,2024-03-30,Fnatic,GIANTX,Fnatic,1648,5900,613
+LEC Spring Playoffs 2024,57449,2024-03-30,Team Vitality,SK Gaming,Team Vitality,2279,7400,-624
+LEC Spring Playoffs 2024,57450,2024-03-30,SK Gaming,Team Vitality,Team Vitality,1755,-9300,-5041
+LEC Summer Season 2024,60158,2024-06-30,Movistar KOI,Team Vitality,Movistar KOI,1587,14600,
+LEC Summer Season 2024,60157,2024-06-30,Movistar KOI,Natus Vincere,Movistar KOI,1926,9800,-39
+LEC Summer Season 2024,59831,2024-06-30,GIANTX,Karmine Corp,Karmine Corp,1978,-8300,-2480
+LEC Summer Season 2024,59830,2024-06-30,Team Heretics,G2 Esports,G2 Esports,2490,-7900,-624
+LEC Summer Season 2024,59829,2024-06-30,Team BDS,Fnatic,Team BDS,1794,10200,549
+LEC Summer Season 2024,59828,2024-06-30,Movistar KOI,Natus Vincere,Movistar KOI,2622,6500,2365
+LEC Summer Season 2024,59827,2024-06-30,Team Vitality,SK Gaming,SK Gaming,1999,-1600,-762
+LEC Summer Season 2024,59826,2024-06-29,Movistar KOI,Team BDS,Team BDS,1990,-15800,-1645
+LEC Summer Season 2024,59825,2024-06-29,SK Gaming,Karmine Corp,SK Gaming,1985,11500,-271
+LEC Summer Season 2024,59824,2024-06-29,G2 Esports,Team Vitality,G2 Esports,1432,9900,2563
+LEC Summer Season 2024,59823,2024-06-29,Natus Vincere,GIANTX,GIANTX,2232,-8400,1987
+LEC Summer Season 2024,59822,2024-06-29,Fnatic,Team Heretics,Team Heretics,1843,-7900,-1648
+LEC Summer Season 2024,59437,2024-06-23,Karmine Corp,Team Vitality,Karmine Corp,1805,8100,-58
+LEC Summer Season 2024,59436,2024-06-23,SK Gaming,Movistar KOI,SK Gaming,1722,9800,-2243
+LEC Summer Season 2024,59435,2024-06-23,Fnatic,G2 Esports,G2 Esports,1871,-10800,523
+LEC Summer Season 2024,59434,2024-06-23,GIANTX,Team BDS,Team BDS,1762,-16400,-2417
+LEC Summer Season 2024,59433,2024-06-23,Natus Vincere,Team Heretics,Natus Vincere,2064,5300,1964
+LEC Summer Season 2024,59432,2024-06-22,Movistar KOI,Fnatic,Fnatic,1898,-11400,-1915
+LEC Summer Season 2024,59431,2024-06-22,G2 Esports,Karmine Corp,G2 Esports,1828,15300,4980
+LEC Summer Season 2024,59430,2024-06-22,Team Vitality,GIANTX,GIANTX,2130,-7700,535
+LEC Summer Season 2024,59429,2024-06-22,Team Heretics,SK Gaming,SK Gaming,1508,-12700,-1982
+LEC Summer Season 2024,59428,2024-06-22,Team BDS,Natus Vincere,Team BDS,1717,14300,1396
+LEC Summer Season 2024,59029,2024-06-16,Karmine Corp,Team BDS,Team BDS,2348,-8500,-2215
+LEC Summer Season 2024,59028,2024-06-16,SK Gaming,Fnatic,Fnatic,2238,-6800,434
+LEC Summer Season 2024,59027,2024-06-16,GIANTX,Movistar KOI,GIANTX,1672,11800,1077
+LEC Summer Season 2024,59026,2024-06-16,Natus Vincere,G2 Esports,G2 Esports,1907,-7700,-1663
+LEC Summer Season 2024,59025,2024-06-16,Team Vitality,Team Heretics,Team Vitality,1849,14500,3416
+LEC Summer Season 2024,59024,2024-06-15,G2 Esports,GIANTX,G2 Esports,2045,1100,-1651
+LEC Summer Season 2024,59023,2024-06-15,Team Heretics,Karmine Corp,Team Heretics,2097,12200,994
+LEC Summer Season 2024,59022,2024-06-15,Movistar KOI,Team Vitality,Team Vitality,1749,-9300,-1273
+LEC Summer Season 2024,59021,2024-06-15,Fnatic,Natus Vincere,Fnatic,1683,12600,1540
+LEC Summer Season 2024,59020,2024-06-15,Team BDS,SK Gaming,SK Gaming,2193,-9900,525
+LEC Summer Season 2024,58859,2024-06-10,Team Heretics,Movistar KOI,Movistar KOI,1987,-7600,-4528
+LEC Summer Season 2024,58858,2024-06-10,Natus Vincere,Karmine Corp,Karmine Corp,2017,-7300,-103
+LEC Summer Season 2024,58857,2024-06-10,Team BDS,G2 Esports,Team BDS,2582,5900,606
+LEC Summer Season 2024,58856,2024-06-10,GIANTX,SK Gaming,SK Gaming,2448,-6300,1959
+LEC Summer Season 2024,58855,2024-06-10,Fnatic,Team Vitality,Fnatic,1708,10100,775
+LEC Summer Season 2024,58854,2024-06-09,G2 Esports,SK Gaming,SK Gaming,2409,-2000,-2234
+LEC Summer Season 2024,58853,2024-06-09,Fnatic,GIANTX,Fnatic,2226,12300,2978
+LEC Summer Season 2024,58852,2024-06-09,Karmine Corp,Movistar KOI,Karmine Corp,2471,-1000,-1496
+LEC Summer Season 2024,58851,2024-06-09,Natus Vincere,Team Vitality,Natus Vincere,2542,600,-2933
+LEC Summer Season 2024,58850,2024-06-09,Team BDS,Team Heretics,Team BDS,1676,5500,2701
+LEC Summer Season 2024,58232,2024-06-08,Karmine Corp,Fnatic,Fnatic,1723,-4200,551
+LEC Summer Season 2024,58231,2024-06-08,Movistar KOI,G2 Esports,G2 Esports,1939,-8800,1710
+LEC Summer Season 2024,58230,2024-06-08,Team Vitality,Team BDS,Team BDS,2026,-3800,1504
+LEC Summer Season 2024,58229,2024-06-08,SK Gaming,Natus Vincere,SK Gaming,2203,11400,141
+LEC Summer Season 2024,58228,2024-06-08,Team Heretics,GIANTX,Team Heretics,2320,12300,762
+LEC Summer Playoffs 2024,61386,2024-07-28,Fnatic,G2 Esports,G2 Esports,2149,-5700,2106
+LEC Summer Playoffs 2024,61359,2024-07-27,G2 Esports,Team BDS,Team BDS,2032,-7300,865
+LEC Summer Playoffs 2024,61238,2024-07-26,Team BDS,Karmine Corp,Karmine Corp,2550,-4100,1277
+LEC Summer Playoffs 2024,61182,2024-07-23,SK Gaming,Karmine Corp,Karmine Corp,1923,-1200,849
+LEC Summer Playoffs 2024,61179,2024-07-23,Team BDS,GIANTX,Team BDS,2725,3900,1076
+LEC Summer Playoffs 2024,61174,2024-07-22,G2 Esports,Fnatic,G2 Esports,1618,9000,2880
+LEC Summer Playoffs 2024,60640,2024-07-21,Karmine Corp,Movistar KOI,Karmine Corp,1893,9600,-1813
+LEC Summer Playoffs 2024,60637,2024-07-21,Team Heretics,GIANTX,GIANTX,1970,-7900,2228
+LEC Summer Playoffs 2024,60646,2024-07-14,G2 Esports,Team BDS,G2 Esports,1835,12000,2448
+LEC Summer Playoffs 2024,60643,2024-07-14,SK Gaming,Fnatic,Fnatic,1880,-9900,979
+LEC Summer Playoffs 2024,60270,2024-07-13,G2 Esports,Karmine Corp,G2 Esports,2597,6000,2665
+LEC Summer Playoffs 2024,60267,2024-07-13,Fnatic,GIANTX,GIANTX,2070,-5000,-201
+LEC Summer Playoffs 2024,60264,2024-07-12,Team BDS,Movistar KOI,Movistar KOI,2160,-5800,-863
+LEC Summer Playoffs 2024,60261,2024-07-12,SK Gaming,Team Heretics,SK Gaming,1600,9700,643
+LEC Summer Playoffs 2024,61387,2024-07-28,Fnatic,G2 Esports,G2 Esports,2107,-5200,2782
+LEC Summer Playoffs 2024,61388,2024-07-28,Fnatic,G2 Esports,G2 Esports,1759,-1100,6592
+LEC Summer Playoffs 2024,61360,2024-07-27,G2 Esports,Team BDS,G2 Esports,2020,3900,-4611
+LEC Summer Playoffs 2024,61361,2024-07-27,G2 Esports,Team BDS,G2 Esports,1980,9500,-2601
+LEC Summer Playoffs 2024,61362,2024-07-27,Team BDS,G2 Esports,G2 Esports,2476,-2600,399
+LEC Summer Playoffs 2024,61239,2024-07-26,Team BDS,Karmine Corp,Team BDS,1523,10000,1210
+LEC Summer Playoffs 2024,61240,2024-07-26,Karmine Corp,Team BDS,Team BDS,2555,-10900,2071
+LEC Summer Playoffs 2024,61241,2024-07-26,Karmine Corp,Team BDS,Karmine Corp,1925,6300,3057
+LEC Summer Playoffs 2024,61242,2024-07-26,Team BDS,Karmine Corp,Team BDS,1834,13200,-750
+LEC Summer Playoffs 2024,61183,2024-07-23,SK Gaming,Karmine Corp,SK Gaming,1611,12300,2983
+LEC Summer Playoffs 2024,61184,2024-07-23,Karmine Corp,SK Gaming,Karmine Corp,1968,7800,-517
+LEC Summer Playoffs 2024,61180,2024-07-23,GIANTX,Team BDS,GIANTX,2367,10800,1858
+LEC Summer Playoffs 2024,61181,2024-07-23,Team BDS,GIANTX,Team BDS,2018,11800,828
+LEC Summer Playoffs 2024,61175,2024-07-22,Fnatic,G2 Esports,Fnatic,2087,6000,-2643
+LEC Summer Playoffs 2024,61176,2024-07-22,G2 Esports,Fnatic,Fnatic,2850,-8100,-105
+LEC Summer Playoffs 2024,61177,2024-07-22,G2 Esports,Fnatic,G2 Esports,1849,6600,1842
+LEC Summer Playoffs 2024,61178,2024-07-22,Fnatic,G2 Esports,Fnatic,1556,13800,1154
+LEC Summer Playoffs 2024,60641,2024-07-21,Movistar KOI,Karmine Corp,Karmine Corp,1715,-8700,899
+LEC Summer Playoffs 2024,60638,2024-07-21,Team Heretics,GIANTX,Team Heretics,1586,13900,3916
+LEC Summer Playoffs 2024,60639,2024-07-21,GIANTX,Team Heretics,GIANTX,2066,9600,-876
+LEC Summer Playoffs 2024,60647,2024-07-14,G2 Esports,Team BDS,G2 Esports,1989,7900,1462
+LEC Summer Playoffs 2024,60644,2024-07-14,SK Gaming,Fnatic,Fnatic,1635,-15000,2335
+LEC Summer Playoffs 2024,60271,2024-07-13,Karmine Corp,G2 Esports,G2 Esports,2040,-11500,-1387
+LEC Summer Playoffs 2024,60268,2024-07-13,Fnatic,GIANTX,Fnatic,1482,8200,-310
+LEC Summer Playoffs 2024,60269,2024-07-13,GIANTX,Fnatic,Fnatic,1964,-14300,-4695
+LEC Summer Playoffs 2024,60265,2024-07-12,Team BDS,Movistar KOI,Team BDS,2280,2300,1335
+LEC Summer Playoffs 2024,60266,2024-07-12,Team BDS,Movistar KOI,Team BDS,2559,600,-1695
+LEC Summer Playoffs 2024,60262,2024-07-12,Team Heretics,SK Gaming,SK Gaming,1890,-10800,-354
+LEC Season Finals 2024,62554,2024-09-01,Fnatic,G2 Esports,G2 Esports,3080,-7900,-191
+LEC Season Finals 2024,62476,2024-08-31,G2 Esports,Movistar KOI,Movistar KOI,1650,-10500,-1006
+LEC Season Finals 2024,62281,2024-08-24,Movistar KOI,Fnatic,Movistar KOI,1811,9100,-25
+LEC Season Finals 2024,62276,2024-08-23,G2 Esports,Team BDS,Team BDS,1982,-9200,1280
+LEC Season Finals 2024,62124,2024-08-18,G2 Esports,GIANTX,G2 Esports,1557,17200,4178
+LEC Season Finals 2024,62119,2024-08-17,SK Gaming,Team BDS,Team BDS,1986,-8000,2996
+LEC Season Finals 2024,61461,2024-08-11,G2 Esports,Movistar KOI,G2 Esports,1637,13200,4063
+LEC Season Finals 2024,61456,2024-08-10,Team BDS,Fnatic,Fnatic,2369,-15500,-156
+LEC Season Finals 2024,62555,2024-09-01,Fnatic,G2 Esports,Fnatic,2249,4900,172
+LEC Season Finals 2024,62556,2024-09-01,G2 Esports,Fnatic,G2 Esports,1978,6900,-131
+LEC Season Finals 2024,62557,2024-09-01,G2 Esports,Fnatic,G2 Esports,1894,7400,-2718
+LEC Season Finals 2024,62477,2024-08-31,G2 Esports,Movistar KOI,G2 Esports,1796,14400,2702
+LEC Season Finals 2024,62478,2024-08-31,G2 Esports,Movistar KOI,G2 Esports,1872,10500,-567
+LEC Season Finals 2024,62479,2024-08-31,G2 Esports,Movistar KOI,G2 Esports,1832,11000,1255
+LEC Season Finals 2024,62282,2024-08-24,Movistar KOI,Fnatic,Fnatic,1614,-13400,-2235
+LEC Season Finals 2024,62283,2024-08-24,Fnatic,Movistar KOI,Fnatic,2375,500,-795
+LEC Season Finals 2024,62284,2024-08-24,Movistar KOI,Fnatic,Movistar KOI,2060,1500,-236
+LEC Season Finals 2024,62285,2024-08-24,Movistar KOI,Fnatic,Fnatic,2161,-5400,547
+LEC Season Finals 2024,62277,2024-08-23,G2 Esports,Team BDS,Team BDS,2632,-8100,977
+LEC Season Finals 2024,62278,2024-08-23,G2 Esports,Team BDS,G2 Esports,1637,14200,3717
+LEC Season Finals 2024,62279,2024-08-23,G2 Esports,Team BDS,G2 Esports,2431,8200,-2
+LEC Season Finals 2024,62280,2024-08-23,G2 Esports,Team BDS,G2 Esports,1669,15100,2253
+LEC Season Finals 2024,62125,2024-08-18,G2 Esports,GIANTX,G2 Esports,1874,11300,2373
+LEC Season Finals 2024,62126,2024-08-18,G2 Esports,GIANTX,G2 Esports,1499,15200,4816
+LEC Season Finals 2024,62120,2024-08-17,Team BDS,SK Gaming,Team BDS,1669,14800,2966
+LEC Season Finals 2024,62121,2024-08-17,Team BDS,SK Gaming,Team BDS,1509,11900,3165
+LEC Season Finals 2024,61462,2024-08-11,G2 Esports,Movistar KOI,Movistar KOI,2051,-6400,-3672
+LEC Season Finals 2024,61463,2024-08-11,G2 Esports,Movistar KOI,G2 Esports,2971,6100,-1980
+LEC Season Finals 2024,61464,2024-08-11,G2 Esports,Movistar KOI,Movistar KOI,1679,-12900,-3782
+LEC Season Finals 2024,61465,2024-08-11,Movistar KOI,G2 Esports,Movistar KOI,2016,3600,15
+LEC Season Finals 2024,61457,2024-08-10,Fnatic,Team BDS,Fnatic,1735,11300,-184
+LEC Season Finals 2024,61458,2024-08-10,Fnatic,Team BDS,Fnatic,1892,16500,2950
+LEC Winter 2025,63508,2025-02-03,SK Gaming,Fnatic,Fnatic,1735,-16500,-2331
+LEC Winter 2025,63507,2025-02-03,G2 Esports,Team Heretics,G2 Esports,1676,11100,3467
+LEC Winter 2025,63506,2025-02-03,Karmine Corp,Team BDS,Team BDS,1739,-8000,15
+LEC Winter 2025,63505,2025-02-03,Movistar KOI,Natus Vincere,Movistar KOI,1952,14500,2355
+LEC Winter 2025,63504,2025-02-03,Team Vitality,GIANTX,Team Vitality,1884,13800,1515
+LEC Winter 2025,63503,2025-02-02,G2 Esports,Movistar KOI,G2 Esports,1768,10400,185
+LEC Winter 2025,63502,2025-02-02,Team Heretics,Team Vitality,Team Vitality,1959,-13800,-1595
+LEC Winter 2025,63501,2025-02-02,Fnatic,Karmine Corp,Fnatic,1646,15600,4223
+LEC Winter 2025,63500,2025-02-02,Team BDS,GIANTX,GIANTX,2494,-6900,-2985
+LEC Winter 2025,63499,2025-02-02,Natus Vincere,SK Gaming,SK Gaming,1848,-12000,-1055
+LEC Winter 2025,63498,2025-02-01,Team Vitality,Karmine Corp,Karmine Corp,2339,-9700,4661
+LEC Winter 2025,63497,2025-02-01,Team Heretics,Movistar KOI,Team Heretics,2307,5400,-782
+LEC Winter 2025,63496,2025-02-01,Natus Vincere,G2 Esports,G2 Esports,1926,-10800,781
+LEC Winter 2025,63495,2025-02-01,GIANTX,Fnatic,Fnatic,1713,-12900,-1993
+LEC Winter 2025,63494,2025-02-01,SK Gaming,Team BDS,Team BDS,1740,-13900,-2733
+LEC Winter 2025,63270,2025-01-27,SK Gaming,Movistar KOI,Movistar KOI,1674,-14700,-2508
+LEC Winter 2025,63269,2025-01-27,Karmine Corp,Team Heretics,Karmine Corp,2227,14300,1771
+LEC Winter 2025,63268,2025-01-27,G2 Esports,GIANTX,G2 Esports,1642,12700,4508
+LEC Winter 2025,63267,2025-01-27,Fnatic,Team BDS,Fnatic,2632,7000,-1578
+LEC Winter 2025,63266,2025-01-27,Team Vitality,Natus Vincere,Team Vitality,2110,11300,1050
+LEC Winter 2025,63265,2025-01-26,Team BDS,Movistar KOI,Movistar KOI,1790,-12900,-1773
+LEC Winter 2025,63264,2025-01-26,Karmine Corp,Natus Vincere,Karmine Corp,1621,16600,751
+LEC Winter 2025,63263,2025-01-26,Fnatic,G2 Esports,Fnatic,1637,9800,-1370
+LEC Winter 2025,63262,2025-01-26,SK Gaming,Team Vitality,Team Vitality,1915,-5600,2296
+LEC Winter 2025,63261,2025-01-26,GIANTX,Team Heretics,GIANTX,1804,10900,1571
+LEC Winter 2025,63260,2025-01-25,Karmine Corp,SK Gaming,Karmine Corp,1349,10000,256
+LEC Winter 2025,63259,2025-01-25,Team Vitality,G2 Esports,G2 Esports,2841,-4900,-35
+LEC Winter 2025,63258,2025-01-25,GIANTX,Movistar KOI,Movistar KOI,2380,-5300,1058
+LEC Winter 2025,63257,2025-01-25,Team BDS,Team Heretics,Team Heretics,2377,-5100,1980
+LEC Winter 2025,63256,2025-01-25,Natus Vincere,Fnatic,Fnatic,2240,-5000,-2002
+LEC Winter 2025,63062,2025-01-20,GIANTX,Karmine Corp,GIANTX,2240,13900,2389
+LEC Winter 2025,63061,2025-01-20,G2 Esports,SK Gaming,G2 Esports,1701,14600,493
+LEC Winter 2025,63060,2025-01-20,Movistar KOI,Team Vitality,Movistar KOI,2230,7600,711
+LEC Winter 2025,63059,2025-01-20,Team Heretics,Fnatic,Fnatic,1528,-15200,-4852
+LEC Winter 2025,63058,2025-01-20,Team BDS,Natus Vincere,Team BDS,2312,12400,-80
+LEC Winter 2025,63057,2025-01-19,Fnatic,Team Vitality,Fnatic,1721,16000,4226
+LEC Winter 2025,63056,2025-01-19,G2 Esports,Team BDS,Team BDS,1903,-3600,3626
+LEC Winter 2025,63055,2025-01-19,Movistar KOI,Karmine Corp,Karmine Corp,2191,-10600,767
+LEC Winter 2025,63054,2025-01-19,Natus Vincere,GIANTX,GIANTX,3558,-5900,2641
+LEC Winter 2025,63053,2025-01-19,Team Heretics,SK Gaming,Team Heretics,2032,9600,2689
+LEC Winter 2025,62982,2025-01-18,Karmine Corp,G2 Esports,Karmine Corp,2260,10100,-198
+LEC Winter 2025,62981,2025-01-18,Movistar KOI,Fnatic,Movistar KOI,1807,12800,1096
+LEC Winter 2025,62980,2025-01-18,GIANTX,SK Gaming,GIANTX,1987,12400,-902
+LEC Winter 2025,62979,2025-01-18,Team Vitality,Team BDS,Team Vitality,1950,11500,439
+LEC Winter 2025,62978,2025-01-18,Team Heretics,Natus Vincere,Natus Vincere,2323,-11400,1088
+LEC 2025 Winter Playoffs,64753,2025-03-02,G2 Esports,Karmine Corp,Karmine Corp,2187,-8400,-570
+LEC 2025 Winter Playoffs,64716,2025-03-01,Karmine Corp,Fnatic,Karmine Corp,2201,11300,-159
+LEC 2025 Winter Playoffs,64540,2025-02-28,Fnatic,Movistar KOI,Fnatic,2259,3500,938
+LEC 2025 Winter Playoffs,64545,2025-02-24,Karmine Corp,G2 Esports,G2 Esports,1614,-14700,-2896
+LEC 2025 Winter Playoffs,64494,2025-02-23,Movistar KOI,GIANTX,Movistar KOI,2140,10100,2334
+LEC 2025 Winter Playoffs,64491,2025-02-23,Fnatic,Team BDS,Fnatic,2688,4300,2498
+LEC 2025 Winter Playoffs,64197,2025-02-22,Team Vitality,Team BDS,Team BDS,1855,-12400,-1052
+LEC 2025 Winter Playoffs,64194,2025-02-22,GIANTX,Team Heretics,GIANTX,1752,13000,1626
+LEC 2025 Winter Playoffs,64203,2025-02-17,Karmine Corp,Movistar KOI,Karmine Corp,1611,14000,1630
+LEC 2025 Winter Playoffs,64200,2025-02-17,Fnatic,G2 Esports,G2 Esports,2755,-6900,2
+LEC 2025 Winter Playoffs,63642,2025-02-16,Karmine Corp,Team Vitality,Karmine Corp,1842,9000,4320
+LEC 2025 Winter Playoffs,63639,2025-02-16,Movistar KOI,Team BDS,Movistar KOI,1825,18200,5694
+LEC 2025 Winter Playoffs,63636,2025-02-15,G2 Esports,GIANTX,G2 Esports,2555,8200,728
+LEC 2025 Winter Playoffs,63633,2025-02-15,Fnatic,Team Heretics,Fnatic,1488,12500,2379
+LEC 2025 Winter Playoffs,64754,2025-03-02,G2 Esports,Karmine Corp,Karmine Corp,2001,-12800,-67
+LEC 2025 Winter Playoffs,64755,2025-03-02,Karmine Corp,G2 Esports,Karmine Corp,1477,10800,352
+LEC 2025 Winter Playoffs,64717,2025-03-01,Fnatic,Karmine Corp,Karmine Corp,2805,-3700,212
+LEC 2025 Winter Playoffs,64718,2025-03-01,Karmine Corp,Fnatic,Fnatic,2119,-8100,-1387
+LEC 2025 Winter Playoffs,64719,2025-03-01,Karmine Corp,Fnatic,Fnatic,2098,-14800,300
+LEC 2025 Winter Playoffs,64720,2025-03-01,Fnatic,Karmine Corp,Karmine Corp,1508,-11400,-4079
+LEC 2025 Winter Playoffs,64541,2025-02-28,Movistar KOI,Fnatic,Fnatic,1768,-13100,1159
+LEC 2025 Winter Playoffs,64542,2025-02-28,Movistar KOI,Fnatic,Movistar KOI,1679,15100,3192
+LEC 2025 Winter Playoffs,64543,2025-02-28,Fnatic,Movistar KOI,Fnatic,1991,7200,1921
+LEC 2025 Winter Playoffs,64546,2025-02-24,Karmine Corp,G2 Esports,Karmine Corp,1716,10700,538
+LEC 2025 Winter Playoffs,64547,2025-02-24,G2 Esports,Karmine Corp,G2 Esports,2069,13500,2355
+LEC 2025 Winter Playoffs,64548,2025-02-24,Karmine Corp,G2 Esports,G2 Esports,1572,-8300,298
+LEC 2025 Winter Playoffs,64495,2025-02-23,GIANTX,Movistar KOI,Movistar KOI,1712,-14400,-3356
+LEC 2025 Winter Playoffs,64492,2025-02-23,Team BDS,Fnatic,Team BDS,1830,8700,-298
+LEC 2025 Winter Playoffs,64493,2025-02-23,Fnatic,Team BDS,Fnatic,2704,7000,-2947
+LEC 2025 Winter Playoffs,64198,2025-02-22,Team Vitality,Team BDS,Team Vitality,2141,10800,-2306
+LEC 2025 Winter Playoffs,64199,2025-02-22,Team BDS,Team Vitality,Team BDS,2738,6400,997
+LEC 2025 Winter Playoffs,64195,2025-02-22,Team Heretics,GIANTX,Team Heretics,2053,7300,-1239
+LEC 2025 Winter Playoffs,64196,2025-02-22,GIANTX,Team Heretics,GIANTX,1939,13800,-511
+LEC 2025 Winter Playoffs,64204,2025-02-17,Movistar KOI,Karmine Corp,Karmine Corp,1841,-7000,1116
+LEC 2025 Winter Playoffs,64201,2025-02-17,Fnatic,G2 Esports,G2 Esports,1750,-8500,375
+LEC 2025 Winter Playoffs,63643,2025-02-16,Team Vitality,Karmine Corp,Karmine Corp,2812,-10500,-3377
+LEC 2025 Winter Playoffs,63640,2025-02-16,Team BDS,Movistar KOI,Movistar KOI,2466,-8400,3370
+LEC 2025 Winter Playoffs,63637,2025-02-15,GIANTX,G2 Esports,G2 Esports,1829,-6200,-1307
+LEC 2025 Winter Playoffs,63634,2025-02-15,Team Heretics,Fnatic,Fnatic,2093,-10000,136
+LEC 2025 Spring Season,67871,2025-05-13,Team Heretics,Team Vitality,Team Heretics,2034,1500,365
+LEC 2025 Spring Season,67552,2025-05-12,Natus Vincere,Movistar KOI,Movistar KOI,1963,-5800,-1004
+LEC 2025 Spring Season,67549,2025-05-12,Team Heretics,GIANTX,GIANTX,1699,-9000,-3006
+LEC 2025 Spring Season,67546,2025-05-11,G2 Esports,Karmine Corp,G2 Esports,2072,8000,1266
+LEC 2025 Spring Season,67543,2025-05-11,SK Gaming,Team Vitality,Team Vitality,2047,-15200,-1875
+LEC 2025 Spring Season,67540,2025-05-10,Team Vitality,Karmine Corp,Karmine Corp,1888,-13900,-1253
+LEC 2025 Spring Season,67537,2025-05-10,SK Gaming,G2 Esports,G2 Esports,1841,-10500,-355
+LEC 2025 Spring Season,67133,2025-05-05,Movistar KOI,SK Gaming,Movistar KOI,1797,18100,4562
+LEC 2025 Spring Season,67130,2025-05-05,Fnatic,Team Heretics,Fnatic,1751,12300,177
+LEC 2025 Spring Season,67127,2025-05-04,G2 Esports,Team Vitality,G2 Esports,1694,14700,1548
+LEC 2025 Spring Season,67124,2025-05-04,GIANTX,Team BDS,GIANTX,2783,6000,837
+LEC 2025 Spring Season,67121,2025-05-03,Karmine Corp,Natus Vincere,Karmine Corp,2015,8700,830
+LEC 2025 Spring Season,67118,2025-05-03,Fnatic,Team BDS,Fnatic,2742,4500,623
+LEC 2025 Spring Season,66720,2025-04-28,Team Vitality,Team BDS,Team Vitality,1869,9700,-1477
+LEC 2025 Spring Season,66717,2025-04-28,SK Gaming,Team Heretics,Team Heretics,2559,-6700,589
+LEC 2025 Spring Season,66714,2025-04-27,Movistar KOI,GIANTX,Movistar KOI,1963,16000,387
+LEC 2025 Spring Season,66711,2025-04-27,G2 Esports,Fnatic,G2 Esports,1957,11000,4810
+LEC 2025 Spring Season,66708,2025-04-26,Movistar KOI,Fnatic,Fnatic,1922,-11000,706
+LEC 2025 Spring Season,66705,2025-04-26,GIANTX,G2 Esports,GIANTX,1922,9300,-664
+LEC 2025 Spring Season,66279,2025-04-21,Team Vitality,Movistar KOI,Team Vitality,1857,9600,1534
+LEC 2025 Spring Season,66276,2025-04-21,SK Gaming,Natus Vincere,SK Gaming,2192,9300,-1543
+LEC 2025 Spring Season,66273,2025-04-20,Team BDS,G2 Esports,Team BDS,2428,2400,1224
+LEC 2025 Spring Season,66270,2025-04-20,Team Heretics,Team Vitality,Team Heretics,2179,10000,2106
+LEC 2025 Spring Season,66267,2025-04-19,Karmine Corp,GIANTX,Karmine Corp,1904,11200,-639
+LEC 2025 Spring Season,66264,2025-04-19,Fnatic,Natus Vincere,Fnatic,1643,16900,3665
+LEC 2025 Spring Season,65784,2025-04-14,Team Heretics,Karmine Corp,Team Heretics,2558,10600,1257
+LEC 2025 Spring Season,65781,2025-04-14,GIANTX,SK Gaming,SK Gaming,2232,-8100,-1070
+LEC 2025 Spring Season,65778,2025-04-13,Team BDS,Movistar KOI,Movistar KOI,1761,-12500,-1905
+LEC 2025 Spring Season,65775,2025-04-13,Team Vitality,Fnatic,Fnatic,2382,-11100,3272
+LEC 2025 Spring Season,65772,2025-04-12,Karmine Corp,SK Gaming,Karmine Corp,1640,14900,1273
+LEC 2025 Spring Season,65769,2025-04-12,Natus Vincere,G2 Esports,G2 Esports,2123,-13300,-1165
+LEC 2025 Spring Season,65766,2025-04-12,Team Heretics,Team BDS,Team Heretics,2514,-3700,-3224
+LEC 2025 Spring Season,65425,2025-04-07,Movistar KOI,Team Heretics,Movistar KOI,1913,10600,-555
+LEC 2025 Spring Season,65422,2025-04-07,GIANTX,Natus Vincere,GIANTX,3339,9800,496
+LEC 2025 Spring Season,65419,2025-04-06,Karmine Corp,Fnatic,Karmine Corp,1991,9200,3068
+LEC 2025 Spring Season,65416,2025-04-06,Team BDS,SK Gaming,Team BDS,2025,7600,87
+LEC 2025 Spring Season,65413,2025-04-05,G2 Esports,Team Heretics,G2 Esports,1990,12600,3907
+LEC 2025 Spring Season,65410,2025-04-05,Team BDS,Karmine Corp,Karmine Corp,1914,-13700,547
+LEC 2025 Spring Season,65407,2025-04-05,Natus Vincere,Team Vitality,Natus Vincere,2568,7600,-1250
+LEC 2025 Spring Season,65223,2025-03-31,SK Gaming,Fnatic,SK Gaming,1902,10900,1594
+LEC 2025 Spring Season,65220,2025-03-31,Team BDS,Natus Vincere,Natus Vincere,2251,-6700,219
+LEC 2025 Spring Season,65217,2025-03-30,Karmine Corp,Movistar KOI,Karmine Corp,1895,13600,-187
+LEC 2025 Spring Season,65214,2025-03-30,GIANTX,Team Vitality,Team Vitality,1766,-9100,781
+LEC 2025 Spring Season,65211,2025-03-29,G2 Esports,Movistar KOI,G2 Esports,1724,12900,-573
+LEC 2025 Spring Season,65208,2025-03-29,Natus Vincere,Team Heretics,Team Heretics,2120,200,3283
+LEC 2025 Spring Season,65205,2025-03-29,Fnatic,GIANTX,Fnatic,1675,16100,3860
+LEC 2025 Spring Season,67553,2025-05-12,Natus Vincere,Movistar KOI,Movistar KOI,2127,-7000,415
+LEC 2025 Spring Season,67550,2025-05-12,Team Heretics,GIANTX,GIANTX,1699,-12200,-161
+LEC 2025 Spring Season,67547,2025-05-11,Karmine Corp,G2 Esports,Karmine Corp,1955,14700,72
+LEC 2025 Spring Season,67548,2025-05-11,G2 Esports,Karmine Corp,Karmine Corp,1648,-11900,-790
+LEC 2025 Spring Season,67544,2025-05-11,Team Vitality,SK Gaming,Team Vitality,1735,16000,3195
+LEC 2025 Spring Season,67541,2025-05-10,Team Vitality,Karmine Corp,Team Vitality,2527,3000,135
+LEC 2025 Spring Season,67542,2025-05-10,Karmine Corp,Team Vitality,Karmine Corp,1712,11900,676
+LEC 2025 Spring Season,67538,2025-05-10,G2 Esports,SK Gaming,G2 Esports,1805,11700,831
+LEC 2025 Spring Season,67134,2025-05-05,SK Gaming,Movistar KOI,Movistar KOI,1716,-17300,-3064
+LEC 2025 Spring Season,67131,2025-05-05,Team Heretics,Fnatic,Fnatic,1510,-8400,-510
+LEC 2025 Spring Season,67128,2025-05-04,G2 Esports,Team Vitality,G2 Esports,1975,15100,2471
+LEC 2025 Spring Season,67125,2025-05-04,GIANTX,Team BDS,GIANTX,1682,13600,1641
+LEC 2025 Spring Season,67122,2025-05-03,Karmine Corp,Natus Vincere,Karmine Corp,1675,17600,2749
+LEC 2025 Spring Season,67119,2025-05-03,Fnatic,Team BDS,Fnatic,2017,13900,1971
+LEC 2025 Spring Season,66721,2025-04-28,Team Vitality,Team BDS,Team BDS,2095,-6800,-85
+LEC 2025 Spring Season,66722,2025-04-28,Team Vitality,Team BDS,Team Vitality,2081,-2000,-1793
+LEC 2025 Spring Season,66718,2025-04-28,Team Heretics,SK Gaming,Team Heretics,2108,8700,126
+LEC 2025 Spring Season,66715,2025-04-27,GIANTX,Movistar KOI,GIANTX,1660,12300,-521
+LEC 2025 Spring Season,66716,2025-04-27,Movistar KOI,GIANTX,Movistar KOI,1891,12400,1113
+LEC 2025 Spring Season,66712,2025-04-27,Fnatic,G2 Esports,Fnatic,1649,15300,2422
+LEC 2025 Spring Season,66713,2025-04-27,G2 Esports,Fnatic,Fnatic,1911,-12700,-2697
+LEC 2025 Spring Season,66709,2025-04-26,Movistar KOI,Fnatic,Movistar KOI,1828,10100,1499
+LEC 2025 Spring Season,66710,2025-04-26,Movistar KOI,Fnatic,Movistar KOI,3206,400,-1323
+LEC 2025 Spring Season,66706,2025-04-26,GIANTX,G2 Esports,G2 Esports,1871,-8500,-531
+LEC 2025 Spring Season,66707,2025-04-26,GIANTX,G2 Esports,GIANTX,2427,7000,-1150
+LEC 2025 Spring Season,66280,2025-04-21,Movistar KOI,Team Vitality,Team Vitality,1887,-11300,-2520
+LEC 2025 Spring Season,66277,2025-04-21,Natus Vincere,SK Gaming,Natus Vincere,1864,8600,1502
+LEC 2025 Spring Season,66278,2025-04-21,SK Gaming,Natus Vincere,Natus Vincere,1836,-15700,-2873
+LEC 2025 Spring Season,66274,2025-04-20,G2 Esports,Team BDS,Team BDS,2734,-2000,3134
+LEC 2025 Spring Season,66271,2025-04-20,Team Vitality,Team Heretics,Team Heretics,2362,-7200,-1008
+LEC 2025 Spring Season,66268,2025-04-19,GIANTX,Karmine Corp,GIANTX,2511,-700,-443
+LEC 2025 Spring Season,66269,2025-04-19,Karmine Corp,GIANTX,Karmine Corp,1852,9100,1279
+LEC 2025 Spring Season,66265,2025-04-19,Natus Vincere,Fnatic,Fnatic,1648,-13600,-3521
+LEC 2025 Spring Season,65785,2025-04-14,Karmine Corp,Team Heretics,Karmine Corp,2399,9900,-1914
+LEC 2025 Spring Season,65786,2025-04-14,Team Heretics,Karmine Corp,Karmine Corp,1856,-5400,1653
+LEC 2025 Spring Season,65782,2025-04-14,GIANTX,SK Gaming,SK Gaming,2200,-6300,-762
+LEC 2025 Spring Season,65779,2025-04-13,Movistar KOI,Team BDS,Movistar KOI,1551,12700,795
+LEC 2025 Spring Season,65776,2025-04-13,Fnatic,Team Vitality,Fnatic,1666,12500,-65
+LEC 2025 Spring Season,65773,2025-04-12,SK Gaming,Karmine Corp,Karmine Corp,1800,-14600,140
+LEC 2025 Spring Season,65770,2025-04-12,G2 Esports,Natus Vincere,G2 Esports,2168,12100,2740
+LEC 2025 Spring Season,65767,2025-04-12,Team BDS,Team Heretics,Team BDS,1971,8600,-1089
+LEC 2025 Spring Season,65768,2025-04-12,Team Heretics,Team BDS,Team Heretics,1950,9700,-140
+LEC 2025 Spring Season,65426,2025-04-07,Team Heretics,Movistar KOI,Movistar KOI,2097,-11300,-318
+LEC 2025 Spring Season,65423,2025-04-07,Natus Vincere,GIANTX,GIANTX,1884,-14300,277
+LEC 2025 Spring Season,65420,2025-04-06,Fnatic,Karmine Corp,Fnatic,2280,9100,1414
+LEC 2025 Spring Season,65421,2025-04-06,Karmine Corp,Fnatic,Fnatic,1862,-13400,-4164
+LEC 2025 Spring Season,65417,2025-04-06,Team BDS,SK Gaming,Team BDS,1682,14300,2950
+LEC 2025 Spring Season,65414,2025-04-05,Team Heretics,G2 Esports,G2 Esports,2138,-11000,25
+LEC 2025 Spring Season,65411,2025-04-05,Karmine Corp,Team BDS,Karmine Corp,2147,6700,-2028
+LEC 2025 Spring Season,65408,2025-04-05,Natus Vincere,Team Vitality,Natus Vincere,1994,8900,4486
+LEC 2025 Spring Season,65224,2025-03-31,Fnatic,SK Gaming,SK Gaming,2020,1100,80
+LEC 2025 Spring Season,65221,2025-03-31,Natus Vincere,Team BDS,Team BDS,2119,-13200,-1513
+LEC 2025 Spring Season,65222,2025-03-31,Team BDS,Natus Vincere,Team BDS,1979,6700,1180
+LEC 2025 Spring Season,65218,2025-03-30,Movistar KOI,Karmine Corp,Movistar KOI,2096,12400,-142
+LEC 2025 Spring Season,65219,2025-03-30,Karmine Corp,Movistar KOI,Karmine Corp,2617,11800,-669
+LEC 2025 Spring Season,65215,2025-03-30,GIANTX,Team Vitality,Team Vitality,1771,-9900,-845
+LEC 2025 Spring Season,65212,2025-03-29,Movistar KOI,G2 Esports,Movistar KOI,2242,4900,-173
+LEC 2025 Spring Season,65213,2025-03-29,Movistar KOI,G2 Esports,G2 Esports,1742,-13100,-2179
+LEC 2025 Spring Season,65209,2025-03-29,Natus Vincere,Team Heretics,Team Heretics,1745,-11200,-1206
+LEC 2025 Spring Season,65206,2025-03-29,GIANTX,Fnatic,Fnatic,2140,-2000,1021
+LEC 2025 Spring Playoffs,69035,2025-06-08,G2 Esports,Movistar KOI,Movistar KOI,2464,-10500,-1134
+LEC 2025 Spring Playoffs,68845,2025-06-07,Movistar KOI,Karmine Corp,Karmine Corp,2002,-14200,176
+LEC 2025 Spring Playoffs,68810,2025-06-02,Karmine Corp,Fnatic,Karmine Corp,2165,12300,438
+LEC 2025 Spring Playoffs,68549,2025-06-01,Karmine Corp,Team Heretics,Karmine Corp,1645,17000,1277
+LEC 2025 Spring Playoffs,68544,2025-05-31,Fnatic,GIANTX,Fnatic,2036,12200,1768
+LEC 2025 Spring Playoffs,68539,2025-05-26,Movistar KOI,G2 Esports,G2 Esports,2037,-10100,202
+LEC 2025 Spring Playoffs,67956,2025-05-25,Karmine Corp,Movistar KOI,Movistar KOI,2048,-11900,422
+LEC 2025 Spring Playoffs,67951,2025-05-24,Fnatic,G2 Esports,Fnatic,1774,9800,739
+LEC 2025 Spring Playoffs,69036,2025-06-08,G2 Esports,Movistar KOI,Movistar KOI,2348,-8200,-1984
+LEC 2025 Spring Playoffs,69037,2025-06-08,G2 Esports,Movistar KOI,G2 Esports,2198,10200,4
+LEC 2025 Spring Playoffs,69038,2025-06-08,Movistar KOI,G2 Esports,Movistar KOI,2202,10400,-1813
+LEC 2025 Spring Playoffs,68846,2025-06-07,Movistar KOI,Karmine Corp,Movistar KOI,2273,9000,1832
+LEC 2025 Spring Playoffs,68847,2025-06-07,Karmine Corp,Movistar KOI,Movistar KOI,1753,-7600,-1959
+LEC 2025 Spring Playoffs,68848,2025-06-07,Karmine Corp,Movistar KOI,Karmine Corp,1659,15100,1262
+LEC 2025 Spring Playoffs,68849,2025-06-07,Movistar KOI,Karmine Corp,Movistar KOI,1946,8200,-719
+LEC 2025 Spring Playoffs,68811,2025-06-02,Fnatic,Karmine Corp,Karmine Corp,1725,-10700,-1201
+LEC 2025 Spring Playoffs,68812,2025-06-02,Fnatic,Karmine Corp,Karmine Corp,1744,-11600,-1189
+LEC 2025 Spring Playoffs,68550,2025-06-01,Team Heretics,Karmine Corp,Team Heretics,2412,2300,-485
+LEC 2025 Spring Playoffs,68551,2025-06-01,Karmine Corp,Team Heretics,Karmine Corp,1851,7700,-369
+LEC 2025 Spring Playoffs,68552,2025-06-01,Team Heretics,Karmine Corp,Karmine Corp,1588,-14500,-2620
+LEC 2025 Spring Playoffs,68545,2025-05-31,GIANTX,Fnatic,Fnatic,1709,-6000,2405
+LEC 2025 Spring Playoffs,68546,2025-05-31,GIANTX,Fnatic,GIANTX,1986,6100,748
+LEC 2025 Spring Playoffs,68547,2025-05-31,Fnatic,GIANTX,Fnatic,2018,12500,-483
+LEC 2025 Spring Playoffs,68540,2025-05-26,Movistar KOI,G2 Esports,G2 Esports,2703,-4500,-1247
+LEC 2025 Spring Playoffs,68541,2025-05-26,Movistar KOI,G2 Esports,Movistar KOI,2118,7700,-169
+LEC 2025 Spring Playoffs,68542,2025-05-26,G2 Esports,Movistar KOI,G2 Esports,1810,14200,2381
+LEC 2025 Spring Playoffs,67957,2025-05-25,Karmine Corp,Movistar KOI,Karmine Corp,2592,7000,1615
+LEC 2025 Spring Playoffs,67958,2025-05-25,Movistar KOI,Karmine Corp,Movistar KOI,2157,11600,1749
+LEC 2025 Spring Playoffs,67959,2025-05-25,Karmine Corp,Movistar KOI,Karmine Corp,1900,6600,-2513
+LEC 2025 Spring Playoffs,67960,2025-05-25,Movistar KOI,Karmine Corp,Movistar KOI,2180,7800,-1050
+LEC 2025 Spring Playoffs,67952,2025-05-24,G2 Esports,Fnatic,G2 Esports,1651,7000,-297
+LEC 2025 Spring Playoffs,67953,2025-05-24,Fnatic,G2 Esports,G2 Esports,2181,-1100,2309
+LEC 2025 Spring Playoffs,67954,2025-05-24,Fnatic,G2 Esports,G2 Esports,2221,-6200,-717
