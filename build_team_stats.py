@@ -45,9 +45,9 @@ class Config:
 
 def parse_args() -> Config:
     p = argparse.ArgumentParser(description="Build team strength aggregates from historical matches")
-    p.add_argument("--data", required=True, help="Path to LEC matches CSV")
-    p.add_argument("--out-dir", default="artifacts", help="Directory for outputs")
-    p.add_argument("--cutoff-date", default=None, help="YYYY-MM-DD (use matches strictly < cutoff)")
+    p.add_argument("--data", default="data/lec_2023-2025_games.csv", required=True, help="Path to LEC matches CSV")
+    p.add_argument("--out-dir", default="summer", help="Directory for outputs")
+    p.add_argument("--cutoff-date", default="2025-05-25", help="YYYY-MM-DD (use matches strictly < cutoff)")
     p.add_argument("--window-games", type=int, default=10, help="Rolling window size per team")
     p.add_argument("--min-games", type=int, default=5, help="Minimum games required to keep a row")
     p.add_argument("--elo", action="store_true", help="Compute Elo ratings up to cutoff")
