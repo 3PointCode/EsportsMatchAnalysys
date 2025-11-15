@@ -1,0 +1,103 @@
+{
+  "framework": "lightgbm",
+  "best_config": {
+    "cutoff_date": "2025-05-25",
+    "num_boost_round": 500,
+    "early_stopping_rounds": 100,
+    "num_leaves": 63,
+    "learning_rate": 0.05,
+    "feature_fraction": 0.7,
+    "bagging_fraction": 0.7,
+    "bagging_freq": 1,
+    "lambda_l1": 0.1,
+    "lambda_l2": 1.0,
+    "max_depth": 5,
+    "best_iteration": 18
+  },
+  "best_metrics": {
+    "accuracy": 0.7017543859649122,
+    "precision": 0.684931506849315,
+    "recall": 0.819672131147541,
+    "f1": 0.746268656716418,
+    "roc_auc": 0.7242499226724405,
+    "brier": 0.21973153462385098
+  },
+  "feature_names": [
+    "team_blue",
+    "team_red",
+    "ov_games_played_blue",
+    "ov_winrate_blue",
+    "ov_avg_gold_diff_blue",
+    "ov_avg_gold_diff_at14_blue",
+    "ov_avg_game_time_blue",
+    "ov_median_game_time_blue",
+    "ov_games_played_red",
+    "ov_winrate_red",
+    "ov_avg_gold_diff_red",
+    "ov_avg_gold_diff_at14_red",
+    "ov_avg_game_time_red",
+    "ov_median_game_time_red",
+    "ln_games_played_blue",
+    "ln_winrate_lastN_blue",
+    "ln_avg_gold_diff_lastN_blue",
+    "ln_avg_gold_diff_at14_lastN_blue",
+    "ln_avg_game_time_lastN_blue",
+    "ln_games_played_red",
+    "ln_winrate_lastN_red",
+    "ln_avg_gold_diff_lastN_red",
+    "ln_avg_gold_diff_at14_lastN_red",
+    "ln_avg_game_time_lastN_red",
+    "ov_games_played_diff",
+    "ov_winrate_diff",
+    "ov_avg_gold_diff_diff",
+    "ov_avg_gold_diff_at14_diff",
+    "ov_avg_game_time_diff",
+    "ov_median_game_time_diff",
+    "ln_games_played_diff",
+    "ln_winrate_lastN_diff",
+    "ln_avg_gold_diff_lastN_diff",
+    "ln_avg_gold_diff_at14_lastN_diff",
+    "ln_avg_game_time_lastN_diff"
+  ],
+  "cat_feature_names": [
+    "team_blue",
+    "team_red"
+  ],
+  "label_encoders": {
+    "team_blue": {
+      "classes_": [
+        "Astralis",
+        "Fnatic",
+        "G2 Esports",
+        "GIANTX",
+        "Karmine Corp",
+        "Movistar KOI",
+        "Natus Vincere",
+        "SK Gaming",
+        "Team BDS",
+        "Team Heretics",
+        "Team Vitality"
+      ]
+    },
+    "team_red": {
+      "classes_": [
+        "Astralis",
+        "Fnatic",
+        "G2 Esports",
+        "GIANTX",
+        "Karmine Corp",
+        "Movistar KOI",
+        "Natus Vincere",
+        "SK Gaming",
+        "Team BDS",
+        "Team Heretics",
+        "Team Vitality"
+      ]
+    }
+  },
+  "include_team_names": true,
+  "include_diffs": true,
+  "team_stats_overall": "C:\\Users\\tomas\\Desktop\\Engineer\\data\\team_stats_overall.csv",
+  "team_stats_lastN": "C:\\Users\\tomas\\Desktop\\Engineer\\data\\team_stats_lastN.csv",
+  "team_elo": null
+}
