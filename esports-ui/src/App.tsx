@@ -19,6 +19,9 @@ const Pill = ({ children }: { children: React.ReactNode }) => (
   </span>
 );
 
+type ModelName = "CatBoost" | "XGBoost" | "LightGBM";
+
+
 // Fuzzy filter: A→Z gdy puste; top-N podczas pisania
 function useFuzzyFilter(
   list: string[],
@@ -226,6 +229,41 @@ function PredictionBar({ bluePct, redPct, loading }:{
   );
 }
 
+function ModelToggle({
+  value,
+  onChange,
+}: {
+  value: "CatBoost" | "XGBoost" | "LightGBM";
+  onChange: (m: "CatBoost" | "XGBoost" | "LightGBM") => void;
+}) {
+  const buttons: ModelName[] = ["CatBoost", "XGBoost", "LightGBM"];
+  return (
+    <div className="inline-flex items-stretch ml-4 border border-zinc-700 rounded-xl overflow-hidden">
+      {buttons.map((name, i) => {
+        const active = value === name;
+        return (
+          <button
+            key={name}
+            type="button"
+            onClick={() => onChange(name)}
+            className={
+              "px-3 py-1.5 text-sm transition-colors duration-150 focus:outline-none " +
+              (i === 0 ? "rounded-l-xl " : i === buttons.length - 1 ? "rounded-r-xl " : "") +
+              (active
+                ? "bg-zinc-700/70 text-zinc-100 font-semibold"
+                : "bg-transparent text-zinc-400 hover:bg-zinc-800/60")
+            }
+          >
+            {name}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+
+
 export default function App() {
   const [team1, setTeam1] = useState<string | undefined>();
   const [team2, setTeam2] = useState<string | undefined>();
@@ -233,6 +271,8 @@ export default function App() {
   const [redDraft, setRedDraft] = useState<(string | undefined)[]>(Array(5).fill(undefined));
   const [loading, setLoading] = useState(false);
   const [scores, setScores] = useState({ blue: 65, red: 35 });
+  const [model, setModel] = useState<ModelName>("CatBoost");
+
 
   // zabrane champy (obie drużyny)
   const taken = useMemo(() => new Set<string>([...blueDraft, ...redDraft].filter(Boolean) as string[]),
@@ -282,22 +322,46 @@ export default function App() {
         {/* Rząd 1: Drużyny + Analyze pośrodku */}
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 items-stretch">
           <div className="xl:col-span-5">
-            <TeamSearch label="TEAM BLUE" value={team1} onChange={setTeam1} taken={takenTeams} side="blue" />
+            <TeamSearch
+              label="TEAM BLUE"
+              value={team1}
+              onChange={setTeam1}
+              taken={takenTeams}
+              side="blue"
+            />
           </div>
 
-          <div className="xl:col-span-2 flex items-center justify-center">
+          {/* Analyze + wybór modelu jeden pod drugim */}
+          <div className="xl:col-span-2 flex flex-col items-center justify-center gap-3">
             <button
               onClick={analyze}
               disabled={!ready || loading}
               className="inline-flex items-center gap-2 rounded-2xl px-6 py-3 border border-zinc-700 bg-zinc-900 text-white hover:bg-zinc-800 disabled:opacity-50"
             >
-              {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Search className="h-4 w-4" />}
+              {loading ? (
+                <Loader2 className="h-4 w-4 animate-spin" />
+              ) : (
+                <Search className="h-4 w-4" />
+              )}
               Analyze
             </button>
+
+            <ModelToggle value={model} onChange={setModel} />
+
+            <p className="text-xs text-zinc-500">
+              Selected model:{" "}
+              <span className="text-zinc-300 font-semibold">{model}</span>
+            </p>
           </div>
 
           <div className="xl:col-span-5">
-            <TeamSearch label="TEAM RED" value={team2} onChange={setTeam2} taken={takenTeams} side="red" />
+            <TeamSearch
+              label="TEAM RED"
+              value={team2}
+              onChange={setTeam2}
+              taken={takenTeams}
+              side="red"
+            />
           </div>
         </div>
 
@@ -341,6 +405,7 @@ export default function App() {
           <Pill>Mode: Draft</Pill>
           <Pill>Team Blue: {team1 ?? "—"}</Pill>
           <Pill>Team Red: {team2 ?? "—"}</Pill>
+          <Pill>Model: {model}</Pill>
         </div>
 
         {/* Predykcja */}
