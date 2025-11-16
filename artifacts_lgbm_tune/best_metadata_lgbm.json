@@ -1,26 +1,26 @@
 {
   "framework": "lightgbm",
   "best_config": {
-    "cutoff_date": "2025-05-25",
+    "cutoff_date": "2025-06-09",
     "num_boost_round": 500,
     "early_stopping_rounds": 100,
     "num_leaves": 63,
-    "learning_rate": 0.05,
+    "learning_rate": 0.04,
     "feature_fraction": 0.7,
     "bagging_fraction": 0.7,
     "bagging_freq": 1,
     "lambda_l1": 0.1,
-    "lambda_l2": 1.0,
-    "max_depth": 5,
-    "best_iteration": 18
+    "lambda_l2": 0.0,
+    "max_depth": 11,
+    "best_iteration": 11
   },
   "best_metrics": {
-    "accuracy": 0.7017543859649122,
-    "precision": 0.684931506849315,
-    "recall": 0.819672131147541,
-    "f1": 0.746268656716418,
-    "roc_auc": 0.7242499226724405,
-    "brier": 0.21973153462385098
+    "accuracy": 0.6235294117647059,
+    "precision": 0.5753424657534246,
+    "recall": 0.9767441860465116,
+    "f1": 0.7241379310344828,
+    "roc_auc": 0.8023255813953487,
+    "brier": 0.22623538787025457
   },
   "feature_names": [
     "team_blue",
@@ -97,7 +97,7 @@
   },
   "include_team_names": true,
   "include_diffs": true,
-  "team_stats_overall": "C:\\Users\\tomas\\Desktop\\Engineer\\data\\team_stats_overall.csv",
-  "team_stats_lastN": "C:\\Users\\tomas\\Desktop\\Engineer\\data\\team_stats_lastN.csv",
+  "team_stats_overall": "C:\\Users\\tomas\\Desktop\\Engineer\\EsportsMatchAnalysys\\summer\\team_stats_overall.csv",
+  "team_stats_lastN": "C:\\Users\\tomas\\Desktop\\Engineer\\EsportsMatchAnalysys\\summer\\team_stats_lastN.csv",
   "team_elo": null
 }
