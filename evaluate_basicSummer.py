@@ -221,7 +221,7 @@ def parse_args():
     p.add_argument("--stage-col", default=None, help="Column name for stage (e.g. 'stage')")
     p.add_argument("--stage-value", default=None, help="Value for stage (e.g. 'Season')")
 
-    p.add_argument("--output-csv", default="eval_basic_predictions.csv")
+    p.add_argument("--output-csv", default="model_evaluation/cat_basic_predictions.csv")
 
     return p.parse_args()
 
@@ -274,8 +274,14 @@ def main():
         for k, v in metrics.items():
             print(f"{k:>10}: {v:.4f}" if isinstance(v, float) else f"{k:>10}: {v}")
     else:
-        print("WARNING: no 'winning_team' column – metrics will not be computed.")
+        print("WARNING: no 'winning_team' column - metrics will not be computed.")
         metrics = None
+
+    cols_to_keep = [
+        "split", "game_id", "game_date",
+        "team_blue", "team_red", "winning_team",
+        "p_blue", "pred_blue_win", "true_blue_win", "correct",
+    ]
 
     out = matches.copy()
     out["p_blue"] = proba
@@ -284,7 +290,8 @@ def main():
         out["true_blue_win"] = y_true
         out["correct"] = (out["pred_blue_win"] == out["true_blue_win"]).astype(int)
 
-    out.to_csv(args.output_csv, index=False)
+    out[cols_to_keep].to_csv(args.output_csv, index=False)
+
     print(f"Saved predictions to: {args.output_csv}")
 
 if __name__ == "__main__":
