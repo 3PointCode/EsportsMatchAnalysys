@@ -4,7 +4,7 @@
       "Sion": 47.17,
       "Ambessa": 45.16,
       "Renekton": 50.74,
-      "K'Sante": 54.62,
+      "KSante": 54.62,
       "Jayce": 48.36,
       "Jax": 51.72,
       "Irelia": 54.72,
@@ -27,14 +27,14 @@
       "Yasuo": 50.0,
       "Gnar": 41.18,
       "Rumble": 44.9,
-      "Rek'Sai": 44.9,
+      "RekSai": 44.9,
       "Kled": 48.89,
       "Sett": 43.18,
       "Singed": 53.49,
       "Pantheon": 47.62,
       "Kennen": 55.88,
       "Volibear": 41.18,
-      "Cho'Gath": 42.42,
+      "ChoGath": 42.42,
       "Akali": 63.64,
       "Tryndamere": 59.38,
       "Olaf": 56.67,
@@ -47,7 +47,7 @@
     "Ambessa": {
       "Renekton": 52.81,
       "Aatrox": 55.19,
-      "K'Sante": 52.31,
+      "KSante": 52.31,
       "Camille": 40.48,
       "Sion": 52.07,
       "Jax": 51.3,
@@ -60,7 +60,7 @@
       "Garen": 48.1,
       "Riven": 40.26,
       "Shen": 57.14,
-      "Rek'Sai": 55.56,
+      "RekSai": 55.56,
       "Mordekaiser": 50.7,
       "Rumble": 34.78,
       "Yasuo": 48.48,
@@ -92,7 +92,7 @@
       "Ambessa": 57.94,
       "Renekton": 55.38,
       "Aatrox": 54.69,
-      "K'Sante": 52.54,
+      "KSante": 52.54,
       "Garen": 50.91,
       "Darius": 51.06,
       "Sion": 56.52,
@@ -108,7 +108,7 @@
     "Cassiopeia": {
       "Others": 50.0
     },
-    "Cho'Gath": {
+    "ChoGath": {
       "Sion": 52.54,
       "Riven": 45.71,
       "Aatrox": 59.38,
@@ -118,7 +118,7 @@
     "Darius": {
       "Aatrox": 52.58,
       "Ambessa": 53.85,
-      "K'Sante": 51.9,
+      "KSante": 51.9,
       "Jax": 37.68,
       "Sion": 62.69,
       "Renekton": 50.0,
@@ -161,7 +161,7 @@
       "Renekton": 44.58,
       "Sion": 51.35,
       "Jax": 59.46,
-      "K'Sante": 71.43,
+      "KSante": 71.43,
       "Jayce": 61.29,
       "Riven": 45.9,
       "Darius": 41.82,
@@ -186,7 +186,7 @@
       "Ambessa": 51.9,
       "Aatrox": 57.33,
       "Sion": 54.84,
-      "K'Sante": 54.72,
+      "KSante": 54.72,
       "Irelia": 32.61,
       "Jax": 42.86,
       "Jayce": 51.28,
@@ -201,7 +201,7 @@
     "Garen": {
       "Jax": 58.14,
       "Ambessa": 52.56,
-      "K'Sante": 50.77,
+      "KSante": 50.77,
       "Darius": 38.33,
       "Sion": 45.61,
       "Aatrox": 63.16,
@@ -221,7 +221,7 @@
       "Others": 50.0
     },
     "Gnar": {
-      "K'Sante": 51.52,
+      "KSante": 51.52,
       "Ambessa": 53.23,
       "Aatrox": 58.82,
       "Sion": 44.19,
@@ -238,7 +238,7 @@
       "Jax": 48.0,
       "Ambessa": 58.62,
       "Aatrox": 47.27,
-      "K'Sante": 43.18,
+      "KSante": 43.18,
       "Sion": 44.12,
       "Fiora": 50.0,
       "Darius": 35.29,
@@ -247,7 +247,7 @@
     },
     "Gwen": {
       "Sion": 55.56,
-      "K'Sante": 53.77,
+      "KSante": 53.77,
       "Ambessa": 54.64,
       "Aatrox": 55.29,
       "Jax": 46.77,
@@ -283,7 +283,7 @@
       "Malphite": 36.99,
       "Renekton": 36.99,
       "Sion": 50.82,
-      "K'Sante": 47.46,
+      "KSante": 47.46,
       "Jax": 43.64,
       "Fiora": 37.5,
       "Darius": 31.25,
@@ -300,7 +300,7 @@
       "Others": 50.0
     },
     "Jax": {
-      "K'Sante": 49.59,
+      "KSante": 49.59,
       "Aatrox": 47.79,
       "Ambessa": 51.82,
       "Sion": 43.82,
@@ -342,7 +342,7 @@
       "Ambessa": 56.14,
       "Irelia": 48.96,
       "Sion": 49.41,
-      "K'Sante": 50.59,
+      "KSante": 50.59,
       "Jax": 44.62,
       "Fiora": 35.48,
       "Darius": 60.0,
@@ -365,7 +365,7 @@
     },
     "Kayle": {
       "Ambessa": 53.85,
-      "K'Sante": 48.72,
+      "KSante": 48.72,
       "Garen": 48.65,
       "Sion": 40.0,
       "Singed": 58.06,
@@ -381,10 +381,10 @@
       "Aatrox": 51.06,
       "Ambessa": 52.17,
       "Sion": 52.27,
-      "K'Sante": 55.0,
+      "KSante": 55.0,
       "Others": 50.0
     },
-    "K'Sante": {
+    "KSante": {
       "Ambessa": 46.88,
       "Aatrox": 45.24,
       "Jax": 50.81,
@@ -408,7 +408,7 @@
       "Sett": 51.02,
       "Malphite": 40.48,
       "Gragas": 57.14,
-      "Rek'Sai": 43.9,
+      "RekSai": 43.9,
       "Pantheon": 52.5,
       "Yorick": 51.28,
       "Yasuo": 43.59,
@@ -432,7 +432,7 @@
       "Fiora": 58.0,
       "Mordekaiser": 50.0,
       "Tryndamere": 37.21,
-      "K'Sante": 57.5,
+      "KSante": 57.5,
       "Renekton": 47.37,
       "Sett": 63.16,
       "Garen": 43.24,
@@ -452,7 +452,7 @@
       "Sion": 45.78,
       "Aatrox": 47.95,
       "Ambessa": 49.32,
-      "K'Sante": 52.24,
+      "KSante": 52.24,
       "Renekton": 52.08,
       "Malphite": 53.19,
       "Shen": 47.83,
@@ -481,7 +481,7 @@
       "Ambessa": 43.4,
       "Darius": 48.78,
       "Gwen": 60.0,
-      "K'Sante": 46.15,
+      "KSante": 46.15,
       "Fiora": 50.0,
       "Dr. Mundo": 48.57,
       "Malphite": 60.61,
@@ -495,7 +495,7 @@
     "Pantheon": {
       "Aatrox": 50.0,
       "Ambessa": 57.14,
-      "K'Sante": 45.24,
+      "KSante": 45.24,
       "Sion": 58.06,
       "Jax": 54.84,
       "Others": 50.0
@@ -509,11 +509,11 @@
     "Quinn": {
       "Others": 50.0
     },
-    "Rek'Sai": {
+    "RekSai": {
       "Ambessa": 44.0,
       "Sion": 46.94,
       "Aatrox": 53.06,
-      "K'Sante": 57.5,
+      "KSante": 57.5,
       "Others": 50.0
     },
     "Renekton": {
@@ -522,7 +522,7 @@
       "Jax": 49.43,
       "Fiora": 55.29,
       "Irelia": 59.74,
-      "K'Sante": 42.11,
+      "KSante": 42.11,
       "Riven": 47.89,
       "Yasuo": 49.25,
       "Camille": 43.08,
@@ -549,7 +549,7 @@
       "Renekton": 52.86,
       "Aatrox": 55.07,
       "Malphite": 46.03,
-      "K'Sante": 49.18,
+      "KSante": 49.18,
       "Fiora": 52.63,
       "Darius": 44.44,
       "Jax": 60.42,
@@ -559,7 +559,7 @@
       "Gwen": 46.15,
       "Irelia": 52.78,
       "Jayce": 50.0,
-      "Cho'Gath": 54.55,
+      "ChoGath": 54.55,
       "Sett": 66.67,
       "Ornn": 53.13,
       "Singed": 64.52,
@@ -570,7 +570,7 @@
     },
     "Rumble": {
       "Ambessa": 65.71,
-      "K'Sante": 57.89,
+      "KSante": 57.89,
       "Sion": 45.1,
       "Aatrox": 52.94,
       "Jax": 64.29,
@@ -590,7 +590,7 @@
       "Darius": 44.44,
       "Shen": 54.72,
       "Renekton": 47.92,
-      "K'Sante": 52.08,
+      "KSante": 52.08,
       "Jax": 41.3,
       "Irelia": 54.35,
       "Gwen": 31.11,
@@ -604,7 +604,7 @@
       "Ambessa": 41.77,
       "Aatrox": 52.24,
       "Jax": 41.07,
-      "K'Sante": 61.82,
+      "KSante": 61.82,
       "Sett": 48.15,
       "Sion": 43.4,
       "Darius": 45.1,
@@ -624,7 +624,7 @@
       "Ambessa": 62.3,
       "Sion": 63.64,
       "Aatrox": 45.24,
-      "K'Sante": 40.54,
+      "KSante": 40.54,
       "Jax": 64.71,
       "Kayle": 42.42,
       "Darius": 48.39,
@@ -635,7 +635,7 @@
       "Aatrox": 53.46,
       "Gwen": 44.7,
       "Ambessa": 47.5,
-      "K'Sante": 51.49,
+      "KSante": 51.49,
       "Jax": 58.24,
       "Jayce": 50.0,
       "Mordekaiser": 55.7,
@@ -648,13 +648,13 @@
       "Irelia": 47.54,
       "Garen": 52.46,
       "Ornn": 55.0,
-      "Cho'Gath": 48.28,
+      "ChoGath": 48.28,
       "Malphite": 53.45,
       "Renekton": 42.59,
       "Shen": 55.56,
       "Singed": 38.46,
       "Rumble": 55.77,
-      "Rek'Sai": 50.0,
+      "RekSai": 50.0,
       "Riven": 36.96,
       "Gnar": 56.52,
       "Kled": 44.44,
@@ -684,7 +684,7 @@
       "Jax": 41.18,
       "Aatrox": 42.42,
       "Ambessa": 68.75,
-      "K'Sante": 56.25,
+      "KSante": 56.25,
       "Fiora": 60.0,
       "Others": 50.0
     },
@@ -694,7 +694,7 @@
     "Urgot": {
       "Aatrox": 62.71,
       "Ambessa": 49.06,
-      "K'Sante": 53.85,
+      "KSante": 53.85,
       "Sion": 52.5,
       "Jayce": 48.57,
       "Others": 50.0
@@ -703,7 +703,7 @@
       "Others": 50.0
     },
     "Vayne": {
-      "K'Sante": 45.45,
+      "KSante": 45.45,
       "Others": 50.0
     },
     "Vladimir": {
@@ -733,7 +733,7 @@
       "Malphite": 40.0,
       "Jayce": 53.19,
       "Sion": 58.54,
-      "K'Sante": 56.1,
+      "KSante": 56.1,
       "Yone": 35.9,
       "Jax": 50.0,
       "Garen": 47.22,
@@ -750,7 +750,7 @@
       "Sion": 52.38,
       "Ambessa": 36.51,
       "Renekton": 42.86,
-      "K'Sante": 60.42,
+      "KSante": 60.42,
       "Jayce": 47.62,
       "Fiora": 51.22,
       "Jax": 48.72,
@@ -763,9 +763,9 @@
     },
     "Yorick": {
       "Ambessa": 50.0,
-      "K'Sante": 51.22,
+      "KSante": 51.22,
       "Jayce": 52.5,
-      "Cho'Gath": 50.0,
+      "ChoGath": 50.0,
       "Others": 50.0
     }
   },
@@ -773,7 +773,7 @@
     "Amumu": {
       "Others": 50.0
     },
-    "Bel'Veth": {
+    "BelVeth": {
       "Graves": 50.65,
       "Lee Sin": 50.94,
       "Jarvan IV": 43.48,
@@ -781,7 +781,7 @@
       "Sylas": 59.09,
       "Qiyana": 53.85,
       "Rengar": 55.26,
-      "Kha'Zix": 43.24,
+      "KhaZix": 43.24,
       "Ekko": 58.06,
       "Talon": 40.0,
       "Others": 50.0
@@ -804,7 +804,7 @@
       "Qiyana": 57.53,
       "Zed": 56.94,
       "Talon": 42.86,
-      "Kha'Zix": 40.3,
+      "KhaZix": 40.3,
       "Nidalee": 52.83,
       "Rengar": 41.51,
       "Xin Zhao": 43.75,
@@ -828,7 +828,7 @@
       "Qiyana": 59.04,
       "Jarvan IV": 51.95,
       "Sylas": 49.35,
-      "Kha'Zix": 62.12,
+      "KhaZix": 62.12,
       "Xin Zhao": 67.24,
       "Talon": 38.6,
       "Hecarim": 48.21,
@@ -840,7 +840,7 @@
       "Elise": 55.56,
       "Nidalee": 52.78,
       "Wukong": 36.36,
-      "Bel'Veth": 41.94,
+      "BelVeth": 41.94,
       "Others": 50.0
     },
     "Elise": {
@@ -849,7 +849,7 @@
       "Jarvan IV": 50.91,
       "Qiyana": 45.83,
       "Sylas": 55.56,
-      "Kha'Zix": 47.5,
+      "KhaZix": 47.5,
       "Ekko": 44.44,
       "Viego": 62.86,
       "Diana": 50.0,
@@ -861,7 +861,7 @@
       "Graves": 54.0,
       "Sylas": 46.81,
       "Lee Sin": 51.28,
-      "Kha'Zix": 55.56,
+      "KhaZix": 55.56,
       "Qiyana": 51.52,
       "Viego": 50.0,
       "Others": 50.0
@@ -882,7 +882,7 @@
       "Sylas": 47.01,
       "Qiyana": 54.84,
       "Jarvan IV": 51.64,
-      "Kha'Zix": 55.87,
+      "KhaZix": 55.87,
       "Nidalee": 42.33,
       "Talon": 45.16,
       "Zed": 47.14,
@@ -894,9 +894,9 @@
       "Wukong": 48.57,
       "Lillia": 50.57,
       "Hecarim": 46.43,
-      "Rek'Sai": 48.1,
+      "RekSai": 48.1,
       "Kayn": 46.15,
-      "Bel'Veth": 49.35,
+      "BelVeth": 49.35,
       "Gwen": 52.11,
       "Master Yi": 55.71,
       "Elise": 60.61,
@@ -924,7 +924,7 @@
       "Jarvan IV": 56.6,
       "Sylas": 49.06,
       "Lee Sin": 54.0,
-      "Kha'Zix": 33.33,
+      "KhaZix": 33.33,
       "Diana": 48.57,
       "Xin Zhao": 61.29,
       "Others": 50.0
@@ -936,7 +936,7 @@
       "Sylas": 45.68,
       "Qiyana": 51.25,
       "Jarvan IV": 50.0,
-      "Kha'Zix": 52.24,
+      "KhaZix": 52.24,
       "Xin Zhao": 57.81,
       "Zed": 53.23,
       "Talon": 57.63,
@@ -947,7 +947,7 @@
       "Diana": 51.22,
       "Kindred": 44.44,
       "Shaco": 54.55,
-      "Rek'Sai": 39.39,
+      "RekSai": 39.39,
       "Karthus": 35.48,
       "Others": 50.0
     },
@@ -965,7 +965,7 @@
       "Sylas": 51.79,
       "Qiyana": 47.73,
       "Zed": 52.59,
-      "Kha'Zix": 41.35,
+      "KhaZix": 41.35,
       "Talon": 44.12,
       "Xin Zhao": 47.96,
       "Diana": 47.78,
@@ -974,14 +974,14 @@
       "Ekko": 47.44,
       "Hecarim": 50.0,
       "Nidalee": 60.87,
-      "Rek'Sai": 48.53,
+      "RekSai": 48.53,
       "Kayn": 42.42,
       "Kindred": 46.55,
       "Elise": 49.09,
       "Master Yi": 51.85,
       "Gwen": 43.4,
       "Naafiri": 49.02,
-      "Bel'Veth": 57.45,
+      "BelVeth": 57.45,
       "Shaco": 41.3,
       "Jax": 41.86,
       "Karthus": 37.84,
@@ -1028,7 +1028,7 @@
       "Jarvan IV": 57.58,
       "Qiyana": 45.45,
       "Sylas": 51.56,
-      "Kha'Zix": 47.06,
+      "KhaZix": 47.06,
       "Talon": 38.78,
       "Ekko": 48.94,
       "Diana": 50.0,
@@ -1039,7 +1039,7 @@
       "Xin Zhao": 58.06,
       "Others": 50.0
     },
-    "Kha'Zix": {
+    "KhaZix": {
       "Graves": 44.13,
       "Lee Sin": 44.6,
       "Viego": 52.85,
@@ -1061,7 +1061,7 @@
       "Kayn": 52.94,
       "Elise": 52.5,
       "Gwen": 66.67,
-      "Bel'Veth": 56.76,
+      "BelVeth": 56.76,
       "Lillia": 45.95,
       "Evelynn": 44.44,
       "Shaco": 38.71,
@@ -1072,7 +1072,7 @@
       "Lee Sin": 46.39,
       "Sylas": 64.06,
       "Viego": 55.17,
-      "Kha'Zix": 52.63,
+      "KhaZix": 52.63,
       "Xin Zhao": 48.21,
       "Jarvan IV": 53.7,
       "Qiyana": 53.19,
@@ -1092,13 +1092,13 @@
       "Xin Zhao": 47.44,
       "Nidalee": 57.58,
       "Zed": 54.43,
-      "Kha'Zix": 55.47,
+      "KhaZix": 55.47,
       "Ekko": 44.44,
       "Talon": 52.63,
       "Diana": 47.9,
       "Hecarim": 54.87,
       "Wukong": 53.92,
-      "Rek'Sai": 54.0,
+      "RekSai": 54.0,
       "Kindred": 53.61,
       "Master Yi": 48.35,
       "Shaco": 43.18,
@@ -1110,7 +1110,7 @@
       "Jax": 54.84,
       "Lillia": 55.0,
       "Zac": 47.46,
-      "Bel'Veth": 49.06,
+      "BelVeth": 49.06,
       "Gwen": 46.0,
       "Briar": 55.81,
       "Nocturne": 45.24,
@@ -1129,14 +1129,14 @@
       "Graves": 49.43,
       "Lee Sin": 45.0,
       "Viego": 38.46,
-      "Kha'Zix": 55.56,
+      "KhaZix": 55.56,
       "Jarvan IV": 51.52,
       "Sylas": 46.88,
       "Others": 50.0
     },
     "Master Yi": {
       "Lee Sin": 51.65,
-      "Kha'Zix": 52.78,
+      "KhaZix": 52.78,
       "Viego": 54.93,
       "Graves": 44.29,
       "Sylas": 44.64,
@@ -1155,7 +1155,7 @@
       "Viego": 53.26,
       "Jarvan IV": 57.32,
       "Sylas": 40.91,
-      "Kha'Zix": 48.08,
+      "KhaZix": 48.08,
       "Qiyana": 50.0,
       "Zed": 50.0,
       "Talon": 41.86,
@@ -1173,7 +1173,7 @@
       "Lee Sin": 41.46,
       "Graves": 56.67,
       "Qiyana": 45.0,
-      "Kha'Zix": 51.92,
+      "KhaZix": 51.92,
       "Jarvan IV": 50.0,
       "Viego": 40.43,
       "Zed": 57.45,
@@ -1192,14 +1192,14 @@
       "Jarvan IV": 39.13,
       "Zed": 44.12,
       "Talon": 50.79,
-      "Kha'Zix": 57.14,
+      "KhaZix": 57.14,
       "Diana": 45.45,
       "Hecarim": 54.35,
       "Kindred": 46.67,
       "Ekko": 45.95,
       "Shaco": 45.45,
       "Rengar": 51.52,
-      "Rek'Sai": 56.25,
+      "RekSai": 56.25,
       "Karthus": 53.33,
       "Wukong": 46.67,
       "Others": 50.0
@@ -1240,7 +1240,7 @@
       "Sylas": 46.73,
       "Viego": 51.18,
       "Jarvan IV": 51.56,
-      "Kha'Zix": 43.97,
+      "KhaZix": 43.97,
       "Zed": 53.51,
       "Talon": 47.17,
       "Nidalee": 41.94,
@@ -1251,7 +1251,7 @@
       "Rengar": 46.48,
       "Kayn": 54.55,
       "Naafiri": 55.0,
-      "Rek'Sai": 42.11,
+      "RekSai": 42.11,
       "Shaco": 49.06,
       "Wukong": 49.02,
       "Elise": 54.17,
@@ -1259,7 +1259,7 @@
       "Kindred": 46.81,
       "Karthus": 52.17,
       "Nocturne": 42.86,
-      "Bel'Veth": 46.15,
+      "BelVeth": 46.15,
       "Zac": 51.35,
       "Evelynn": 48.48,
       "Nunu & Willump": 51.61,
@@ -1269,7 +1269,7 @@
     "Rammus": {
       "Others": 50.0
     },
-    "Rek'Sai": {
+    "RekSai": {
       "Lee Sin": 46.0,
       "Graves": 51.9,
       "Jarvan IV": 53.03,
@@ -1292,7 +1292,7 @@
       "Qiyana": 53.33,
       "Viego": 53.42,
       "Zed": 60.0,
-      "Kha'Zix": 67.86,
+      "KhaZix": 67.86,
       "Ekko": 48.21,
       "Talon": 51.85,
       "Diana": 59.26,
@@ -1300,13 +1300,13 @@
       "Hecarim": 60.87,
       "Kayn": 56.82,
       "Jax": 52.38,
-      "Bel'Veth": 44.74,
+      "BelVeth": 44.74,
       "Wukong": 50.0,
       "Master Yi": 44.12,
       "Nidalee": 48.48,
       "Volibear": 50.0,
       "Naafiri": 56.25,
-      "Rek'Sai": 45.16,
+      "RekSai": 45.16,
       "Elise": 40.0,
       "Others": 50.0
     },
@@ -1326,7 +1326,7 @@
       "Zed": 64.71,
       "Nidalee": 54.55,
       "Hecarim": 45.45,
-      "Kha'Zix": 61.29,
+      "KhaZix": 61.29,
       "Others": 50.0
     },
     "Shyvana": {
@@ -1342,7 +1342,7 @@
       "Qiyana": 53.27,
       "Jarvan IV": 47.9,
       "Xin Zhao": 51.38,
-      "Kha'Zix": 42.59,
+      "KhaZix": 42.59,
       "Diana": 49.07,
       "Zed": 47.66,
       "Nidalee": 46.24,
@@ -1357,13 +1357,13 @@
       "Master Yi": 55.36,
       "Gwen": 50.94,
       "Nocturne": 40.0,
-      "Rek'Sai": 36.0,
+      "RekSai": 36.0,
       "Evelynn": 53.19,
       "Naafiri": 40.43,
       "Jax": 60.87,
       "Shaco": 52.17,
       "Elise": 44.44,
-      "Bel'Veth": 40.91,
+      "BelVeth": 40.91,
       "Nunu & Willump": 52.5,
       "Zac": 37.5,
       "Pantheon": 47.37,
@@ -1382,7 +1382,7 @@
       "Qiyana": 54.13,
       "Jarvan IV": 55.88,
       "Sylas": 53.01,
-      "Kha'Zix": 49.35,
+      "KhaZix": 49.35,
       "Zed": 50.0,
       "Diana": 57.14,
       "Nidalee": 49.21,
@@ -1391,14 +1391,14 @@
       "Ekko": 61.4,
       "Rengar": 48.15,
       "Kayn": 58.82,
-      "Rek'Sai": 63.04,
+      "RekSai": 63.04,
       "Wukong": 58.14,
       "Master Yi": 44.74,
       "Shaco": 55.26,
       "Nunu & Willump": 54.55,
       "Elise": 46.88,
       "Naafiri": 59.38,
-      "Bel'Veth": 60.0,
+      "BelVeth": 60.0,
       "Others": 50.0
     },
     "Trundle": {
@@ -1419,7 +1419,7 @@
       "Jarvan IV": 45.45,
       "Sylas": 45.45,
       "Talon": 54.76,
-      "Kha'Zix": 48.39,
+      "KhaZix": 48.39,
       "Ekko": 46.67,
       "Others": 50.0
     },
@@ -1430,7 +1430,7 @@
       "Jarvan IV": 50.0,
       "Qiyana": 48.82,
       "Zed": 58.59,
-      "Kha'Zix": 47.01,
+      "KhaZix": 47.01,
       "Xin Zhao": 55.65,
       "Talon": 51.85,
       "Diana": 58.49,
@@ -1445,9 +1445,9 @@
       "Gwen": 50.77,
       "Kindred": 44.83,
       "Shaco": 45.45,
-      "Rek'Sai": 46.0,
+      "RekSai": 46.0,
       "Naafiri": 59.57,
-      "Bel'Veth": 47.73,
+      "BelVeth": 47.73,
       "Zac": 48.84,
       "Karthus": 45.24,
       "Pantheon": 41.46,
@@ -1483,7 +1483,7 @@
       "Qiyana": 50.0,
       "Nidalee": 47.56,
       "Hecarim": 42.19,
-      "Kha'Zix": 42.37,
+      "KhaZix": 42.37,
       "Ekko": 32.76,
       "Talon": 57.14,
       "Kindred": 51.79,
@@ -1492,7 +1492,7 @@
       "Diana": 56.25,
       "Rengar": 58.7,
       "Wukong": 41.03,
-      "Rek'Sai": 47.37,
+      "RekSai": 47.37,
       "Master Yi": 28.57,
       "Shaco": 48.57,
       "Trundle": 54.55,
@@ -1516,7 +1516,7 @@
       "Qiyana": 46.49,
       "Jarvan IV": 48.21,
       "Sylas": 52.34,
-      "Kha'Zix": 54.76,
+      "KhaZix": 54.76,
       "Talon": 49.33,
       "Diana": 43.06,
       "Nidalee": 55.22,
@@ -1528,7 +1528,7 @@
       "Wukong": 51.16,
       "Master Yi": 46.34,
       "Kindred": 41.03,
-      "Rek'Sai": 40.54,
+      "RekSai": 40.54,
       "Karthus": 37.14,
       "Kayn": 51.43,
       "Shaco": 35.29,
@@ -1677,7 +1677,7 @@
       "Syndra": 58.06,
       "Others": 50.0
     },
-    "Cho'Gath": {
+    "ChoGath": {
       "Others": 50.0
     },
     "Corki": {
@@ -2182,7 +2182,7 @@
       "Ahri": 51.52,
       "Others": 50.0
     },
-    "Vel'Koz": {
+    "VelKoz": {
       "Others": 50.0
     },
     "Vex": {
@@ -2360,7 +2360,7 @@
   },
   "adc": {
     "Aphelios": {
-      "Kai'Sa": 50.96,
+      "KaiSa": 50.96,
       "Jinx": 53.82,
       "Yunara": 51.26,
       "Caitlyn": 48.02,
@@ -2381,11 +2381,11 @@
       "Ziggs": 32.43,
       "Vayne": 54.55,
       "Samira": 53.13,
-      "Kog'Maw": 51.61,
+      "KogMaw": 51.61,
       "Others": 50.0
     },
     "Ashe": {
-      "Kai'Sa": 51.94,
+      "KaiSa": 51.94,
       "Yunara": 53.0,
       "Jhin": 52.22,
       "Caitlyn": 50.0,
@@ -2406,13 +2406,13 @@
       "Zeri": 42.0,
       "Samira": 51.28,
       "Vayne": 52.63,
-      "Kog'Maw": 48.65,
+      "KogMaw": 48.65,
       "Mel": 44.12,
       "Kalista": 63.64,
       "Others": 50.0
     },
     "Caitlyn": {
-      "Kai'Sa": 47.66,
+      "KaiSa": 47.66,
       "Ezreal": 51.81,
       "Jhin": 49.52,
       "Yunara": 57.92,
@@ -2430,7 +2430,7 @@
       "Miss Fortune": 54.74,
       "Varus": 58.14,
       "Vayne": 49.33,
-      "Kog'Maw": 49.18,
+      "KogMaw": 49.18,
       "Xayah": 54.72,
       "Samira": 48.0,
       "Zeri": 54.35,
@@ -2442,7 +2442,7 @@
       "Others": 50.0
     },
     "Corki": {
-      "Kai'Sa": 45.54,
+      "KaiSa": 45.54,
       "Yunara": 53.0,
       "Ezreal": 53.68,
       "Lucian": 53.38,
@@ -2460,7 +2460,7 @@
       "Others": 50.0
     },
     "Draven": {
-      "Kai'Sa": 51.81,
+      "KaiSa": 51.81,
       "Caitlyn": 48.19,
       "Ezreal": 50.64,
       "Jinx": 46.61,
@@ -2476,12 +2476,12 @@
       "Twitch": 50.0,
       "Ziggs": 47.73,
       "Sivir": 51.28,
-      "Kog'Maw": 37.84,
+      "KogMaw": 37.84,
       "Xayah": 54.55,
       "Others": 50.0
     },
     "Ezreal": {
-      "Kai'Sa": 48.07,
+      "KaiSa": 48.07,
       "Yunara": 50.44,
       "Caitlyn": 48.19,
       "Jhin": 50.7,
@@ -2504,18 +2504,18 @@
       "Samira": 37.93,
       "Mel": 49.02,
       "Kalista": 38.0,
-      "Vel'Koz": 41.3,
-      "Kog'Maw": 43.9,
+      "VelKoz": 41.3,
+      "KogMaw": 43.9,
       "Others": 50.0
     },
     "Hwei": {
-      "Kai'Sa": 46.55,
+      "KaiSa": 46.55,
       "Yunara": 59.57,
       "Caitlyn": 58.82,
       "Others": 50.0
     },
     "Jhin": {
-      "Kai'Sa": 44.2,
+      "KaiSa": 44.2,
       "Caitlyn": 50.48,
       "Ezreal": 49.3,
       "Ashe": 47.78,
@@ -2536,12 +2536,12 @@
       "Twitch": 48.28,
       "Xayah": 46.55,
       "Samira": 46.34,
-      "Kog'Maw": 44.74,
-      "Vel'Koz": 32.26,
+      "KogMaw": 44.74,
+      "VelKoz": 32.26,
       "Others": 50.0
     },
     "Jinx": {
-      "Kai'Sa": 53.21,
+      "KaiSa": 53.21,
       "Yunara": 55.96,
       "Caitlyn": 52.35,
       "Aphelios": 46.18,
@@ -2562,12 +2562,12 @@
       "Varus": 51.72,
       "Vayne": 49.12,
       "Samira": 56.52,
-      "Kog'Maw": 40.91,
+      "KogMaw": 40.91,
       "Mel": 52.5,
       "Kalista": 60.0,
       "Others": 50.0
     },
-    "Kai'Sa": {
+    "KaiSa": {
       "Ezreal": 51.93,
       "Yunara": 52.44,
       "Lucian": 50.35,
@@ -2590,20 +2590,20 @@
       "Ziggs": 47.97,
       "Samira": 46.04,
       "Kalista": 45.26,
-      "Kog'Maw": 51.85,
+      "KogMaw": 51.85,
       "Mel": 73.42,
       "Nilah": 36.36,
       "Swain": 47.54,
       "Yasuo": 49.18,
       "Hwei": 53.45,
       "Seraphine": 50.0,
-      "Vel'Koz": 47.83,
+      "VelKoz": 47.83,
       "Senna": 56.82,
       "Veigar": 52.94,
       "Others": 50.0
     },
     "Kalista": {
-      "Kai'Sa": 54.74,
+      "KaiSa": 54.74,
       "Ezreal": 62.0,
       "Yunara": 55.81,
       "Ashe": 36.36,
@@ -2614,8 +2614,8 @@
     "Karthus": {
       "Others": 50.0
     },
-    "Kog'Maw": {
-      "Kai'Sa": 48.15,
+    "KogMaw": {
+      "KaiSa": 48.15,
       "Caitlyn": 50.82,
       "Yunara": 54.55,
       "Jinx": 59.09,
@@ -2628,7 +2628,7 @@
       "Others": 50.0
     },
     "Lucian": {
-      "Kai'Sa": 49.65,
+      "KaiSa": 49.65,
       "Ezreal": 50.57,
       "Yunara": 51.8,
       "Caitlyn": 49.61,
@@ -2650,14 +2650,14 @@
       "Varus": 50.0,
       "Vayne": 50.0,
       "Mel": 53.49,
-      "Kog'Maw": 41.18,
+      "KogMaw": 41.18,
       "Others": 50.0
     },
     "Lux": {
       "Others": 50.0
     },
     "Mel": {
-      "Kai'Sa": 26.58,
+      "KaiSa": 26.58,
       "Yunara": 60.66,
       "Ezreal": 50.98,
       "Caitlyn": 64.44,
@@ -2667,7 +2667,7 @@
       "Others": 50.0
     },
     "Miss Fortune": {
-      "Kai'Sa": 53.81,
+      "KaiSa": 53.81,
       "Ezreal": 51.49,
       "Caitlyn": 45.26,
       "Ashe": 45.56,
@@ -2684,12 +2684,12 @@
       "Others": 50.0
     },
     "Nilah": {
-      "Kai'Sa": 62.82,
+      "KaiSa": 62.82,
       "Yunara": 48.39,
       "Others": 50.0
     },
     "Samira": {
-      "Kai'Sa": 53.96,
+      "KaiSa": 53.96,
       "Yunara": 47.95,
       "Lucian": 53.33,
       "Ezreal": 62.07,
@@ -2704,19 +2704,19 @@
       "Others": 50.0
     },
     "Senna": {
-      "Kai'Sa": 43.18,
+      "KaiSa": 43.18,
       "Caitlyn": 50.0,
       "Yunara": 54.05,
       "Smolder": 75.0,
       "Others": 50.0
     },
     "Seraphine": {
-      "Kai'Sa": 48.98,
+      "KaiSa": 48.98,
       "Yunara": 50.0,
       "Others": 50.0
     },
     "Sivir": {
-      "Kai'Sa": 44.53,
+      "KaiSa": 44.53,
       "Ezreal": 52.87,
       "Caitlyn": 50.0,
       "Yunara": 47.55,
@@ -2735,7 +2735,7 @@
       "Others": 50.0
     },
     "Smolder": {
-      "Kai'Sa": 52.16,
+      "KaiSa": 52.16,
       "Yunara": 50.0,
       "Ezreal": 54.19,
       "Jinx": 49.66,
@@ -2759,12 +2759,12 @@
       "Others": 50.0
     },
     "Swain": {
-      "Kai'Sa": 52.46,
+      "KaiSa": 52.46,
       "Yunara": 73.68,
       "Others": 50.0
     },
     "Tristana": {
-      "Kai'Sa": 50.57,
+      "KaiSa": 50.57,
       "Yunara": 56.35,
       "Ezreal": 57.72,
       "Jinx": 50.0,
@@ -2783,7 +2783,7 @@
       "Others": 50.0
     },
     "Twitch": {
-      "Kai'Sa": 44.33,
+      "KaiSa": 44.33,
       "Yunara": 46.46,
       "Caitlyn": 50.52,
       "Jinx": 55.29,
@@ -2801,7 +2801,7 @@
       "Others": 50.0
     },
     "Varus": {
-      "Kai'Sa": 53.71,
+      "KaiSa": 53.71,
       "Yunara": 39.13,
       "Caitlyn": 41.86,
       "Ashe": 40.96,
@@ -2813,7 +2813,7 @@
       "Others": 50.0
     },
     "Vayne": {
-      "Kai'Sa": 50.0,
+      "KaiSa": 50.0,
       "Yunara": 49.12,
       "Ezreal": 49.47,
       "Caitlyn": 50.0,
@@ -2827,18 +2827,18 @@
       "Others": 50.0
     },
     "Veigar": {
-      "Kai'Sa": 47.06,
+      "KaiSa": 47.06,
       "Others": 50.0
     },
-    "Vel'Koz": {
+    "VelKoz": {
       "Ezreal": 58.7,
-      "Kai'Sa": 52.17,
+      "KaiSa": 52.17,
       "Yunara": 54.05,
       "Jhin": 67.74,
       "Others": 50.0
     },
     "Xayah": {
-      "Kai'Sa": 51.9,
+      "KaiSa": 51.9,
       "Yunara": 52.54,
       "Lucian": 48.0,
       "Jinx": 55.56,
@@ -2855,13 +2855,13 @@
       "Others": 50.0
     },
     "Yasuo": {
-      "Kai'Sa": 50.0,
+      "KaiSa": 50.0,
       "Yunara": 51.28,
       "Caitlyn": 56.67,
       "Others": 50.0
     },
     "Yunara": {
-      "Kai'Sa": 47.56,
+      "KaiSa": 47.56,
       "Ezreal": 49.56,
       "Jinx": 44.04,
       "Caitlyn": 42.08,
@@ -2883,19 +2883,19 @@
       "Ziggs": 38.89,
       "Samira": 52.05,
       "Mel": 39.34,
-      "Kog'Maw": 45.45,
+      "KogMaw": 45.45,
       "Hwei": 39.13,
       "Kalista": 44.19,
       "Yasuo": 48.72,
       "Swain": 26.32,
       "Seraphine": 51.35,
-      "Vel'Koz": 45.95,
+      "VelKoz": 45.95,
       "Senna": 45.95,
       "Nilah": 50.0,
       "Others": 50.0
     },
     "Zeri": {
-      "Kai'Sa": 52.6,
+      "KaiSa": 52.6,
       "Yunara": 50.0,
       "Jhin": 45.45,
       "Ezreal": 45.31,
@@ -2908,7 +2908,7 @@
       "Others": 50.0
     },
     "Ziggs": {
-      "Kai'Sa": 51.66,
+      "KaiSa": 51.66,
       "Caitlyn": 54.64,
       "Yunara": 61.96,
       "Ezreal": 56.18,
@@ -2984,7 +2984,7 @@
       "Taric": 51.28,
       "Lux": 46.15,
       "Pantheon": 48.65,
-      "Vel'Koz": 61.11,
+      "VelKoz": 61.11,
       "Zoe": 51.61,
       "Brand": 43.33,
       "Others": 50.0
@@ -3116,7 +3116,7 @@
       "Morgana": 55.93,
       "Poppy": 50.85,
       "Lux": 70.18,
-      "Vel'Koz": 54.55,
+      "VelKoz": 54.55,
       "Pantheon": 58.54,
       "Zyra": 63.16,
       "Taric": 60.0,
@@ -3179,7 +3179,7 @@
       "Poppy": 50.0,
       "Pantheon": 64.86,
       "Zyra": 62.16,
-      "Vel'Koz": 30.56,
+      "VelKoz": 30.56,
       "Taric": 54.29,
       "Renata Glasc": 42.42,
       "Morgana": 63.33,
@@ -3227,7 +3227,7 @@
       "Yuumi": 56.6,
       "Zilean": 44.0,
       "Seraphine": 55.1,
-      "Vel'Koz": 45.71,
+      "VelKoz": 45.71,
       "Elise": 61.76,
       "Poppy": 58.82,
       "Morgana": 61.29,
@@ -3272,7 +3272,7 @@
       "Zilean": 59.26,
       "Seraphine": 51.32,
       "Yuumi": 53.85,
-      "Vel'Koz": 37.25,
+      "VelKoz": 37.25,
       "Lux": 50.0,
       "Poppy": 44.9,
       "Elise": 38.3,
@@ -3311,7 +3311,7 @@
       "Elise": 64.58,
       "Zilean": 45.24,
       "Lux": 51.28,
-      "Vel'Koz": 50.0,
+      "VelKoz": 50.0,
       "Pantheon": 57.58,
       "Others": 50.0
     },
@@ -3583,13 +3583,13 @@
       "Seraphine": 66.67,
       "Taric": 50.0,
       "Zyra": 43.59,
-      "Vel'Koz": 56.76,
+      "VelKoz": 56.76,
       "Swain": 51.52,
       "Mel": 60.61,
       "Lux": 56.67,
       "Others": 50.0
     },
-    "Vel'Koz": {
+    "VelKoz": {
       "Karma": 46.43,
       "Nami": 61.54,
       "Nautilus": 52.5,
