@@ -294,7 +294,7 @@ def main():
         }
         rows.append(row)
 
-        key = m["f1"] or 0.0
+        key = (m["roc_auc"] if m["roc_auc"] is not None else m["f1"]) or 0.0
         if best_key is None or key > best_key:
             best_key = key
             best_metrics = row

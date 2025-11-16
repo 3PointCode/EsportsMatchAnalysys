@@ -8,17 +8,10 @@
 #
 # Usage example:
 #   python tuneCAT.py
-#     --data data/lec_2023-2025_games.csv
-#     --team-stats-overall data/team_stats_overall.csv
-#     --team-stats-lastN data/team_stats_lastN.csv
-#     --cutoff-date 2025-03-02 2025-05-25
-#     --include-team-names --include-diffs
-#     --iterations 500 1000 1500 2000
-#     --early-stopping-rounds 100 200 300
-#     --depth 5 8 11 13
-#     --learning-rate 0.03, 0.04 0.05
-#     --l2-leaf-reg 3.0 5.0 8.0
-#     --random-strength 1.0
+#     --data data/lec_2023-2025_games.csv --team-stats-overall summer/team_stats_overall.csv --team-stats-lastN summer/team_stats_lastN.csv
+#     --cutoff-date 2025-03-02 2025-06-09 --include-team-names --include-diffs --iterations 500 1000 1500 2000
+#     --early-stopping-rounds 100 200 300 --depth 5 8 11 13
+#     --learning-rate 0.03, 0.04 0.05 --l2-leaf-reg 3.0 5.0 8.0 --random-strength 1.0
 #     --save-dir artifacts_cat_tune --save-best-model
 
 import argparse
@@ -274,7 +267,7 @@ def main():
         }
         rows.append(row)
 
-        key = m["f1"] or 0.0
+        key = (m["roc_auc"] if m["roc_auc"] is not None else m["f1"]) or 0.0
         if best_key is None or key > best_key:
             best_key = key
             best_metrics = row

@@ -5,11 +5,11 @@
 #  - Zapisuje wyniki do CSV (leaderboard) i opcjonalnie najlepszy model + metadane
 #
 # Usage example:
-#   python tune_lgbm.py
+#   python tuneLGBM.py
 #     --data data/lec_2023-2025_games.csv
-#     --team-stats-overall data/team_stats_overall.csv
-#     --team-stats-lastN data/team_stats_lastN.csv
-#     --cutoff-date 2025-03-02 2025-05-25
+#     --team-stats-overall summer/team_stats_overall.csv
+#     --team-stats-lastN summer/team_stats_lastN.csv
+#     --cutoff-date 2025-03-02 2025-06-09
 #     --include-team-names --include-diffs
 #     --num-boost-round 500 1000 1500 2000
 #     --early-stopping-rounds 100 200 300
@@ -274,7 +274,7 @@ def main():
         }
         rows.append(row)
 
-        key = (m["f1"] if m["f1"] is not None else m["f1"]) or 0.0
+        key = (m["roc_auc"] if m["roc_auc"] is not None else m["f1"]) or 0.0
         if best_key is None or key > best_key:
             best_key = key
             best_metrics = row
