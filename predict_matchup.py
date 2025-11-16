@@ -26,9 +26,9 @@
 
 import argparse
 import json
-import math
 import os
-from typing import Dict, List, Tuple
+import math
+from typing import Dict, List
 
 import pandas as pd
 from catboost import CatBoostClassifier, Pool
@@ -43,18 +43,19 @@ def parse_args():
     p.add_argument("--counters", required=True, help="Path to counters_data.json")
 
     # Single match
-    p.add_argument("--team-blue")
-    p.add_argument("--team-red")
-    p.add_argument("--top-blue")
-    p.add_argument("--jgl-blue")
-    p.add_argument("--mid-blue")
-    p.add_argument("--adc-blue")
-    p.add_argument("--sup-blue")
-    p.add_argument("--top-red")
-    p.add_argument("--jgl-red")
-    p.add_argument("--mid-red")
-    p.add_argument("--adc-red")
-    p.add_argument("--sup-red")
+    p.add_argument("--team-blue", nargs="+")
+    p.add_argument("--team-red", nargs="+")
+    p.add_argument("--top-blue", nargs="+")
+    p.add_argument("--jgl-blue", nargs="+")
+    p.add_argument("--mid-blue", nargs="+")
+    p.add_argument("--adc-blue", nargs="+")
+    p.add_argument("--sup-blue", nargs="+")
+    p.add_argument("--top-red", nargs="+")
+    p.add_argument("--jgl-red", nargs="+")
+    p.add_argument("--mid-red", nargs="+")
+    p.add_argument("--adc-red", nargs="+")
+    p.add_argument("--sup-red", nargs="+")
+
 
     # Batch mode
     p.add_argument("--in", dest="in_csv", default=None)
@@ -65,8 +66,13 @@ def parse_args():
     p.add_argument("--team-stats-lastN", default=None)
     p.add_argument("--team-elo", default=None)
 
-    # Blend strength
-    p.add_argument("--beta", type=float, default=1.5, help="Weight of matchup score in logit space")
+    # Blend strength – zgodne z evaluate_matchupsSummer
+    p.add_argument(
+        "--matchup-weight",
+        type=float,
+        default=0.2,
+        help="How strongly matchups sway final probability (same semantics as in evaluate_matchupsSummer)",
+    )
 
     return p.parse_args()
 
@@ -96,39 +102,45 @@ def ensure_required_cols(df: pd.DataFrame, cols: List[str], name: str):
     if missing:
         raise SystemExit(f"{name} is missing columns: {missing}")
 
+def _join_arg(val):
+    """Join nargs='+' arguments into a single string, leave others as-is."""
+    if isinstance(val, list):
+        return " ".join(str(x) for x in val)
+    return val
+
 
 def single_or_batch_df(args) -> pd.DataFrame:
     if args.in_csv:
         df = pd.read_csv(args.in_csv)
         req = [
-            "team_blue","team_red",
-            "top_blue","jgl_blue","mid_blue","adc_blue","sup_blue",
-            "top_red","jgl_red","mid_red","adc_red","sup_red",
+            "team_blue", "team_red",
+            "top_blue", "jgl_blue", "mid_blue", "adc_blue", "sup_blue",
+            "top_red", "jgl_red", "mid_red", "adc_red", "sup_red",
         ]
         ensure_required_cols(df, req, "--in CSV")
         return df[req].astype(str)
 
     # single match mode
-    fields = [
+    raw_fields = [
         args.team_blue, args.team_red,
         args.top_blue, args.jgl_blue, args.mid_blue, args.adc_blue, args.sup_blue,
         args.top_red, args.jgl_red, args.mid_red, args.adc_red, args.sup_red,
     ]
+    # join lists such as ["Lee", "Sin"] -> "Lee Sin"
+    fields = [_join_arg(v) for v in raw_fields]
+
     if any(v is None for v in fields):
         raise SystemExit("Provide either --in CSV or all single-match flags for teams and champions.")
 
-    df = pd.DataFrame([
-        [
-            args.team_blue, args.team_red,
-            args.top_blue, args.jgl_blue, args.mid_blue, args.adc_blue, args.sup_blue,
-            args.top_red, args.jgl_red, args.mid_red, args.adc_red, args.sup_red,
-        ]
-    ], columns=[
-        "team_blue","team_red",
-        "top_blue","jgl_blue","mid_blue","adc_blue","sup_blue",
-        "top_red","jgl_red","mid_red","adc_red","sup_red",
+    df = pd.DataFrame([fields], columns=[
+        "team_blue", "team_red",
+        "top_blue", "jgl_blue", "mid_blue", "adc_blue", "sup_blue",
+        "top_red", "jgl_red", "mid_red", "adc_red", "sup_red",
     ])
+
     return df
+
+
 
 def join_team_profiles(df_pairs: pd.DataFrame,
                        overall: pd.DataFrame,
@@ -137,13 +149,21 @@ def join_team_profiles(df_pairs: pd.DataFrame,
                        include_team_names: bool,
                        include_diffs: bool,
                        feature_names_from_training: List[str]) -> pd.DataFrame:
-    ov_b = overall.rename(columns={c: f"ov_{c}_blue" for c in overall.columns if c != "team"}).rename(columns={"team": "team_blue"})
-    ov_r = overall.rename(columns={c: f"ov_{c}_red" for c in overall.columns if c != "team"}).rename(columns={"team": "team_red"})
+    ov_b = overall.rename(columns={c: f"ov_{c}_blue" for c in overall.columns if c != "team"}).rename(
+        columns={"team": "team_blue"}
+    )
+    ov_r = overall.rename(columns={c: f"ov_{c}_red" for c in overall.columns if c != "team"}).rename(
+        columns={"team": "team_red"}
+    )
     X = df_pairs.merge(ov_b, on="team_blue", how="left").merge(ov_r, on="team_red", how="left")
 
     if lastN is not None:
-        ln_b = lastN.rename(columns={c: f"ln_{c}_blue" for c in lastN.columns if c != "team"}).rename(columns={"team": "team_blue"})
-        ln_r = lastN.rename(columns={c: f"ln_{c}_red" for c in lastN.columns if c != "team"}).rename(columns={"team": "team_red"})
+        ln_b = lastN.rename(columns={c: f"ln_{c}_blue" for c in lastN.columns if c != "team"}).rename(
+            columns={"team": "team_blue"}
+        )
+        ln_r = lastN.rename(columns={c: f"ln_{c}_red" for c in lastN.columns if c != "team"}).rename(
+            columns={"team": "team_red"}
+        )
         X = X.merge(ln_b, on="team_blue", how="left").merge(ln_r, on="team_red", how="left")
 
     if elo is not None:
@@ -166,60 +186,58 @@ def join_team_profiles(df_pairs: pd.DataFrame,
     if missing:
         raise SystemExit("Cannot build feature vector — missing columns: " + ", ".join(missing))
     X = X[feature_names_from_training]
-
     return X
 
-def lookup_blue_win_pct(counters: Dict, role: str, blue_champ: str, red_champ: str) -> float:
-    # Try exact lookups with fallbacks to 50.0
-    role_map = counters.get(role, {})
-    champ_map = role_map.get(blue_champ, {})
-    if red_champ in champ_map:
-        v = champ_map[red_champ]
-        if isinstance(v, (int, float)):
-            return float(v)
-    # Fallbacks: try title-cased keys or 'Others'
-    champ_map_ci = None
-    for k, v in role_map.items():
-        if k.lower() == (blue_champ or "").lower():
-            champ_map_ci = v
-            break
-    if champ_map_ci and isinstance(champ_map_ci, dict):
-        for k, v in champ_map_ci.items():
-            if k.lower() == (red_champ or "").lower() and isinstance(v, (int, float)):
-                return float(v)
-            if k == "Others" and isinstance(v, (int, float)):
-                others = float(v)
-                # prefer Others if nothing else
-                pass
-    # As a general safe default
-    return 50.0
 
-
-def compute_matchup_score(row: pd.Series, counters: Dict) -> Tuple[float, float, float]:
-    blue_sum = 0.0
-    red_sum = 0.0
+def compute_matchup_blue_prob(row: pd.Series, counters: Dict) -> float:
+    """
+    Policz średni winrate Blue z matchupów (0..1),
+    tak jak w evaluate_matchupsSummer.py.
+    """
+    probs = []
     for role in ROLES:
-        b = row[f"{role}_blue"]
-        r = row[f"{role}_red"]
-        blue_pct = lookup_blue_win_pct(counters, role if role != "jungle" else "jungle", str(b), str(r))
-        blue_sum += blue_pct
-        red_sum += (100.0 - blue_pct)
-    # Normalize to [-1, 1]
-    diff = blue_sum - red_sum  # in [-500, 500]
-    score = diff / 500.0       # in [-1, 1]
-    return blue_sum, red_sum, score
+        role_key = "jungle" if role == "jgl" else role
+        role_data = counters.get(role_key)
+        if not role_data:
+            continue
 
-def sigmoid(x: float) -> float:
-    return 1.0 / (1.0 + math.exp(-x))
+        col_b = f"{role}_blue"
+        col_r = f"{role}_red"
+        if col_b not in row or col_r not in row:
+            continue
 
-def logit(p: float) -> float:
-    eps = 1e-6
-    p = min(max(p, eps), 1.0 - eps)
-    return math.log(p / (1.0 - p))
+        champ_b = str(row[col_b])
+        champ_r = str(row[col_r])
+
+        win_table = role_data.get(champ_b)
+        if not win_table or not isinstance(win_table, dict):
+            continue
+
+        p_raw = win_table.get(champ_r)
+        if p_raw is None:
+            continue
+
+        p = float(p_raw)
+        if p > 1.0:
+            p /= 100.0
+
+        if 0.0 <= p <= 1.0:
+            probs.append(p)
+
+    if not probs:
+        return 0.5
+    return float(sum(probs) / len(probs))
 
 
-def blend_probability(p_model: float, matchup_score: float, beta: float) -> float:
-    return sigmoid(logit(p_model) + beta * matchup_score)
+def blend_probability_linear(p_model: float, p_matchup: float, w: float) -> float:
+    """
+    Ten sam wzór co w evaluate_matchupsSummer:
+    p_final = p_model + w * (p_matchup - 0.5), z clipem.
+    """
+    p_final = p_model + w * (p_matchup - 0.5)
+    p_final = max(0.01, min(0.99, p_final))
+    return p_final
+
 
 def main():
     args = parse_args()
@@ -249,7 +267,7 @@ def main():
 
     # Build model feature matrix (identical to training)
     X = join_team_profiles(
-        df[["team_blue","team_red"]].copy(),
+        df[["team_blue", "team_red"]].copy(),
         overall=overall,
         lastN=lastN,
         elo=elo,
@@ -267,27 +285,23 @@ def main():
     pool = Pool(X, cat_features=cat_indices if cat_indices else None)
     proba = model.predict_proba(pool)  # [:, 1] = P(blue wins)
 
-    # Compute matchup sums and blended probability
-    blue_sums = []
-    red_sums = []
-    scores = []
+    # Compute matchup-based probability and final blend
+    matchup_probs = []
     p_final = []
 
     for i, row in df.iterrows():
-        bsum, rsum, score = compute_matchup_score(row, counters)
-        blue_sums.append(bsum)
-        red_sums.append(rsum)
-        scores.append(score)
-        p_final.append(blend_probability(float(proba[i, 1]), score, args.beta))
+        p_match = compute_matchup_blue_prob(row, counters)
+        matchup_probs.append(p_match)
+        p_final.append(blend_probability_linear(float(proba[i, 1]), p_match, args.matchup_weight))
 
     out = df.copy()
     out["proba_blue_win_model"] = proba[:, 1]
-    out["matchup_blue_sum"] = blue_sums
-    out["matchup_red_sum"] = red_sums
-    out["matchup_score"] = scores  # in [-1, 1]
+    out["proba_blue_win_matchups"] = matchup_probs
     out["proba_blue_win_final"] = p_final
     out["proba_red_win_final"] = 1.0 - out["proba_blue_win_final"]
-    out["predicted_winner"] = out.apply(lambda r: r.team_blue if r.proba_blue_win_final >= 0.5 else r.team_red, axis=1)
+    out["predicted_winner"] = out.apply(
+        lambda r: r.team_blue if r.proba_blue_win_final >= 0.5 else r.team_red, axis=1
+    )
 
     if args.in_csv:
         out.to_csv(args.out_csv, index=False)
@@ -299,12 +313,11 @@ def main():
         print(f"team_red : {r.team_red}")
         for role in ROLES:
             print(f"{role:>6}: {r[f'{role}_blue']} vs {r[f'{role}_red']}")
-        print(f"model_proba_blue_win : {r.proba_blue_win_model:.4f}")
-        print(f"matchup_blue_sum     : {r.matchup_blue_sum:.1f}  (red_sum={r.matchup_red_sum:.1f})")
-        print(f"matchup_score (−1..1): {r.matchup_score:.3f}")
-        print(f"FINAL proba_blue_win : {r.proba_blue_win_final:.4f}")
-        print(f"FINAL proba_red_win  : {r.proba_red_win_final:.4f}")
-        print(f"predicted_winner     : {r.predicted_winner}")
+        print(f"model_proba_blue_win    : {r.proba_blue_win_model:.4f}")
+        print(f"matchup_proba_blue_win  : {r.proba_blue_win_matchups:.4f}")
+        print(f"FINAL proba_blue_win    : {r.proba_blue_win_final:.4f}")
+        print(f"FINAL proba_red_win     : {r.proba_red_win_final:.4f}")
+        print(f"predicted_winner        : {r.predicted_winner}")
 
 
 if __name__ == "__main__":

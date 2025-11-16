@@ -6,8 +6,7 @@
 #   probabilities.
 #
 # Usage (single match):
-#   python predict_basic.py --model artifacts/model.cbm --metadata artifacts/metadata.json \
-#     --team-blue "G2 Esports" --team-red "SK Gaming"
+#   python predict_basic.py --model artifacts_cat_tune/best_model_cat.cbm --metadata artifacts_cat_tune/best_metadata_cat.json --team-blue "G2 Esports" --team-red "SK Gaming"
 #
 # Usage (batch CSV):
 #   python predict_basic.py --model artifacts/model.cbm --metadata artifacts/metadata.json \
