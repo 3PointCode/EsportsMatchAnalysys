@@ -1,6 +1,19 @@
+# Usage example:
+# python evaluate_matchupsSummer.py
+#   --data summer/summer_matches_with_picks.csv
+#   --team-stats-overall summer/team_stats_overall.csv
+#   --team-stats-lastN summer/team_stats_lastN.csv
+#   --model artifacts_cat_tune/best_model_cat.cbm
+#   --metadata artifacts_cat_tune/best_metadata_cat.json
+#   --counters-json data/counters_data.json
+#   --cutoff-date 2025-06-09
+#   --matchup-weight 0.5
+#   --output-csv summer/eval_matchupsSummer_cat.csv
+
 import argparse
 import json
 import os
+import csv
 from typing import Optional, List, Tuple
 
 import numpy as np
@@ -146,7 +159,16 @@ def load_model_and_meta(model_path: str, meta_path: str):
     with open(meta_path, "r", encoding="utf-8") as f:
         meta = json.load(f)
 
-    framework = meta.get("framework", "").lower()
+    framework = (meta.get("framework") or "").lower()
+
+    if not framework:
+        if model_path.endswith(".cbm"):
+            framework = "catboost"
+        elif model_path.endswith(".json"):
+            framework = "xgboost"
+        elif model_path.endswith(".txt"):
+            framework = "lightgbm"
+
     if "cat" in framework:
         model = CatBoostClassifier()
         model.load_model(model_path)
@@ -161,7 +183,10 @@ def load_model_and_meta(model_path: str, meta_path: str):
     else:
         raise ValueError(f"Unknown framework in metadata: {framework}")
 
+    meta["framework"] = framework
+
     return model, meta, framework
+
 
 def predict_proba_framework(model, framework: str, X: pd.DataFrame, meta: dict) -> np.ndarray:
     feature_names = meta.get("feature_names")
@@ -212,6 +237,9 @@ def compute_matchup_blue_prob(row: pd.Series, counters: dict) -> float:
     """
     Zwraca średnią przewidywaną szansę Blue na podstawie matchupów
     we wszystkich rolach, w których mamy dane.
+
+    W counters_data.json wartości są w % (0-100),
+    tutaj normalizujemy je do przedziału 0-1.
     """
     probs = []
     for role in ROLES:
@@ -221,19 +249,83 @@ def compute_matchup_blue_prob(row: pd.Series, counters: dict) -> float:
         col_b, col_r = get_role_columns(role)
         if col_b not in row or col_r not in row:
             continue
+
         champ_b = str(row[col_b])
         champ_r = str(row[col_r])
+
         win_table = role_data.get(champ_b)
         if not win_table:
             continue
-        p_blue = win_table.get(champ_r)
-        if p_blue is None:
+        p_blue_raw = win_table.get(champ_r)
+        if p_blue_raw is None:
             continue
-        probs.append(float(p_blue))
+
+        p = float(p_blue_raw)
+        if p > 1.0:
+            p /= 100.0
+
+        if p < 0.0 or p > 1.0:
+            continue
+
+        probs.append(p)
 
     if not probs:
         return 0.5
+
     return float(np.mean(probs))
+
+def tune_matchup_weight(X, matches, model, framework, meta, counters, y_true):
+    import numpy as np
+    results = []
+
+    weights = np.linspace(0.0, 1.0, 51)
+
+    print("\n=== Tuning matchup_weight ===")
+
+    for w in weights:
+        p_model = predict_proba_framework(model, framework, X, meta)
+
+        p_match = np.array([
+            compute_matchup_blue_prob(row, counters)
+            for _, row in matches.iterrows()
+        ], dtype=float)
+
+        p_final = p_model + w * (p_match - 0.5)
+        p_final = np.clip(p_final, 0.01, 0.99)
+
+        y_pred = (p_final >= 0.5).astype(int)
+
+        acc = accuracy_score(y_true, y_pred)
+        prec = precision_score(y_true, y_pred, zero_division=0)
+        rec = recall_score(y_true, y_pred, zero_division=0)
+        auc = safe_auc(y_true, p_final)
+        f1 = f1_score(y_true, y_pred)
+        brier = brier_score_loss(y_true, p_final)
+
+        results.append({
+            "weight": round(float(w), 3),
+            "accuracy": round(acc, 5),
+            "precision": round(prec, 5),
+            "recall": round(rec, 5),
+            "f1": round(f1, 5),
+            "auc_roc": round(auc, 5),
+            "brier": round(brier, 5)
+        })
+
+        print(f"w={w:.2f} | accuracy={acc:.4f} "f"precision={prec:.4f} recall={rec:.4f} "f"f1-score={f1:.4f} auc_roc={auc:.4f}")
+
+    best = max(results, key=lambda r: r["auc_roc"])
+    print("\n=== Best weight ===")
+    print(best)
+
+    with open("matchup_weight_tuning.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=results[0].keys())
+        writer.writeheader()
+        writer.writerows(results)
+
+    print("Saved tuning results -> matchup_weight_tuning.csv")
+
+    return best
 
 
 def parse_args():
@@ -245,8 +337,7 @@ def parse_args():
     p.add_argument("--model", required=True)
     p.add_argument("--metadata", required=True)
 
-    p.add_argument("--counters-json", required=True,
-                   help="Path to counters_data.json with per-role champion vs champion winrates")
+    p.add_argument("--counters-json", required=True, help="Path to counters_data.json with per-role champion vs champion winrates")
 
     p.add_argument("--cutoff-date", default=None)
     p.add_argument("--start-date", default=None)
@@ -257,8 +348,9 @@ def parse_args():
     p.add_argument("--stage-col", default=None)
     p.add_argument("--stage-value", default=None)
 
-    p.add_argument("--matchup-weight", type=float, default=0.5,
-                   help="How strongly matchups influence final probability (0-1).")
+    p.add_argument("--matchup-weight", type=float, default=0.5, help="How strongly matchups influence final probability (0-1).")
+    p.add_argument("--tune-matchup-weight", action="store_true", help="Test multiple matchup_weight values and report best results")
+
     p.add_argument("--output-csv", default="eval_matchups_predictions.csv")
 
     return p.parse_args()
@@ -299,14 +391,16 @@ def main():
 
     matchup_probs = matches.apply(lambda row: compute_matchup_blue_prob(row, counters), axis=1).values
 
-    # połączenie: model + draft
-    # p_final = p_model + w*(p_match - 0.5), obcięte do [0.01, 0.99]
     w = float(args.matchup_weight)
     p_final = p_model + w * (matchup_probs - 0.5)
     p_final = np.clip(p_final, 0.01, 0.99)
 
     y_true = derive_target(matches)
     y_pred = (p_final >= 0.5).astype(int)
+
+    if args.tune_matchup_weight:
+        tune_matchup_weight(X, matches, model, framework, meta, counters, y_true)
+        return
 
     if y_true is not None:
         metrics = {
