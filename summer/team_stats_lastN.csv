@@ -1,12 +1,12 @@
 team,games_played,winrate_lastN,avg_gold_diff_lastN,avg_gold_diff_at14_lastN,avg_game_time_lastN
 Astralis,42,0.3,-4570.0,143.5,1806.8
-Fnatic,201,0.7,6260.0,1102.8,1940.7
-G2 Esports,210,0.7,2280.0,51.0,1884.2
-GIANTX,137,0.7,3250.0,127.9,1959.7
-Karmine Corp,88,0.8,8800.0,560.9,1924.8
-Movistar KOI,251,0.8,6380.0,1111.8,2007.3
+Fnatic,208,0.4,-830.0,-135.1,1898.9
+G2 Esports,218,0.5,-60.0,125.8,2130.5
+GIANTX,141,0.6,1610.0,587.9,1916.3
+Karmine Corp,105,0.6,4450.0,95.8,1953.0
+Movistar KOI,269,0.6,990.0,204.0,2154.8
 Natus Vincere,58,0.2,-6790.0,-660.1,1908.6
 SK Gaming,132,0.1,-10350.0,-1646.4,1966.4
 Team BDS,183,0.3,-4720.0,-442.2,2198.2
-Team Heretics,124,0.6,280.0,41.9,2045.9
+Team Heretics,128,0.3,-6860.0,-737.6,1829.7
 Team Vitality,126,0.4,-3170.0,-298.6,1978.8

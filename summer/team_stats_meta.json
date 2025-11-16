@@ -1,7 +1,7 @@
 {
-  "cutoff_date": "2025-05-25",
+  "cutoff_date": "2025-06-09",
   "window_games": 10,
-  "min_games": 5,
+  "min_games": 15,
   "use_elo": false,
   "k_factor": 24.0,
   "base_columns_present": [
