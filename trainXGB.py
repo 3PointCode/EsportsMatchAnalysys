@@ -4,15 +4,9 @@
 #   (overall/lastN/Elo) and optional team names, plus optional diff features.
 #
 # Example:
-#   python train_xgb.py \
-#     --data lec_2023-2025_games.csv \
-#     --team-stats-overall artifacts/team_stats_overall.csv \
-#     --team-stats-lastN artifacts/team_stats_lastN.csv \
-#     --team-elo artifacts/team_elo.csv \
-#     --cutoff-date 2025-03-01 \
-#     --include-team-names --include-diffs \
-#     --num-boost-round 2000 --early-stopping-rounds 100 \
-#     --save-dir artifacts_xgb --gpu
+#   python trainXGB.py --data data/lec_2023-2025_games.csv --team-stats-overall summer/team_stats_overall.csv --team-stats-lastN summer/team_stats_lastN.csv
+#     --team-elo artifacts/team_elo.csv --cutoff-date 2025-03-02 --include-team-names --include-diffs
+#     --num-boost-round 2000 --early-stopping-rounds 100 --save-dir artifacts_xgb --gpu
 #
 # Outputs:
 #   artifacts_xgb/model_xgb.json
@@ -247,8 +241,8 @@ def main():
         "framework": "xgboost",
         "model_path": os.path.abspath(model_path),
         "feature_names": feature_names,
-        "cat_feature_names": cat_feature_names,  # encoded via LabelEncoder
-        "label_encoders": encoders,              # mapping of classes per categorical col
+        "cat_feature_names": cat_feature_names,
+        "label_encoders": encoders,
         "include_team_names": args.include_team_names,
         "include_diffs": args.include_diffs,
         "team_stats_overall": os.path.abspath(args.team_stats_overall),
