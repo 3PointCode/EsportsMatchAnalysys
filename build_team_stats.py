@@ -10,8 +10,7 @@
 #   - team_stats_meta.json   : metadata (cutoff, window size, columns)
 #
 # Usage examples:
-#   python build_team_stats.py --data lec_2023-2025_games.csv --cutoff-date 2025-03-01 \
-#     --window-games 10 --min-games 5 --elo --k 24 --out-dir artifacts
+#   python build_team_stats.py --data data/lec_2023-2025_games.csv --cutoff-date 2025-06-09 --window-games 15 --min-games 15 --elo --k 24 --out-dir summer
 #
 # Expected CSV columns (case-sensitive):
 #   game_id, game_date, team_blue, team_red, winning_team, gold_diff, gold_diff_at14, game_time
