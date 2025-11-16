@@ -1,0 +1,86 @@
+split,game_id,game_date,team_blue,team_red,winning_team,p_blue,pred_blue_win,true_blue_win,correct
+LEC 2025 Summer Season,70364,2025-08-02,Natus Vincere,Karmine Corp,Karmine Corp,0.43646108645783144,0,0,1
+LEC 2025 Summer Season,70367,2025-08-02,Team Heretics,Fnatic,Fnatic,0.28360885636936084,0,0,1
+LEC 2025 Summer Season,70369,2025-08-02,Fnatic,Team Heretics,Fnatic,0.6729563374819771,1,1,1
+LEC 2025 Summer Season,70365,2025-08-02,Karmine Corp,Natus Vincere,Karmine Corp,0.7724660844220482,1,1,1
+LEC 2025 Summer Season,70368,2025-08-02,Team Heretics,Fnatic,Team Heretics,0.28360885636936084,0,1,0
+LEC 2025 Summer Season,70375,2025-08-03,Karmine Corp,GIANTX,Karmine Corp,0.728634981335057,1,1,1
+LEC 2025 Summer Season,70371,2025-08-03,SK Gaming,Team BDS,Team BDS,0.10864874325912745,0,0,1
+LEC 2025 Summer Season,70370,2025-08-03,Team BDS,SK Gaming,Team BDS,0.77227138105152,1,1,1
+LEC 2025 Summer Season,70373,2025-08-03,GIANTX,Karmine Corp,Karmine Corp,0.5056184137276114,1,0,0
+LEC 2025 Summer Season,70374,2025-08-03,GIANTX,Karmine Corp,GIANTX,0.5056184137276114,1,1,1
+LEC 2025 Summer Season,70379,2025-08-04,GIANTX,Team Vitality,GIANTX,0.5257427355463377,1,1,1
+LEC 2025 Summer Season,70376,2025-08-04,SK Gaming,Fnatic,Fnatic,0.4980100391014557,0,0,1
+LEC 2025 Summer Season,70380,2025-08-04,Team Vitality,GIANTX,GIANTX,0.5622523141742642,1,0,0
+LEC 2025 Summer Season,70377,2025-08-04,SK Gaming,Fnatic,Fnatic,0.4980100391014557,0,0,1
+LEC 2025 Summer Season,70717,2025-08-09,GIANTX,Movistar KOI,Movistar KOI,0.4002847219886934,0,0,1
+LEC 2025 Summer Season,70715,2025-08-09,Movistar KOI,GIANTX,GIANTX,0.8033985406334185,1,0,0
+LEC 2025 Summer Season,70712,2025-08-09,G2 Esports,Team Heretics,G2 Esports,0.8388798491405417,1,1,1
+LEC 2025 Summer Season,70713,2025-08-09,G2 Esports,Team Heretics,G2 Esports,0.8388798491405417,1,1,1
+LEC 2025 Summer Season,70716,2025-08-09,Movistar KOI,GIANTX,Movistar KOI,0.8033985406334185,1,1,1
+LEC 2025 Summer Season,70719,2025-08-10,Fnatic,Team BDS,Fnatic,0.7915321207733219,1,1,1
+LEC 2025 Summer Season,70723,2025-08-10,Karmine Corp,Movistar KOI,Karmine Corp,0.761406076307882,1,1,1
+LEC 2025 Summer Season,70722,2025-08-10,Movistar KOI,Karmine Corp,Movistar KOI,0.4804593893943968,0,1,0
+LEC 2025 Summer Season,70721,2025-08-10,Karmine Corp,Movistar KOI,Karmine Corp,0.761406076307882,1,1,1
+LEC 2025 Summer Season,70718,2025-08-10,Fnatic,Team BDS,Fnatic,0.7915321207733219,1,1,1
+LEC 2025 Summer Season,71025,2025-08-16,Movistar KOI,Natus Vincere,Movistar KOI,0.8336432433712975,1,1,1
+LEC 2025 Summer Season,71029,2025-08-16,Team Heretics,SK Gaming,Team Heretics,0.4310600133729018,0,1,0
+LEC 2025 Summer Season,71030,2025-08-16,SK Gaming,Team Heretics,SK Gaming,0.4333994783592381,0,1,0
+LEC 2025 Summer Season,71026,2025-08-16,Natus Vincere,Movistar KOI,Movistar KOI,0.14442175679535743,0,0,1
+LEC 2025 Summer Season,71028,2025-08-16,Team Heretics,SK Gaming,SK Gaming,0.4310600133729018,0,0,1
+LEC 2025 Summer Season,71034,2025-08-17,Fnatic,G2 Esports,G2 Esports,0.38017152927655573,0,0,1
+LEC 2025 Summer Season,71035,2025-08-17,Fnatic,G2 Esports,G2 Esports,0.38017152927655573,0,0,1
+LEC 2025 Summer Season,71032,2025-08-17,Natus Vincere,Team Vitality,Team Vitality,0.42102285500669,0,0,1
+LEC 2025 Summer Season,71031,2025-08-17,Team Vitality,Natus Vincere,Team Vitality,0.7281781069384894,1,1,1
+LEC 2025 Summer Season,71041,2025-08-18,G2 Esports,Team BDS,G2 Esports,0.7737921825883148,1,1,1
+LEC 2025 Summer Season,71038,2025-08-18,Karmine Corp,Team Vitality,Team Vitality,0.6877196629448232,1,0,0
+LEC 2025 Summer Season,71039,2025-08-18,Karmine Corp,Team Vitality,Team Vitality,0.6877196629448232,1,0,0
+LEC 2025 Summer Season,71037,2025-08-18,Karmine Corp,Team Vitality,Karmine Corp,0.6877196629448232,1,1,1
+LEC 2025 Summer Season,71040,2025-08-18,G2 Esports,Team BDS,G2 Esports,0.7737921825883148,1,1,1
+LEC 2025 Summer Season,71519,2025-08-25,Team Heretics,Team BDS,Team Heretics,0.45013699097473253,0,1,0
+LEC 2025 Summer Season,71518,2025-08-25,Team Heretics,Team BDS,Team BDS,0.45013699097473253,0,0,1
+LEC 2025 Summer Season,71514,2025-08-25,SK Gaming,G2 Esports,G2 Esports,0.3817199053862929,0,0,1
+LEC 2025 Summer Season,71517,2025-08-25,Team BDS,Team Heretics,Team Heretics,0.679518063281213,1,0,0
+LEC 2025 Summer Season,71515,2025-08-25,G2 Esports,SK Gaming,G2 Esports,0.865862451370851,1,1,1
+LEC 2025 Summer Season,71521,2025-08-26,Movistar KOI,Team Vitality,Movistar KOI,0.6080317340531545,1,1,1
+LEC 2025 Summer Season,71524,2025-08-26,Natus Vincere,GIANTX,GIANTX,0.19726099832933663,0,0,1
+LEC 2025 Summer Season,71520,2025-08-26,Team Vitality,Movistar KOI,Movistar KOI,0.4777634394920085,0,0,1
+LEC 2025 Summer Season,71523,2025-08-26,Natus Vincere,GIANTX,GIANTX,0.19726099832933663,0,0,1
+LEC 2025 Summer Playoffs,71842,2025-09-05,Team Vitality,Team Heretics,Team Vitality,0.5804203165999833,1,1,1
+LEC 2025 Summer Playoffs,71841,2025-09-05,Team Heretics,Team Vitality,Team Heretics,0.45535724521099,0,1,0
+LEC 2025 Summer Playoffs,71844,2025-09-05,Team Heretics,Team Vitality,Team Vitality,0.45535724521099,0,0,1
+LEC 2025 Summer Playoffs,71843,2025-09-05,Team Heretics,Team Vitality,Team Vitality,0.45535724521099,0,0,1
+LEC 2025 Summer Playoffs,71846,2025-09-06,GIANTX,Team BDS,GIANTX,0.4602395256850589,0,1,0
+LEC 2025 Summer Playoffs,71848,2025-09-06,GIANTX,Team BDS,GIANTX,0.4602395256850589,0,1,0
+LEC 2025 Summer Playoffs,71847,2025-09-06,Team BDS,GIANTX,GIANTX,0.6041109391567985,1,0,0
+LEC 2025 Summer Playoffs,71853,2025-09-07,Karmine Corp,G2 Esports,G2 Esports,0.3892722887816166,0,0,1
+LEC 2025 Summer Playoffs,71851,2025-09-07,Karmine Corp,G2 Esports,Karmine Corp,0.3892722887816166,0,1,0
+LEC 2025 Summer Playoffs,71854,2025-09-07,G2 Esports,Karmine Corp,G2 Esports,0.7120296047049638,1,1,1
+LEC 2025 Summer Playoffs,71852,2025-09-07,Karmine Corp,G2 Esports,G2 Esports,0.3892722887816166,0,0,1
+LEC 2025 Summer Playoffs,71856,2025-09-08,Movistar KOI,Fnatic,Fnatic,0.50138557644761,1,0,0
+LEC 2025 Summer Playoffs,71857,2025-09-08,Movistar KOI,Fnatic,Movistar KOI,0.50138557644761,1,1,1
+LEC 2025 Summer Playoffs,71860,2025-09-08,Movistar KOI,Fnatic,Movistar KOI,0.50138557644761,1,1,1
+LEC 2025 Summer Playoffs,71859,2025-09-08,Fnatic,Movistar KOI,Fnatic,0.7259217799013917,1,1,1
+LEC 2025 Summer Playoffs,71858,2025-09-08,Fnatic,Movistar KOI,Movistar KOI,0.7259217799013917,1,0,0
+LEC 2025 Summer Playoffs,72359,2025-09-13,Team Vitality,Karmine Corp,Karmine Corp,0.39289725428555206,0,0,1
+LEC 2025 Summer Playoffs,72360,2025-09-13,Team Vitality,Karmine Corp,Karmine Corp,0.39289725428555206,0,0,1
+LEC 2025 Summer Playoffs,72358,2025-09-13,Karmine Corp,Team Vitality,Karmine Corp,0.6877196629448232,1,1,1
+LEC 2025 Summer Playoffs,72357,2025-09-13,Karmine Corp,Team Vitality,Team Vitality,0.6877196629448232,1,0,0
+LEC 2025 Summer Playoffs,72367,2025-09-14,Movistar KOI,G2 Esports,G2 Esports,0.41469800197949136,0,0,1
+LEC 2025 Summer Playoffs,72369,2025-09-14,Movistar KOI,G2 Esports,Movistar KOI,0.41469800197949136,0,1,0
+LEC 2025 Summer Playoffs,72370,2025-09-14,G2 Esports,Movistar KOI,G2 Esports,0.7294080187063806,1,1,1
+LEC 2025 Summer Playoffs,72368,2025-09-14,Movistar KOI,G2 Esports,G2 Esports,0.41469800197949136,0,0,1
+LEC 2025 Summer Playoffs,72362,2025-09-15,Fnatic,GIANTX,Fnatic,0.7585456242397409,1,1,1
+LEC 2025 Summer Playoffs,72364,2025-09-15,GIANTX,Fnatic,Fnatic,0.42493449339448464,0,0,1
+LEC 2025 Summer Playoffs,72363,2025-09-15,GIANTX,Fnatic,Fnatic,0.42493449339448464,0,0,1
+LEC 2025 Summer Playoffs,72494,2025-09-26,Fnatic,Karmine Corp,Fnatic,0.5272100107829225,1,1,1
+LEC 2025 Summer Playoffs,72493,2025-09-26,Karmine Corp,Fnatic,Karmine Corp,0.48114382585204735,0,1,0
+LEC 2025 Summer Playoffs,72492,2025-09-26,Karmine Corp,Fnatic,Fnatic,0.48114382585204735,0,0,1
+LEC 2025 Summer Playoffs,72491,2025-09-26,Karmine Corp,Fnatic,Fnatic,0.48114382585204735,0,0,1
+LEC 2025 Summer Playoffs,72635,2025-09-27,Movistar KOI,Fnatic,Movistar KOI,0.50138557644761,1,1,1
+LEC 2025 Summer Playoffs,72634,2025-09-27,Fnatic,Movistar KOI,Fnatic,0.7259217799013917,1,1,1
+LEC 2025 Summer Playoffs,72633,2025-09-27,Movistar KOI,Fnatic,Movistar KOI,0.50138557644761,1,1,1
+LEC 2025 Summer Playoffs,72636,2025-09-27,Fnatic,Movistar KOI,Movistar KOI,0.7259217799013917,1,0,0
+LEC 2025 Summer Playoffs,72642,2025-09-28,Movistar KOI,G2 Esports,G2 Esports,0.41469800197949136,0,0,1
+LEC 2025 Summer Playoffs,72644,2025-09-28,Movistar KOI,G2 Esports,G2 Esports,0.41469800197949136,0,0,1
+LEC 2025 Summer Playoffs,72643,2025-09-28,Movistar KOI,G2 Esports,G2 Esports,0.41469800197949136,0,0,1
