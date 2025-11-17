@@ -8,6 +8,7 @@ const ALL_TEAMS = [
 ];
 
 const ROLES = ["TOP", "JUNGLE", "MID", "ADC", "SUPPORT"] as const;
+type Role = (typeof ROLES)[number];
 
 const ALL_CHAMPIONS = [
   "Aatrox", "Ahri", "Akali", "Akshan", "Alistar", "Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe", "Aurelion Sol", "Aurora", "Azir", "Bard", "Bel'Veth", "Blitzcrank", "Brand", "Braum", "Briar", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", "Corki", "Darius", "Diana", "Dr. Mundo", "Draven", "Ekko", "Elise", "Evelynn", "Ezreal", "Fiddlesticks", "Fiora", "Fizz", "Galio", "Gangplank", "Garen", "Gnar", "Gragas", "Graves", "Gwen", "Hecarim", "Heimerdinger", "Hwei", "Illaoi", "Irelia", "Ivern", "Janna", "Jarvan IV", "Jax", "Jayce", "Jhin", "Jinx", "K'Sante", "Kai'Sa", "Kalista", "Karma", "Karthus", "Kassadin", "Katarina", "Kayle", "Kayn", "Kennen", "Kha'Zix", "Kindred", "Kled", "Kog'Maw", "LeBlanc", "Lee Sin", "Leona", "Lillia", "Lissandra", "Lucian", "Lulu", "Lux", "Malphite", "Malzahar", "Maokai", "Master Yi", "Mel", "Milio", "Miss Fortune", "Mordekaiser", "Morgana", "Naafiri", "Nami", "Nasus", "Nautilus", "Neeko", "Nidalee", "Nilah", "Nocturne", "Nunu & Willump", "Olaf", "Orianna", "Ornn", "Pantheon", "Poppy", "Pyke", "Qiyana", "Quinn", "Rakan", "Rammus", "Rek'Sai", "Rell", "Renata Glasc", "Renekton", "Rengar", "Riven", "Rumble", "Ryze", "Samira", "Sejuani", "Senna", "Seraphine", "Sett", "Shaco", "Shen", "Shyvana", "Singed", "Sion", "Sivir", "Skarner", "Smolder", "Sona", "Soraka", "Swain", "Sylas", "Syndra", "Tahm Kench", "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "Twisted Fate", "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Vel'Koz", "Vex", "Vi", "Viego", "Viktor", "Vladimir", "Volibear", "Warwick", "Wukong", "Xayah", "Xerath", "Xin Zhao", "Yasuo", "Yone", "Yorick", "Yunara", "Yuumi", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", "Zyra"
@@ -123,6 +124,17 @@ function TeamSearch({
   );
 }
 
+function buildPicksPayload(
+  roles: readonly Role[],
+  picks: (string | undefined)[]
+) {
+  const obj: Record<Role, string> = {} as any;
+  roles.forEach((role, i) => {
+    obj[role] = picks[i] as string;
+  });
+  return obj;
+}
+
 function ChampionSlot({
   owner, role, champion, onPick, taken, side,
 }: {
@@ -204,23 +216,42 @@ function ChampionSlot({
   );
 }
 
-function PredictionBar({ bluePct, redPct, loading }:{
-  bluePct: number; redPct: number; loading: boolean
+function PredictionBar({
+  bluePct,
+  redPct,
+  loading,
+}: {
+  bluePct: number;
+  redPct: number;
+  loading: boolean;
 }) {
   const clamp = (v: number) => Math.max(0, Math.min(100, Math.round(v)));
-  const b = clamp(bluePct), r = clamp(redPct);
+  const b = clamp(bluePct);
+  const r = clamp(redPct);
+  // Dynamic prediciton bard with propotions
   return (
     <div className="rounded-2xl border border-zinc-700 overflow-hidden">
-      <div className="flex">
-        <motion.div className="flex-1 min-w-[10%] px-4 py-6 text-center font-semibold"
-          style={{ background: "#1f2a44" }} animate={{ width: `${b}%` }}
-          transition={{ type: "spring", stiffness: 120, damping: 18 }}>
+      <div className="flex w-full">
+        {/* BLUE TEAM*/}
+        <motion.div
+          className="flex-none px-4 py-6 text-center font-semibold"
+          style={{ background: "#1f2a44" }}
+          animate={{ width: `${b}%` }}
+          initial={false}
+          transition={{ type: "spring", stiffness: 120, damping: 18 }}
+        >
           <div className="text-sm">BLUE</div>
           <div className="text-2xl">{loading ? "…" : `${b}%`}</div>
         </motion.div>
-        <motion.div className="flex-1 min-w-[10%] px-4 py-6 text-center font-semibold"
-          style={{ background: "#3a2121" }} animate={{ width: `${r}%` }}
-          transition={{ type: "spring", stiffness: 120, damping: 18 }}>
+
+        {/* RED TEAM */}
+        <motion.div
+          className="flex-none px-4 py-6 text-center font-semibold"
+          style={{ background: "#3a2121" }}
+          animate={{ width: `${r}%` }}
+          initial={false}
+          transition={{ type: "spring", stiffness: 120, damping: 18 }}
+        >
           <div className="text-sm">RED</div>
           <div className="text-2xl">{loading ? "…" : `${r}%`}</div>
         </motion.div>
@@ -228,6 +259,7 @@ function PredictionBar({ bluePct, redPct, loading }:{
     </div>
   );
 }
+
 
 function ModelToggle({
   value,
@@ -272,6 +304,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [scores, setScores] = useState({ blue: 65, red: 35 });
   const [model, setModel] = useState<ModelName>("CatBoost");
+  const [validationError, setValidationError] = useState<string | null>(null);
 
 
   // zabrane champy (obie drużyny)
@@ -283,18 +316,71 @@ export default function App() {
     [team1, team2]);
 
   async function analyze() {
-    setLoading(true);
-    try {
-      const seed = (team1?.length ?? 0) - (team2?.length ?? 0)
-        + blueDraft.filter(Boolean).length - redDraft.filter(Boolean).length;
-      const bluePct = 50 + Math.max(-25, Math.min(25, seed * 3));
-      const redPct = 100 - bluePct;
-      await new Promise((r) => setTimeout(r, 700));
-      setScores({ blue: bluePct, red: redPct });
-    } finally {
-      setLoading(false);
-    }
+  setValidationError(null);
+
+  // 1) Walidacja drużyn
+  if (!team1 || !team2) {
+    setValidationError("Wybierz obie drużyny: TEAM BLUE i TEAM RED.");
+    return;
   }
+
+  const blueCount = blueDraft.filter(Boolean).length;
+  const redCount = redDraft.filter(Boolean).length;
+
+  const hasAnyDraft = blueCount > 0 || redCount > 0;
+  const fullDraft = blueCount === ROLES.length && redCount === ROLES.length;
+
+  if (hasAnyDraft && !fullDraft) {
+    setValidationError(
+      "Draft musi być albo pusty (tylko drużyny), albo pełny (5 postaci dla BLUE i 5 dla RED)."
+    );
+    return;
+  }
+
+  const body: any = {
+    model,
+    blue_team: team1,
+    red_team: team2,
+  };
+
+  if (fullDraft) {
+    body.blue_picks = buildPicksPayload(ROLES, blueDraft);
+    body.red_picks = buildPicksPayload(ROLES, redDraft);
+  }
+
+  setLoading(true);
+  try {
+    const res = await fetch("http://localhost:8000/api/predict", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+
+    if (!res.ok) {
+      const text = await res.text();
+      console.error("Prediction API error:", text);
+      setValidationError(
+        "Wystąpił błąd podczas predykcji (API). Sprawdź logi backendu."
+      );
+      return;
+    }
+
+    const data: { blue_win_prob: number; red_win_prob: number } =
+      await res.json();
+
+    const bluePct = Math.round(data.blue_win_prob * 100);
+    const redPct = Math.round(data.red_win_prob * 100);
+
+    setScores({ blue: bluePct, red: redPct });
+  } catch (err) {
+    console.error("Analyze failed:", err);
+    setValidationError("Nie udało się połączyć z serwerem predykcji.");
+  } finally {
+    setLoading(false);
+  }
+}
+
+
 
   const ready = Boolean(team1 && team2);
 
@@ -364,6 +450,13 @@ export default function App() {
             />
           </div>
         </div>
+
+        {/* komunikat walidacji */}
+        {validationError && (
+          <div className="text-sm text-red-400 text-center">
+            {validationError}
+          </div>
+        )}
 
         {/* Rząd 2: Sloty championów*/}
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
