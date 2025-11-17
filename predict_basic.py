@@ -40,8 +40,8 @@ def parse_args():
     p.add_argument("--out", dest="out_csv", default="predictions.csv", help="Where to save batch predictions")
 
     # Optional overrides for stats locations (else taken from metadata)
-    p.add_argument("--team-stats-overall", default=None)
-    p.add_argument("--team-stats-lastN", default=None)
+    p.add_argument("--team-stats-overall", default="summer/team_stats_overall.csv")
+    p.add_argument("--team-stats-lastN", default="summer/team_stats_lastN.csv")
     p.add_argument("--team-elo", default=None)
 
     return p.parse_args()
