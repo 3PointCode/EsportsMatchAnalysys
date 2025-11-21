@@ -1,13 +1,8 @@
 # Usage example:
 # python evaluate_matchupsSummer.py
-#   --data summer/summer_matches_with_picks.csv
-#   --team-stats-overall summer/team_stats_overall.csv
-#   --team-stats-lastN summer/team_stats_lastN.csv
-#   --model artifacts_cat_tune/best_model_cat.cbm
-#   --metadata artifacts_cat_tune/best_metadata_cat.json
-#   --counters-json data/counters_data.json
-#   --cutoff-date 2025-06-09
-#   --matchup-weight 0.5
+#   --data summer/summer_matches_with_picks.csv --team-stats-overall summer/team_stats_overall.csv --team-stats-lastN summer/team_stats_lastN.csv
+#   --model artifacts_cat_tune/best_model_cat.cbm --metadata artifacts_cat_tune/best_metadata_cat.json
+#   --counters-json data_matchups/counters_data.json --cutoff-date 2025-06-09 --matchup-weight 0.22
 #   --output-csv summer/eval_matchupsSummer_cat.csv
 
 import argparse

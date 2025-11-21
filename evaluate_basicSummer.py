@@ -1,3 +1,9 @@
+# Usage example:
+# python .\evaluate_basicSummer.py --data data/lec_2023-2025_games.csv 
+# --team-stats-overall summer/team_stats_overall.csv --team-stats-lastN summer/team_stats_lastN.csv 
+# --model artifacts_cat_tune/best_model_cat.cbm --metadata artifacts_cat_tune/best_metadata_cat.json 
+# --cutoff-date 2025-06-09 --output-csv basic_model_evaluation/cat_basic_predictions.csv  
+
 import argparse
 import json
 import os
