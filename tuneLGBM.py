@@ -6,21 +6,10 @@
 #
 # Usage example:
 #   python tuneLGBM.py
-#     --data data/lec_2023-2025_games.csv
-#     --team-stats-overall summer/team_stats_overall.csv
-#     --team-stats-lastN summer/team_stats_lastN.csv
-#     --cutoff-date 2025-03-02 2025-06-09
-#     --include-team-names --include-diffs
-#     --num-boost-round 500 1000 1500 2000
-#     --early-stopping-rounds 100 200 300
-#     --num-leaves 63 127
-#     --learning-rate 0.03 0.04 0.05
-#     --feature-fraction 0.7 0.8 0.9
-#     --bagging-fraction 0.7 0.8 0.9
-#     --bagging-freq 0 1
-#     --lambda-l1 0.0 0.1
-#     --lambda-l2 0.0 1.0
-#     --max-depth 5 8 11 13
+#     --data data/lec_2023-2025_games.csv --team-stats-overall summer/team_stats_overall.csv --team-stats-lastN summer/team_stats_lastN.csv
+#     --cutoff-date 2025-03-02 2025-06-09 --include-team-names --include-diffs
+#     --num-boost-round 500 1000 1500 2000 --early-stopping-rounds 100 200 300 --num-leaves 63 127 --learning-rate 0.03 0.04 0.05
+#     --feature-fraction 0.7 0.8 0.9 --bagging-fraction 0.7 0.8 0.9 --bagging-freq 0 1 --lambda-l1 0.0 0.1 --lambda-l2 0.0 1.0 --max-depth 5 8 11 13
 #     --save-dir artifacts_lgbm_tune --save-best-model
 
 import argparse
@@ -287,6 +276,8 @@ def main():
     if lb_exists:
         old = pd.read_csv(leaderboard_path)
         lb_df = pd.concat([old, lb_df], ignore_index=True)
+    
+    lb_df = lb_df.sort_values("roc_auc", ascending=False)
     lb_df.to_csv(leaderboard_path, index=False)
     print(f"Saved leaderboard to: {leaderboard_path}")
 
