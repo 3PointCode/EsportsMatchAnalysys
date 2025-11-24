@@ -5,14 +5,9 @@
 #
 # Example:
 #   python train_lgbm.py \
-#     --data lec_2023-2025_games.csv \
-#     --team-stats-overall artifacts/team_stats_overall.csv \
-#     --team-stats-lastN artifacts/team_stats_lastN.csv \
-#     --team-elo artifacts/team_elo.csv \
-#     --cutoff-date 2025-03-01 \
-#     --include-team-names --include-diffs \
-#     --num-boost-round 3000 --early-stopping-rounds 200 \
-#     --save-dir artifacts_lgbm --gpu
+#     --data datalec_2023-2025_games.csv --team-stats-overall winter/team_stats_overall.csv --team-stats-lastN winter/team_stats_lastN.csv 
+#     --cutoff-date 2025-03-02 --include-team-names --include-diffs --num-boost-round 3000 --early-stopping-rounds 200
+#     --save-dir artifacts_lgbm_winter
 #
 # Outputs:
 #   artifacts_lgbm/model_lgbm.txt
@@ -44,12 +39,12 @@ def parse_args():
     p.add_argument("--save-dir", default="artifacts_lgbm")
 
     # LightGBM params (sane defaults; tune later)
-    p.add_argument("--num-boost-round", type=int, default=2000)
-    p.add_argument("--early-stopping-rounds", type=int, default=100)
-    p.add_argument("--num-leaves", type=int, default=63)
-    p.add_argument("--learning-rate", type=float, default=0.05)
-    p.add_argument("--feature-fraction", type=float, default=0.9)
-    p.add_argument("--bagging-fraction", type=float, default=0.9)
+    p.add_argument("--num-boost-round", type=int, default=100)
+    p.add_argument("--early-stopping-rounds", type=int, default=0)
+    p.add_argument("--num-leaves", type=int, default=31)
+    p.add_argument("--learning-rate", type=float, default=0.1)
+    p.add_argument("--feature-fraction", type=float, default=1.0)
+    p.add_argument("--bagging-fraction", type=float, default=1.0)
     p.add_argument("--bagging-freq", type=int, default=0)
     p.add_argument("--lambda-l1", type=float, default=0.0)
     p.add_argument("--lambda-l2", type=float, default=0.0)

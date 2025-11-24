@@ -23,13 +23,8 @@
 #   artifacts/metadata.json
 #
 # Example:
-#   python train.py \
-#     --data lec_2023-2025_games.csv \
-#     --team-stats-overall artifacts/team_stats_overall.csv \
-#     --team-stats-lastN artifacts/team_stats_lastN.csv \
-#     --cutoff-date 2025-03-01 \
-#     --include-team-names --include-diffs \
-#     --save-dir artifacts
+#   python train.py --data data/lec_2023-2025_games.csv --team-stats-overall winter/team_stats_overall.csv --team-stats-lastN winter/team_stats_lastN.csv
+#     --cutoff-date 2025-03-02 --include-team-names --include-diffs --save-dir artifacts_cat_winter
 
 import argparse
 import json
@@ -53,10 +48,10 @@ def parse_args():
     p.add_argument("--include-diffs", action="store_true", help="Add (blue - red) numeric diff features")
 
     p.add_argument("--save-dir", default="artifacts")
-    p.add_argument("--iterations", type=int, default=800)
+    p.add_argument("--iterations", type=int, default=1000)
     p.add_argument("--depth", type=int, default=6)
-    p.add_argument("--learning-rate", type=float, default=0.05)
-    p.add_argument("--random-seed", type=int, default=42)
+    p.add_argument("--learning-rate", type=float, default=0.03)
+    p.add_argument("--random-seed", type=int, default=0)
     p.add_argument("--eval-metric", default="AUC")
     p.add_argument("--gpu", action="store_true")
     return p.parse_args()

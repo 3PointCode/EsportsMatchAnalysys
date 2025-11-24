@@ -4,9 +4,8 @@
 #   (overall/lastN/Elo) and optional team names, plus optional diff features.
 #
 # Example:
-#   python trainXGB.py --data data/lec_2023-2025_games.csv --team-stats-overall summer/team_stats_overall.csv --team-stats-lastN summer/team_stats_lastN.csv
-#     --team-elo artifacts/team_elo.csv --cutoff-date 2025-03-02 --include-team-names --include-diffs
-#     --num-boost-round 2000 --early-stopping-rounds 100 --save-dir artifacts_xgb --gpu
+#   python trainXGB.py --data data/lec_2023-2025_games.csv --team-stats-overall winter/team_stats_overall.csv --team-stats-lastN winter/team_stats_lastN.csv
+#     --cutoff-date 2025-03-02 --include-team-names --include-diffs --num-boost-round 2000 --early-stopping-rounds 100 --save-dir artifacts_xgb_winter
 #
 # Outputs:
 #   artifacts_xgb/model_xgb.json
@@ -38,12 +37,12 @@ def parse_args():
     p.add_argument("--save-dir", default="artifacts_xgb")
 
     # XGBoost params (sane defaults; tune later)
-    p.add_argument("--num-boost-round", type=int, default=1500)
+    p.add_argument("--num-boost-round", type=int, default=100)
     p.add_argument("--early-stopping-rounds", type=int, default=100)
     p.add_argument("--max-depth", type=int, default=6)
-    p.add_argument("--eta", type=float, default=0.05, help="learning_rate")
-    p.add_argument("--subsample", type=float, default=0.9)
-    p.add_argument("--colsample-bytree", type=float, default=0.9)
+    p.add_argument("--eta", type=float, default=0.3, help="learning_rate")
+    p.add_argument("--subsample", type=float, default=1)
+    p.add_argument("--colsample-bytree", type=float, default=1.0)
     p.add_argument("--reg-lambda", type=float, default=1.0)
     p.add_argument("--reg-alpha", type=float, default=0.0)
     p.add_argument("--gpu", action="store_true", help="Use GPU (tree_method=gpu_hist)")
