@@ -1,15 +1,15 @@
 # Purpose:
-#  - Buduje cechy tak samo jak trainLGBM.py (profile drużyn + opcjonalne diffs i nazwy drużyn)
-#  - Pozwala podać WIELE dat cutoff oraz LISTY wartości hiperparametrów
-#  - Dla każdej kombinacji uruchamia trening z early stopping (callbacki, LGBM v4+)
-#  - Zapisuje wyniki do CSV (leaderboard) i opcjonalnie najlepszy model + metadane
+#  - Same feature building as the trainLGBM.py
+#  - Grid search for hyperparameters
+#  - For each combination - training with early stoppings
+#  - Results are saved to leaderboard.csv + best_model and it's metadata
 #
 # Usage example:
 #   python tuneLGBM.py
 #     --data data/lec_2023-2025_games.csv --team-stats-overall summer/team_stats_overall.csv --team-stats-lastN summer/team_stats_lastN.csv
-#     --cutoff-date 2025-03-02 2025-06-09 --include-team-names --include-diffs
-#     --num-boost-round 500 1000 1500 2000 --early-stopping-rounds 100 200 300 --num-leaves 63 127 --learning-rate 0.03 0.04 0.05
-#     --feature-fraction 0.7 0.8 0.9 --bagging-fraction 0.7 0.8 0.9 --bagging-freq 0 1 --lambda-l1 0.0 0.1 --lambda-l2 0.0 1.0 --max-depth 5 8 11 13
+#     --cutoff-date 2025-06-09 --include-team-names --include-diffs
+#     --num-boost-round 100 500 1000 1500 2000 --early-stopping-rounds 100 200 300 400 500 --num-leaves 31 63 127 --learning-rate 0.03 0.05 0.08
+#     --feature-fraction 0.8 0.9 1.0 --bagging-fraction 0.8 0.9 1.0 --bagging-freq 0 1 2 --lambda-l1 0.0 0.5 0.1 --lambda-l2 0.0 0.5 1.0 --max-depth -1 5 8 11
 #     --save-dir artifacts_lgbm_tune --save-best-model
 
 import argparse
