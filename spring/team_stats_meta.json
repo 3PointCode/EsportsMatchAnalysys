@@ -1,8 +1,8 @@
 {
-  "cutoff_date": null,
-  "window_games": 10,
-  "min_games": 5,
-  "use_elo": false,
+  "cutoff_date": "2025-03-02",
+  "window_games": 15,
+  "min_games": 15,
+  "use_elo": true,
   "k_factor": 24.0,
   "base_columns_present": [
     "game_date",

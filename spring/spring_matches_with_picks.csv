@@ -1,0 +1,140 @@
+split,game_id,game_date,team_blue,team_red,winning_team,top_blue,jgl_blue,mid_blue,adc_blue,sup_blue,top_red,jgl_red,mid_red,adc_red,sup_red
+LEC 2025 Spring Season,67871,2025-05-13,Team Heretics,Team Vitality,Team Heretics,Aatrox,Naafiri,Ahri,Varus,Nautilus,Gnar,Xin Zhao,Azir,Jhin,Renata Glasc
+LEC 2025 Spring Season,67552,2025-05-12,Rogue,Movistar KOI,Movistar KOI,Yorick,Pantheon,Taliyah,Kaisa,Rell,Ambessa,Vi,Ahri,Xayah,Rakan
+LEC 2025 Spring Season,67549,2025-05-12,Team Heretics,GIANTX,GIANTX,Gwen,Maokai,Tristana,Jhin,Rell,Jax,Nidalee,Sion,Kaisa,Gragas
+LEC 2025 Spring Season,67546,2025-05-11,G2 Esports,Karmine Corp,G2 Esports,Jax,Xin Zhao,Galio,Varus,Nautilus,Gnar,Vi,Sylas,Kaisa,Neeko
+LEC 2025 Spring Season,67543,2025-05-11,SK Gaming,Team Vitality,Team Vitality,Gragas,Vi,Taliyah,Ezreal,Leona,Aatrox,Pantheon,Viktor,Jhin,Neeko
+LEC 2025 Spring Season,67540,2025-05-10,Team Vitality,Karmine Corp,Karmine Corp,Gwen,Poppy,Yone,Kaisa,Neeko,Rumble,Vi,Sylas,Varus,Leona
+LEC 2025 Spring Season,67537,2025-05-10,SK Gaming,G2 Esports,G2 Esports,Jayce,Vi,Ahri,Corki,Rakan,KSante,Pantheon,Taliyah,Kaisa,Alistar
+LEC 2025 Spring Season,67133,2025-05-05,Movistar KOI,SK Gaming,Movistar KOI,Rumble,Xin Zhao,Taliyah,Xayah,Rakan,Aatrox,Pantheon,Ryze,Ezreal,Annie
+LEC 2025 Spring Season,67130,2025-05-05,Fnatic,Team Heretics,Fnatic,Gragas,Vi,Yone,Kaisa,Nautilus,Ambessa,Sejuani,Azir,Miss Fortune,Poppy
+LEC 2025 Spring Season,67127,2025-05-04,G2 Esports,Team Vitality,G2 Esports,Sion,Vi,Taliyah,Ezreal,Leona,Vladimir,Pantheon,Jayce,Xayah,Alistar
+LEC 2025 Spring Season,67124,2025-05-04,GIANTX,Team BDS,GIANTX,Rumble,Skarner,Akali,Varus,Alistar,Gnar,Nocturne,Orianna,Jhin,Rakan
+LEC 2025 Spring Season,67121,2025-05-03,Karmine Corp,Rogue,Karmine Corp,Gnar,Lillia,Yone,Miss Fortune,Poppy,Aatrox,Sejuani,Azir,Jhin,Rell
+LEC 2025 Spring Season,67118,2025-05-03,Fnatic,Team BDS,Fnatic,Gwen,Pantheon,Taliyah,Kaisa,Rell,Rumble,Xin Zhao,Tristana,Jhin,Rakan
+LEC 2025 Spring Season,66720,2025-04-28,Team Vitality,Team BDS,Team Vitality,Rumble,Naafiri,Taliyah,Jhin,Alistar,Ornn,Pantheon,Azir,Ashe,Seraphine
+LEC 2025 Spring Season,66717,2025-04-28,SK Gaming,Team Heretics,Team Heretics,Gwen,Naafiri,Ahri,Corki,Leona,Rumble,Vi,Taliyah,Jhin,Rell
+LEC 2025 Spring Season,66714,2025-04-27,Movistar KOI,GIANTX,Movistar KOI,Rumble,Vi,Ahri,Kaisa,Rell,Gwen,Pantheon,Taliyah,Xayah,Alistar
+LEC 2025 Spring Season,66711,2025-04-27,G2 Esports,Fnatic,G2 Esports,Jax,Maokai,Jayce,Varus,Alistar,KSante,Vi,Taliyah,Ezreal,Braum
+LEC 2025 Spring Season,66708,2025-04-26,Movistar KOI,Fnatic,Fnatic,Rumble,Naafiri,Ahri,Corki,Rell,Warwick,Pantheon,Taliyah,Kaisa,Alistar
+LEC 2025 Spring Season,66705,2025-04-26,GIANTX,G2 Esports,GIANTX,Jax,Sejuani,Yone,Miss Fortune,Neeko,Malphite,Xin Zhao,Aurora,Ezreal,Alistar
+LEC 2025 Spring Season,66279,2025-04-21,Team Vitality,Movistar KOI,Team Vitality,Rumble,Pantheon,Viktor,Kaisa,Poppy,Gwen,Xin Zhao,Taliyah,Jhin,Rell
+LEC 2025 Spring Season,66276,2025-04-21,SK Gaming,Rogue,SK Gaming,Rumble,Vi,Corki,Ezreal,Rell,Galio,Xin Zhao,Orianna,Kalista,Rakan
+LEC 2025 Spring Season,66273,2025-04-20,Team BDS,G2 Esports,Team BDS,Gnar,Maokai,Tristana,Ziggs,Leona,Yasuo,Dr. Mundo,Taliyah,Kaisa,Nautilus
+LEC 2025 Spring Season,66270,2025-04-20,Team Heretics,Team Vitality,Team Heretics,Ambessa,Sejuani,Taliyah,Varus,Rakan,Jax,Vi,Ahri,Ezreal,Alistar
+LEC 2025 Spring Season,66267,2025-04-19,Karmine Corp,GIANTX,Karmine Corp,Rumble,Xin Zhao,Taliyah,Ezreal,Rakan,Aurora,Skarner,Hwei,Varus,Neeko
+LEC 2025 Spring Season,66264,2025-04-19,Fnatic,Rogue,Fnatic,Sion,Pantheon,Orianna,Kalista,Rell,Jayce,Maokai,Viktor,Varus,Alistar
+LEC 2025 Spring Season,65784,2025-04-14,Team Heretics,Karmine Corp,Team Heretics,Gnar,Naafiri,Taliyah,Ezreal,Rakan,Ambessa,Vi,Azir,Miss Fortune,Rell
+LEC 2025 Spring Season,65781,2025-04-14,GIANTX,SK Gaming,SK Gaming,Rumble,Vi,Azir,Miss Fortune,Alistar,Varus,Sejuani,Sylas,Corki,Rell
+LEC 2025 Spring Season,65778,2025-04-13,Team BDS,Movistar KOI,Movistar KOI,Rumble,Skarner,Taliyah,Ashe,Nautilus,Varus,Ivern,Azir,Ezreal,Alistar
+LEC 2025 Spring Season,65775,2025-04-13,Team Vitality,Fnatic,Fnatic,Gnar,Maokai,Viktor,Sivir,Alistar,Gwen,Skarner,Aurelion Sol,Varus,Renata Glasc
+LEC 2025 Spring Season,65772,2025-04-12,Karmine Corp,SK Gaming,Karmine Corp,Ambessa,Sejuani,Yone,Kalista,Leona,Sion,Lillia,Taliyah,Corki,Alistar
+LEC 2025 Spring Season,65769,2025-04-12,Rogue,G2 Esports,G2 Esports,Aurora,Sejuani,Azir,Ezreal,Nautilus,Galio,Pantheon,Taliyah,Kaisa,Rakan
+LEC 2025 Spring Season,65766,2025-04-12,Team Heretics,Team BDS,Team Heretics,Ambessa,Sejuani,Azir,Varus,Renata Glasc,Gwen,Skarner,Taliyah,Corki,Rell
+LEC 2025 Spring Season,65425,2025-04-07,Movistar KOI,Team Heretics,Movistar KOI,Rumble,Sejuani,Yone,Varus,Rakan,Ambessa,Zyra,Tristana,Corki,Leona
+LEC 2025 Spring Season,65422,2025-04-07,GIANTX,Rogue,GIANTX,Gwen,Skarner,Orianna,Corki,Neeko,Jayce,Maokai,Taliyah,Varus,Karma
+LEC 2025 Spring Season,65419,2025-04-06,Karmine Corp,Fnatic,Karmine Corp,Jayce,Naafiri,Taliyah,Ezreal,Alistar,Ambessa,Wukong,Azir,Varus,Rakan
+LEC 2025 Spring Season,65416,2025-04-06,Team BDS,SK Gaming,Team BDS,Gnar,Skarner,Azir,Jhin,Rell,Jayce,Lillia,Yone,Varus,Leona
+LEC 2025 Spring Season,65413,2025-04-05,G2 Esports,Team Heretics,G2 Esports,Gnar,Dr. Mundo,Akali,Varus,Rell,Camille,Zyra,Corki,Ezreal,Alistar
+LEC 2025 Spring Season,65410,2025-04-05,Team BDS,Karmine Corp,Karmine Corp,Gnar,Zyra,Lucian,Ashe,Leona,Ambessa,Maokai,Taliyah,Kalista,Braum
+LEC 2025 Spring Season,65407,2025-04-05,Rogue,Team Vitality,Rogue,Rumble,Sejuani,Yone,Ezreal,Leona,Akali,Pantheon,Ahri,Varus,Rell
+LEC 2025 Spring Season,65223,2025-03-31,SK Gaming,Fnatic,SK Gaming,Rumble,Sejuani,Jayce,Corki,Nautilus,Galio,Naafiri,Yone,Varus,Alistar
+LEC 2025 Spring Season,65220,2025-03-31,Team BDS,Rogue,Rogue,KSante,Maokai,Taliyah,Varus,Rell,Gnar,Skarner,Orianna,Ezreal,Alistar
+LEC 2025 Spring Season,65217,2025-03-30,Karmine Corp,Movistar KOI,Karmine Corp,Gnar,Lillia,Sylas,Varus,Alistar,Annie,Skarner,Yone,Ezreal,Rell
+LEC 2025 Spring Season,65214,2025-03-30,GIANTX,Team Vitality,Team Vitality,Jax,Skarner,Taliyah,Ezreal,Rakan,Gnar,Pantheon,Azir,Varus,Alistar
+LEC 2025 Spring Season,65211,2025-03-29,G2 Esports,Movistar KOI,G2 Esports,Gwen,Maokai,Yone,Kaisa,Rell,Aurora,Skarner,Azir,Ezreal,Alistar
+LEC 2025 Spring Season,65208,2025-03-29,Rogue,Team Heretics,Team Heretics,Aurora,Vi,Yone,Ashe,Alistar,Ambessa,Skarner,Chogath,Varus,Braum
+LEC 2025 Spring Season,65205,2025-03-29,Fnatic,GIANTX,Fnatic,Rumble,Skarner,Yone,Xayah,Rakan,Gwen,Sejuani,Tristana,Ezreal,Nautilus
+LEC 2025 Spring Season,67553,2025-05-12,Rogue,Movistar KOI,Movistar KOI,Aurora,Xin Zhao,Orianna,Varus,Karma,Rumble,Naafiri,Azir,Kalista,Renata Glasc
+LEC 2025 Spring Season,67550,2025-05-12,Team Heretics,GIANTX,GIANTX,Jayce,Sejuani,Viktor,Ezreal,Rakan,Ornn,Xin Zhao,Sylas,Miss Fortune,Nautilus
+LEC 2025 Spring Season,67547,2025-05-11,Karmine Corp,G2 Esports,Karmine Corp,Gwen,Naafiri,Taliyah,Ezreal,Alistar,Shen,Lillia,Viktor,Caitlyn,Braum
+LEC 2025 Spring Season,67548,2025-05-11,G2 Esports,Karmine Corp,Karmine Corp,Warwick,Dr. Mundo,Yone,Kalista,Rell,Ambessa,Sejuani,Azir,Miss Fortune,Rakan
+LEC 2025 Spring Season,67544,2025-05-11,Team Vitality,SK Gaming,Team Vitality,Rumble,Naafiri,Annie,Kaisa,Poppy,Gwen,Sejuani,Corki,Tristana,Alistar
+LEC 2025 Spring Season,67541,2025-05-10,Team Vitality,Karmine Corp,Team Vitality,Gnar,Xin Zhao,Taliyah,Jhin,Karma,Kennen,Naafiri,Ryze,Miss Fortune,Rell
+LEC 2025 Spring Season,67542,2025-05-10,Karmine Corp,Team Vitality,Karmine Corp,Jax,Pantheon,Viktor,KogMaw,Braum,Aatrox,Sejuani,Aurelion Sol,Corki,Nami
+LEC 2025 Spring Season,67538,2025-05-10,G2 Esports,SK Gaming,G2 Esports,Jax,Wukong,Azir,Caitlyn,Braum,Gragas,Xin Zhao,Ryze,Miss Fortune,Rell
+LEC 2025 Spring Season,67134,2025-05-05,SK Gaming,Movistar KOI,Movistar KOI,Gwen,Naafiri,Sylas,Corki,Gragas,Kennen,Poppy,Viktor,Zeri,Rell
+LEC 2025 Spring Season,67131,2025-05-05,Team Heretics,Fnatic,Fnatic,Gnar,Maokai,Mel,Zeri,Rell,Gwen,Dr. Mundo,Viktor,Ezreal,Alistar
+LEC 2025 Spring Season,67128,2025-05-04,G2 Esports,Team Vitality,G2 Esports,Jax,Xin Zhao,Orianna,Varus,Renata Glasc,Aatrox,Naafiri,Ahri,Jhin,Nautilus
+LEC 2025 Spring Season,67125,2025-05-04,GIANTX,Team BDS,GIANTX,Jax,Vi,Taliyah,Lucian,Nautilus,Shen,Sejuani,Azir,Zeri,Rell
+LEC 2025 Spring Season,67122,2025-05-03,Karmine Corp,Rogue,Karmine Corp,Jayce,Vi,Akali,Zeri,Alistar,Yorick,Xin Zhao,Viktor,Kaisa,Rakan
+LEC 2025 Spring Season,67119,2025-05-03,Fnatic,Team BDS,Fnatic,Gragas,Vi,Aurelion Sol,Kalista,Neeko,Shen,Nocturne,Orianna,Varus,Alistar
+LEC 2025 Spring Season,66721,2025-04-28,Team Vitality,Team BDS,Team BDS,Yone,Wukong,Ahri,Miss Fortune,Rakan,Gnar,Sejuani,Orianna,Corki,Rell
+LEC 2025 Spring Season,66722,2025-04-28,Team Vitality,Team BDS,Team Vitality,Aatrox,Xin Zhao,Ryze,Kaisa,Neeko,Renekton,Nidalee,Tristana,Varus,Blitzcrank
+LEC 2025 Spring Season,66718,2025-04-28,Team Heretics,SK Gaming,Team Heretics,Aatrox,Xin Zhao,Azir,Ashe,Braum,Gnar,Pantheon,Viktor,Miss Fortune,Rakan
+LEC 2025 Spring Season,66715,2025-04-27,GIANTX,Movistar KOI,GIANTX,Sion,Nidalee,Tristana,Varus,Leona,Aurora,Maokai,Corki,Miss Fortune,Rakan
+LEC 2025 Spring Season,66716,2025-04-27,Movistar KOI,GIANTX,Movistar KOI,Ambessa,Xin Zhao,Aurelion Sol,Caitlyn,Neeko,Renekton,Sejuani,Viktor,Zeri,Blitzcrank
+LEC 2025 Spring Season,66712,2025-04-27,Fnatic,G2 Esports,Fnatic,Gwen,Naafiri,Azir,Jhin,Neeko,Galio,Xin Zhao,Hwei,Kaisa,Rell
+LEC 2025 Spring Season,66713,2025-04-27,G2 Esports,Fnatic,Fnatic,Aatrox,Zyra,Gragas,Miss Fortune,Leona,Sion,Pantheon,Aurelion Sol,Corki,Nautilus
+LEC 2025 Spring Season,66709,2025-04-26,Movistar KOI,Fnatic,Movistar KOI,Ambessa,Sejuani,Yone,Ezreal,Rakan,Wukong,Xin Zhao,Azir,Miss Fortune,Nautilus
+LEC 2025 Spring Season,66710,2025-04-26,Movistar KOI,Fnatic,Movistar KOI,Gwen,Skarner,Sylas,Tristana,Neeko,Jayce,Vi,Viktor,Xayah,Renata Glasc
+LEC 2025 Spring Season,66706,2025-04-26,GIANTX,G2 Esports,G2 Esports,Sion,Pantheon,Taliyah,Jhin,Rell,Aatrox,Maokai,Hwei,Caitlyn,Braum
+LEC 2025 Spring Season,66707,2025-04-26,GIANTX,G2 Esports,GIANTX,Gnar,Wukong,Viktor,Kaisa,Poppy,Yasuo,Jarvan IV,Orianna,Xayah,Rakan
+LEC 2025 Spring Season,66280,2025-04-21,Movistar KOI,Team Vitality,Team Vitality,Gnar,Skarner,Ahri,Varus,Alistar,Sylas,Naafiri,Ryze,Miss Fortune,Rakan
+LEC 2025 Spring Season,66277,2025-04-21,Rogue,SK Gaming,Rogue,Ambessa,Pantheon,Taliyah,Varus,Alistar,Urgot,Maokai,Yone,Miss Fortune,Leona
+LEC 2025 Spring Season,66278,2025-04-21,SK Gaming,Rogue,Rogue,Jax,Jarvan IV,Viktor,Sivir,Nautilus,Aatrox,Sejuani,Tristana,Kaisa,Braum
+LEC 2025 Spring Season,66274,2025-04-20,G2 Esports,Team BDS,Team BDS,Renekton,Vi,Hwei,Ezreal,Alistar,Ornn,Xin Zhao,Viktor,Zeri,Rakan
+LEC 2025 Spring Season,66271,2025-04-20,Team Vitality,Team Heretics,Team Heretics,Anivia,Skarner,Yone,Corki,Braum,Rumble,Wukong,Aurora,Miss Fortune,Renata Glasc
+LEC 2025 Spring Season,66268,2025-04-19,GIANTX,Karmine Corp,GIANTX,Jax,Poppy,Azir,Xayah,Alistar,Gnar,Vi,Ahri,Kaisa,Leona
+LEC 2025 Spring Season,66269,2025-04-19,Karmine Corp,GIANTX,Karmine Corp,Renekton,Maokai,Viktor,KogMaw,Braum,Aatrox,Sejuani,Akali,Corki,Bard
+LEC 2025 Spring Season,66265,2025-04-19,Rogue,Fnatic,Fnatic,Renekton,Ivern,Azir,Jhin,Leona,Jax,Zyra,Taliyah,Miss Fortune,Rakan
+LEC 2025 Spring Season,65785,2025-04-14,Karmine Corp,Team Heretics,Karmine Corp,Rumble,Xin Zhao,Viktor,Kaisa,Alistar,Aurora,Jarvan IV,Chogath,Corki,Gragas
+LEC 2025 Spring Season,65786,2025-04-14,Team Heretics,Karmine Corp,Karmine Corp,Aatrox,Sejuani,Sylas,Swain,Senna,Renekton,Lillia,Tristana,Ashe,Lulu
+LEC 2025 Spring Season,65782,2025-04-14,GIANTX,SK Gaming,SK Gaming,Gnar,Pantheon,Ahri,Ezreal,Leona,Vladimir,Nocturne,Yone,Kaisa,Rakan
+LEC 2025 Spring Season,65779,2025-04-13,Movistar KOI,Team BDS,Movistar KOI,Gwen,Xin Zhao,Aurora,Miss Fortune,Rell,Gnar,Zyra,Viktor,Jhin,Braum
+LEC 2025 Spring Season,65776,2025-04-13,Fnatic,Team Vitality,Fnatic,Gragas,Poppy,Yone,Corki,Rell,Renekton,Naafiri,Ahri,Ezreal,Leona
+LEC 2025 Spring Season,65773,2025-04-12,SK Gaming,Karmine Corp,Karmine Corp,Vladimir,Xin Zhao,Azir,Jhin,Pantheon,Gnar,Vi,Akali,Miss Fortune,Fiddlesticks
+LEC 2025 Spring Season,65770,2025-04-12,G2 Esports,Rogue,G2 Esports,Jax,Maokai,Akali,Varus,Alistar,Garen,Xin Zhao,Sylas,Corki,Rell
+LEC 2025 Spring Season,65767,2025-04-12,Team BDS,Team Heretics,Team BDS,Rumble,Xin Zhao,Viktor,Sivir,Alistar,Aurora,Pantheon,Yone,Seraphine,Nautilus
+LEC 2025 Spring Season,65768,2025-04-12,Team Heretics,Team BDS,Team Heretics,Gnar,Naafiri,Ahri,Ashe,Rakan,Sion,Lillia,Ryze,Miss Fortune,Leona
+LEC 2025 Spring Season,65426,2025-04-07,Team Heretics,Movistar KOI,Movistar KOI,KSante,Skarner,Viktor,Draven,Rell,Aurora,Vi,Taliyah,Kaisa,Alistar
+LEC 2025 Spring Season,65423,2025-04-07,Rogue,GIANTX,GIANTX,Olaf,Jarvan IV,Viktor,Ezreal,Rell,Aatrox,Sejuani,Hwei,Kaisa,Poppy
+LEC 2025 Spring Season,65420,2025-04-06,Fnatic,Karmine Corp,Fnatic,Gnar,Zyra,Viktor,Miss Fortune,Rell,Aatrox,Brand,Corki,Ashe,Braum
+LEC 2025 Spring Season,65421,2025-04-06,Karmine Corp,Fnatic,Fnatic,KSante,Maokai,Ahri,Xayah,Nautilus,Rumble,Pantheon,Tristana,Kaisa,Leona
+LEC 2025 Spring Season,65417,2025-04-06,Team BDS,SK Gaming,Team BDS,Gwen,Maokai,Taliyah,Miss Fortune,Alistar,Akali,Sejuani,Hwei,Corki,Nautilus
+LEC 2025 Spring Season,65414,2025-04-05,Team Heretics,G2 Esports,G2 Esports,Ambessa,Skarner,Viktor,Miss Fortune,Pyke,Renekton,Ivern,Hwei,Ashe,Leona
+LEC 2025 Spring Season,65411,2025-04-05,Karmine Corp,Team BDS,Karmine Corp,Rumble,Vi,Yone,Kaisa,Alistar,KSante,Xin Zhao,Viktor,Sivir,Rell
+LEC 2025 Spring Season,65408,2025-04-05,Rogue,Team Vitality,Rogue,Jayce,Maokai,Viktor,Corki,Rakan,Yasuo,Dr. Mundo,Hwei,Kalista,Alistar
+LEC 2025 Spring Season,65224,2025-03-31,Fnatic,SK Gaming,SK Gaming,Gnar,Maokai,Sylas,Kaisa,Rakan,Yasuo,Vi,Ahri,Ezreal,Rell
+LEC 2025 Spring Season,65221,2025-03-31,Rogue,Team BDS,Team BDS,Gwen,Vi,Ahri,Corki,Bard,Jax,Nidalee,Jayce,Xayah,Rakan
+LEC 2025 Spring Season,65222,2025-03-31,Team BDS,Rogue,Team BDS,Ambessa,Xin Zhao,Viktor,Jhin,Karma,Volibear,Pantheon,LeBlanc,Ashe,Braum
+LEC 2025 Spring Season,65218,2025-03-30,Movistar KOI,Karmine Corp,Movistar KOI,Aurora,Xin Zhao,Taliyah,Kaisa,Nautilus,Ambessa,Sejuani,Akali,Ashe,Renata Glasc
+LEC 2025 Spring Season,65219,2025-03-30,Karmine Corp,Movistar KOI,Karmine Corp,Jayce,Ivern,Hwei,Miss Fortune,Elise,Gragas,Pantheon,Viktor,Sivir,Rakan
+LEC 2025 Spring Season,65215,2025-03-30,GIANTX,Team Vitality,Team Vitality,KSante,Vi,Aurora,Kaisa,Neeko,Yasuo,Maokai,Ryze,Corki,Rell
+LEC 2025 Spring Season,65212,2025-03-29,Movistar KOI,G2 Esports,Movistar KOI,Ambessa,Sejuani,Taliyah,Varus,Rakan,Sett,Xin Zhao,Ahri,Ashe,Nautilus
+LEC 2025 Spring Season,65213,2025-03-29,Movistar KOI,G2 Esports,G2 Esports,Sion,Zyra,Corki,Tristana,Braum,Gnar,Dr. Mundo,Viktor,Caitlyn,Neeko
+LEC 2025 Spring Season,65209,2025-03-29,Rogue,Team Heretics,Team Heretics,Gwen,Xin Zhao,Taliyah,Corki,Nautilus,Jax,Sejuani,Hwei,Ezreal,Rakan
+LEC 2025 Spring Season,65206,2025-03-29,GIANTX,Fnatic,Fnatic,KSante,Nocturne,Azir,Corki,Rell,Ambessa,Pantheon,Taliyah,Varus,Renata Glasc
+LEC 2025 Spring Playoffs,69035,2025-06-08,G2 Esports,Movistar KOI,Movistar KOI,Gnar,Wukong,Taliyah,Kalista,Neeko,Gwen,Xin Zhao,Ahri,Xayah,Rakan
+LEC 2025 Spring Playoffs,68845,2025-06-07,Movistar KOI,Karmine Corp,Karmine Corp,Gwen,Wukong,Ahri,Senna,Rell,Akali,Pantheon,Ryze,Kalista,Rakan
+LEC 2025 Spring Playoffs,68810,2025-06-02,Karmine Corp,Fnatic,Karmine Corp,Jayce,Wukong,Hwei,Draven,Nautilus,Sion,Pantheon,Viktor,Kalista,Rell
+LEC 2025 Spring Playoffs,68549,2025-06-01,Karmine Corp,Team Heretics,Karmine Corp,Jayce,Wukong,Ryze,Varus,Alistar,Rumble,Naafiri,Orianna,Jhin,Rakan
+LEC 2025 Spring Playoffs,68544,2025-05-31,Fnatic,GIANTX,Fnatic,Gwen,Skarner,Taliyah,Kalista,Renata Glasc,Vladimir,Pantheon,Ahri,Senna,Alistar
+LEC 2025 Spring Playoffs,68539,2025-05-26,Movistar KOI,G2 Esports,G2 Esports,Ambessa,Pantheon,Ryze,Smolder,Rell,Camille,Wukong,Ahri,Senna,Nautilus
+LEC 2025 Spring Playoffs,67956,2025-05-25,Karmine Corp,Movistar KOI,Movistar KOI,Rumble,Xin Zhao,Sylas,Ezreal,Rakan,Galio,Vi,Ahri,Xayah,Rell
+LEC 2025 Spring Playoffs,67951,2025-05-24,Fnatic,G2 Esports,Fnatic,Rumble,Vi,Azir,Corki,Rell,Ornn,Xin Zhao,Akali,Varus,Alistar
+LEC 2025 Spring Playoffs,69036,2025-06-08,G2 Esports,Movistar KOI,Movistar KOI,Camille,Trundle,Ryze,Senna,Nautilus,Ambessa,Pantheon,Galio,Varus,Rell
+LEC 2025 Spring Playoffs,69037,2025-06-08,G2 Esports,Movistar KOI,G2 Esports,Sion,Vi,Annie,Kaisa,Alistar,Nidalee,Poppy,Sylas,Zeri,Braum
+LEC 2025 Spring Playoffs,69038,2025-06-08,Movistar KOI,G2 Esports,Movistar KOI,KSante,Naafiri,Kassadin,Ezreal,Leona,Dr. Mundo,Skarner,Orianna,Jinx,Thresh
+LEC 2025 Spring Playoffs,68846,2025-06-07,Movistar KOI,Karmine Corp,Movistar KOI,Neeko,Naafiri,Yone,Kaisa,Nautilus,Nidalee,Skarner,Azir,Lucian,Nami
+LEC 2025 Spring Playoffs,68847,2025-06-07,Karmine Corp,Movistar KOI,Movistar KOI,Rumble,Nocturne,Viktor,Jhin,Gragas,Varus,Xin Zhao,Kassadin,Tristana,Alistar
+LEC 2025 Spring Playoffs,68848,2025-06-07,Karmine Corp,Movistar KOI,Karmine Corp,Sion,Lillia,Corki,Sivir,Leona,Ambessa,Ivern,Smolder,Ezreal,Poppy
+LEC 2025 Spring Playoffs,68849,2025-06-07,Movistar KOI,Karmine Corp,Movistar KOI,KSante,Maokai,Cassiopeia,Jinx,Blitzcrank,Renekton,Sejuani,Sylas,Miss Fortune,Galio
+LEC 2025 Spring Playoffs,68811,2025-06-02,Fnatic,Karmine Corp,Karmine Corp,Rumble,Skarner,Ryze,Xayah,Rakan,Galio,Xin Zhao,Zoe,Lucian,Nami
+LEC 2025 Spring Playoffs,68812,2025-06-02,Fnatic,Karmine Corp,Karmine Corp,Ornn,Naafiri,Yone,Ezreal,Neeko,Renekton,Maokai,Azir,Miss Fortune,Karma
+LEC 2025 Spring Playoffs,68550,2025-06-01,Team Heretics,Karmine Corp,Team Heretics,Jax,Vi,Ahri,Miss Fortune,Neeko,Gwen,Poppy,Azir,Ezreal,Rell
+LEC 2025 Spring Playoffs,68551,2025-06-01,Karmine Corp,Team Heretics,Karmine Corp,Ambessa,Xin Zhao,Hwei,Senna,Braum,Renekton,Lillia,Tristana,Ziggs,Nautilus
+LEC 2025 Spring Playoffs,68552,2025-06-01,Team Heretics,Karmine Corp,Karmine Corp,Gnar,Sejuani,Sylas,Ashe,Seraphine,Sion,Ivern,Corki,Xayah,Leona
+LEC 2025 Spring Playoffs,68545,2025-05-31,GIANTX,Fnatic,Fnatic,Jax,Nocturne,Orianna,Varus,Gragas,Chogath,Xin Zhao,Aurelion Sol,Jhin,Rell
+LEC 2025 Spring Playoffs,68546,2025-05-31,GIANTX,Fnatic,GIANTX,Yorick,Sejuani,Viktor,Corki,Rumble,Ornn,Maokai,Sylas,Lucian,Milio
+LEC 2025 Spring Playoffs,68547,2025-05-31,Fnatic,GIANTX,Fnatic,Sion,Wukong,Ryze,Xayah,Rakan,Gnar,Nidalee,Syndra,Miss Fortune,Nautilus
+LEC 2025 Spring Playoffs,68540,2025-05-26,Movistar KOI,G2 Esports,G2 Esports,Jayce,Ivern,Azir,Ezreal,Leona,Sion,Naafiri,Taliyah,Varus,Alistar
+LEC 2025 Spring Playoffs,68541,2025-05-26,Movistar KOI,G2 Esports,Movistar KOI,Rumble,Lillia,Yone,Kaisa,Renata Glasc,Gwen,Trundle,Annie,Xayah,Braum
+LEC 2025 Spring Playoffs,68542,2025-05-26,G2 Esports,Movistar KOI,G2 Esports,Swain,Maokai,Tristana,Draven,Blitzcrank,KSante,Sejuani,Viktor,Miss Fortune,Neeko
+LEC 2025 Spring Playoffs,67957,2025-05-25,Karmine Corp,Movistar KOI,Karmine Corp,Ambessa,Sejuani,Yone,Kalista,Leona,Jax,Pantheon,Akali,Kaisa,Neeko
+LEC 2025 Spring Playoffs,67958,2025-05-25,Movistar KOI,Karmine Corp,Movistar KOI,Nidalee,Trundle,Taliyah,Senna,Nautilus,Gnar,Skarner,Viktor,Varus,Alistar
+LEC 2025 Spring Playoffs,67959,2025-05-25,Karmine Corp,Movistar KOI,Karmine Corp,Camille,Maokai,Hwei,Miss Fortune,Gragas,Sion,Naafiri,Aurora,Lucian,Karma
+LEC 2025 Spring Playoffs,67960,2025-05-25,Movistar KOI,Karmine Corp,Movistar KOI,Ornn,Poppy,Ryze,Tristana,Braum,Aatrox,Wukong,Zoe,Jhin,Pyke
+LEC 2025 Spring Playoffs,67952,2025-05-24,G2 Esports,Fnatic,G2 Esports,Gnar,Wukong,Ahri,Senna,Nautilus,Yorick,Pantheon,Taliyah,Zeri,Renata Glasc
+LEC 2025 Spring Playoffs,67953,2025-05-24,Fnatic,G2 Esports,G2 Esports,Gwen,Skarner,Hwei,Kalista,Taric,Jax,Poppy,Annie,Xayah,Rakan
+LEC 2025 Spring Playoffs,67954,2025-05-24,Fnatic,G2 Esports,G2 Esports,Camille,Sejuani,Orianna,Tristana,Neeko,Ambessa,Trundle,Galio,Kaisa,Leona
