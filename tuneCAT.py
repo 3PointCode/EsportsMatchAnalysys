@@ -60,6 +60,25 @@ def time_split_index(df: pd.DataFrame, cutoff: Optional[str]) -> Tuple[pd.Index,
     te = df.index[df["game_date"] >= cutoff_dt]
     return tr, te
 
+def time_split_3way_index(df: pd.DataFrame, train_end_date: str, val_end_date: str) -> tuple[pd.Index, pd.Index, pd.Index]:
+    """
+    3-way split:
+      train: game_date < train_end_date
+      val  : train_end_date <= game_date < val_end_date
+      test : game_date >= val_end_date  (tu ignorowane w tuningu)
+    """
+    train_dt = pd.to_datetime(train_end_date)
+    val_dt = pd.to_datetime(val_end_date)
+    if train_dt >= val_dt:
+        raise ValueError("--train-end-date must be earlier than --val-end-date")
+
+    train_idx = df.index[df["game_date"] < train_dt]
+    val_idx = df.index[(df["game_date"] >= train_dt) & (df["game_date"] < val_dt)]
+    test_idx = df.index[df["game_date"] >= val_dt]
+
+    if len(train_idx) == 0 or len(val_idx) == 0:
+        raise ValueError("3-way split produced empty train or val segment. Check dates.")
+    return train_idx, val_idx, test_idx
 
 def derive_target(matches: pd.DataFrame) -> pd.Series:
     return (matches["winning_team"].astype(str) == matches["team_blue"].astype(str)).astype(int)
@@ -72,10 +91,10 @@ def merge_team_features(matches: pd.DataFrame,
                         include_team_names: bool,
                         include_diffs: bool) -> tuple[pd.DataFrame, List[str], List[str]]:
     """
-    Buduje cechy:
-    - team_blue/team_red (opcjonalnie jako kategoryczne)
-    - profile overall/lastN/elo dla obu drużyn
-    - opcjonalne różnice (blue - red) dla cech numerycznych
+    Build features:
+    - team_blue/team_red (optional)
+    - profiles overall/lastN/elo for both teams
+    - optional diffs (blue - red) for numeric features
     """
     ov_b = overall.rename(
         columns={c: f"ov_{c}_blue" for c in overall.columns if c != "team"}
@@ -152,8 +171,9 @@ def parse_args():
     ap.add_argument("--team-stats-overall", required=True)
     ap.add_argument("--team-stats-lastN", default=None)
     ap.add_argument("--team-elo", default=None)
-    ap.add_argument("--cutoff-date", nargs="+", default=[None],
-                    help="You can pass multiple dates (YYYY-MM-DD)")
+    ap.add_argument("--cutoff-date", nargs="+", default=[None], help="You can pass multiple dates (YYYY-MM-DD)")
+    ap.add_argument("--train-end-date", default=None, help="If set together with --val-end-date: train < train_end_date (3-way split).")
+    ap.add_argument("--val-end-date", default=None, help="If set together with --train-end-date: validation in [train_end_date, val_end_date], test >= val_end_date.")
     ap.add_argument("--include-team-names", action="store_true")
     ap.add_argument("--include-diffs", action="store_true")
 
@@ -189,8 +209,17 @@ def main():
 
     cat_feature_indices = get_cat_feature_indices(feature_names, cat_feature_names) if cat_feature_names else []
 
+    use_3way = args.train_end_date is not None and args.val_end_date is not None
+
+    # Przygotuj grid hiperparametrów
+    if use_3way:
+        # 3-way: jeden podział czasowy, grid tylko po hiperparametrach
+        date_grid = [None]  # placeholder, realnie ignorowany
+    else:
+        date_grid = args.cutoff_date
+
     grid = list(itertools.product(
-        args.cutoff_date,
+        date_grid,
         args.iterations,
         args.early_stopping_rounds,
         args.depth,
@@ -198,7 +227,7 @@ def main():
         args.l2_leaf_reg,
         args.random_strength,
     ))
-    print(f"Grid size: {len(grid)} (cutoffs x hyperparams)")
+    print(f"Grid size: {len(grid)} (dates x hyperparams)")
 
     leaderboard_path = os.path.join(args.save_dir, args.leaderboard)
     lb_exists = os.path.exists(leaderboard_path)
@@ -206,6 +235,13 @@ def main():
     best_key = None
     best_metrics = None
     best_model = None
+
+    if use_3way:
+        tr_idx, val_idx, _ = time_split_3way_index(matches, args.train_end_date, args.val_end_date)
+        X_train_base = X_full.loc[tr_idx].reset_index(drop=True)
+        X_val_base   = X_full.loc[val_idx].reset_index(drop=True)
+        y_train_base = y_full[tr_idx]
+        y_val_base   = y_full[val_idx]
 
     for (cutoff_date,
          iterations,
@@ -215,10 +251,16 @@ def main():
          l2_leaf_reg,
          random_strength) in grid:
 
-        tr_idx, te_idx = time_split_index(matches, cutoff_date)
-        X_train = X_full.loc[tr_idx].reset_index(drop=True)
-        X_test  = X_full.loc[te_idx].reset_index(drop=True)
-        y_train, y_test = y_full[tr_idx], y_full[te_idx]
+        if use_3way:
+            X_train = X_train_base
+            X_test  = X_val_base
+            y_train = y_train_base
+            y_test  = y_val_base
+        else:
+            tr_idx, te_idx = time_split_index(matches, cutoff_date)
+            X_train = X_full.loc[tr_idx].reset_index(drop=True)
+            X_test  = X_full.loc[te_idx].reset_index(drop=True)
+            y_train, y_test = y_full[tr_idx], y_full[te_idx]
 
         train_pool = Pool(
             data=X_train,
@@ -256,7 +298,9 @@ def main():
 
         row = {
             "created_at": datetime.now(timezone.utc).isoformat(),
-            "cutoff_date": cutoff_date,
+            "cutoff_date": (None if use_3way else cutoff_date),
+            "train_end_date": args.train_end_date if use_3way else None,
+            "val_end_date": args.val_end_date if use_3way else None,
             "iterations": int(iterations),
             "early_stopping_rounds": int(es_rounds),
             "depth": int(depth),
@@ -279,24 +323,31 @@ def main():
     if lb_exists:
         old = pd.read_csv(leaderboard_path)
         lb_df = pd.concat([old, lb_df], ignore_index=True)
-    
+
     lb_df = lb_df.sort_values("roc_auc", ascending=False)
     lb_df.to_csv(leaderboard_path, index=False)
     print(f"Saved leaderboard to: {leaderboard_path}")
 
     best_meta = {
-        "best_config": {k: best_metrics[k] for k in [
-            "cutoff_date",
-            "iterations",
-            "early_stopping_rounds",
-            "depth",
-            "learning_rate",
-            "l2_leaf_reg",
-            "random_strength",
-        ]},
-        "best_metrics": {k: best_metrics[k] for k in [
-            "accuracy", "precision", "recall", "f1", "roc_auc", "brier"
-        ]},
+        "framework": "catboost",
+        "best_config": {
+            k: best_metrics[k] for k in [
+                "cutoff_date",
+                "train_end_date",
+                "val_end_date",
+                "iterations",
+                "early_stopping_rounds",
+                "depth",
+                "learning_rate",
+                "l2_leaf_reg",
+                "random_strength",
+            ]
+        },
+        "best_metrics": {
+            k: best_metrics[k] for k in [
+                "accuracy", "precision", "recall", "f1", "roc_auc", "brier"
+            ]
+        },
         "feature_names": feature_names,
         "cat_feature_names": cat_feature_names,
         "include_team_names": args.include_team_names,

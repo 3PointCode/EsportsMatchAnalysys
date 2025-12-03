@@ -58,6 +58,26 @@ def time_split_index(df: pd.DataFrame, cutoff: Optional[str]) -> Tuple[pd.Index,
     te = df.index[df["game_date"] >= cutoff_dt]
     return tr, te
 
+def time_split_3way_index(df: pd.DataFrame, train_end_date: str, val_end_date: str) -> tuple[pd.Index, pd.Index, pd.Index]:
+    """
+    3-way split:
+      train: game_date < train_end_date
+      val  : train_end_date <= game_date < val_end_date
+      test : game_date >= val_end_date  (tu ignorowane w tuningu)
+    """
+    train_dt = pd.to_datetime(train_end_date)
+    val_dt = pd.to_datetime(val_end_date)
+    if train_dt >= val_dt:
+        raise ValueError("--train-end-date must be earlier than --val-end-date")
+
+    train_idx = df.index[df["game_date"] < train_dt]
+    val_idx = df.index[(df["game_date"] >= train_dt) & (df["game_date"] < val_dt)]
+    test_idx = df.index[df["game_date"] >= val_dt]
+
+    if len(train_idx) == 0 or len(val_idx) == 0:
+        raise ValueError("3-way split produced empty train or val segment. Check dates.")
+    return train_idx, val_idx, test_idx
+
 def derive_target(matches: pd.DataFrame) -> pd.Series:
     return (matches["winning_team"].astype(str) == matches["team_blue"].astype(str)).astype(int)
 
@@ -159,8 +179,9 @@ def parse_args():
     ap.add_argument("--team-stats-overall", required=True)
     ap.add_argument("--team-stats-lastN", default=None)
     ap.add_argument("--team-elo", default=None)
-    ap.add_argument("--cutoff-date", nargs="+", default=[None],
-                    help="You can pass multiple dates (YYYY-MM-DD)")
+    ap.add_argument("--cutoff-date", nargs="+", default=[None], help="You can pass multiple dates (YYYY-MM-DD)")
+    ap.add_argument("--train-end-date", default=None, help="If set together with --val-end-date: train < train_end_date (3-way split).")
+    ap.add_argument("--val-end-date", default=None, help="If set together with --train-end-date: validation in [train_end_date, val_end_date], test >= val_end_date.")
     ap.add_argument("--include-team-names", action="store_true")
     ap.add_argument("--include-diffs", action="store_true")
 
