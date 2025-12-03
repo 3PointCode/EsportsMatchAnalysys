@@ -20,9 +20,6 @@
 #     --in matches_to_score.csv --out preds.csv
 #   # CSV must have: team_blue,team_red,top_blue,jgl_blue,mid_blue,adc_blue,sup_blue,top_red,jgl_red,mid_red,adc_red,sup_red
 #
-# Notes:
-# - beta (--beta) controls how strongly matchups sway the final probability; default 1.5 (conservative).
-# - Missing matchup pairs fall back to 50/50 to avoid overconfidence.
 
 import argparse
 import json

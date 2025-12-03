@@ -1,6 +1,6 @@
 # Purpose:
 #   Use a pre-trained model (trained with team strength profiles) to predict a match outcome
-#   BEFORE the game, based only on team names. The script automatically loads the same
+#   before the game, based only on team names. The script automatically loads the same
 #   team_stats files used during training (paths stored in metadata.json), joins the
 #   appropriate rows for Blue/Red, reconstructs the exact feature vector, and outputs
 #   probabilities.
@@ -13,9 +13,6 @@
 #     --in matches_to_score.csv --out preds.csv
 #   # CSV must have columns: team_blue, team_red
 #
-# Notes:
-# - The script respects training choices saved in metadata: include_team_names / include_diffs.
-# - You can override paths to team_stats files with flags if needed.
 
 import argparse
 import json
