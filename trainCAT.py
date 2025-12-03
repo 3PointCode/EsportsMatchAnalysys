@@ -44,6 +44,8 @@ def parse_args():
     p.add_argument("--team-elo", default=None, help="Path to team_elo.csv (optional)")
 
     p.add_argument("--cutoff-date", default=None, help="YYYY-MM-DD time-based split (train < cutoff, test >= cutoff)")
+    p.add_argument("--train-end-date", default=None, help="Last date (YYYY-MM-DD) used for train set in 3-way split")
+    p.add_argument("--val-end-date", default=None, help="Last date (YYYY-MM-DD) used for validation set in 3-way split")
     p.add_argument("--include-team-names", action="store_true", help="Include team_blue/team_red as categorical features")
     p.add_argument("--include-diffs", action="store_true", help="Add (blue - red) numeric diff features")
 
@@ -178,6 +180,35 @@ def time_split(df: pd.DataFrame, cutoff: str | None):
     test_idx = df.index[df["game_date"] >= cutoff_dt]
     return train_idx, test_idx
 
+def time_split_3way(df: pd.DataFrame,
+                    train_end_date: str,
+                    val_end_date: str):
+    """
+    Returns (train_idx, val_idx, test_idx) in chronological order:
+    - train: game_date <= train_end_date
+    - val  : train_end_date < game_date <= val_end_date
+    - test : game_date > val_end_date
+    """
+    df = df.sort_values("game_date")
+    train_end = pd.to_datetime(train_end_date)
+    val_end = pd.to_datetime(val_end_date)
+
+    if val_end <= train_end:
+        raise ValueError("val_end_date must be strictly after train_end_date.")
+
+    train_idx = df.index[df["game_date"] <= train_end]
+    val_idx = df.index[(df["game_date"] > train_end) & (df["game_date"] <= val_end)]
+    test_idx = df.index[df["game_date"] > val_end]
+
+    if len(train_idx) == 0 or len(val_idx) == 0 or len(test_idx) == 0:
+        raise ValueError(
+            f"3-way split produced empty subset(s). "
+            f"Check train_end_date={train_end_date} and val_end_date={val_end_date}."
+        )
+
+    return train_idx, val_idx, test_idx
+
+
 def main():
     args = parse_args()
     os.makedirs(args.save_dir, exist_ok=True)
@@ -187,23 +218,54 @@ def main():
     lastN = load_stats_lastN(args.team_stats_lastN)
     elo = load_elo(args.team_elo)
 
-    # Prepare features (joined per team)
+    if overall is None or "team" not in overall.columns:
+        raise SystemExit("team_stats_overall.csv must be provided and contain 'team' column.")
+
     X_full, feature_names, cat_feature_names = merge_team_features(
-        matches, overall, lastN, elo, include_team_names=args.include_team_names, include_diffs=args.include_diffs
+        matches,
+        overall,
+        lastN,
+        elo,
+        include_team_names=args.include_team_names,
+        include_diffs=args.include_diffs,
     )
 
-    # Target
     y = derive_target(matches)
 
-    # Time-based split
-    tr_idx, te_idx = time_split(matches, args.cutoff_date)
-    X_train, X_test = X_full.loc[tr_idx], X_full.loc[te_idx]
-    y_train, y_test = y.loc[tr_idx], y.loc[te_idx]
+    use_3way = args.train_end_date is not None and args.val_end_date is not None
 
-    # Pools
-    cat_indices = [X_train.columns.get_loc(c) for c in cat_feature_names] if cat_feature_names else None
-    train_pool = Pool(X_train, y_train, cat_features=cat_indices)
-    valid_pool = Pool(X_test, y_test, cat_features=cat_indices)
+    if use_3way:
+        tr_idx, val_idx, te_idx = time_split_3way(
+            matches,
+            args.train_end_date,
+            args.val_end_date,
+        )
+        X_train = X_full.loc[tr_idx].reset_index(drop=True)
+        X_val = X_full.loc[val_idx].reset_index(drop=True)
+        X_test = X_full.loc[te_idx].reset_index(drop=True)
+
+        y_train = y.loc[tr_idx].values
+        y_val = y.loc[val_idx].values
+        y_test = y.loc[te_idx].values
+    else:
+        tr_idx, te_idx = time_split(matches, args.cutoff_date)
+        X_train = X_full.loc[tr_idx].reset_index(drop=True)
+        X_val = X_full.loc[te_idx].reset_index(drop=True)
+        X_test = X_val
+
+        y_train = y.loc[tr_idx].values
+        y_val = y.loc[te_idx].values
+        y_test = y_val
+
+    # Categorical indices
+    if cat_feature_names:
+        cat_indices = [feature_names.index(c) for c in cat_feature_names]
+    else:
+        cat_indices = []
+
+    train_pool = Pool(X_train, y_train, cat_features=cat_indices or None)
+    valid_pool = Pool(X_val, y_val, cat_features=cat_indices or None)
+    test_pool = Pool(X_test, y_test, cat_features=cat_indices or None)
 
     params = dict(
         loss_function="Logloss",
@@ -226,21 +288,26 @@ def main():
 
     model.fit(train_pool, eval_set=valid_pool, verbose=False)
 
-    # Evaluation using the below metrics
-    proba = model.predict_proba(valid_pool)[:, 1]
+    # Evaluation on test data
+    proba = model.predict_proba(test_pool)[:, 1]
     y_pred = (proba >= 0.5).astype(int)
+
+    def safe_auc(y_true, y_score):
+        return roc_auc_score(y_true, y_score) if len(np.unique(y_true)) > 1 else None
+
     metrics = {
         "accuracy": float(accuracy_score(y_test, y_pred)),
         "precision": float(precision_score(y_test, y_pred, zero_division=0)),
         "recall": float(recall_score(y_test, y_pred, zero_division=0)),
         "f1": float(f1_score(y_test, y_pred, zero_division=0)),
-        "roc_auc": float(roc_auc_score(y_test, proba)) if len(np.unique(y_test)) > 1 else None,
+        "roc_auc": safe_auc(y_test, proba),
         "brier": float(brier_score_loss(y_test, proba)),
         "n_train": int(len(X_train)),
+        "n_val": int(len(X_val)),
         "n_test": int(len(X_test)),
     }
 
-    print("=== Evaluation (pre-game) ===")
+    print("=== Evaluation (pre-game, CatBoost) ===")
     for k, v in metrics.items():
         if isinstance(v, float):
             print(f"{k:>10}: {v:.4f}")
@@ -254,6 +321,7 @@ def main():
 
     metadata = {
         "created_at": datetime.now(timezone.utc).isoformat(),
+        "framework": "catboost",
         "feature_names": feature_names,
         "cat_feature_names": cat_feature_names,
         "include_team_names": args.include_team_names,
@@ -262,7 +330,16 @@ def main():
         "team_stats_lastN": os.path.abspath(args.team_stats_lastN) if args.team_stats_lastN else None,
         "team_elo": os.path.abspath(args.team_elo) if args.team_elo else None,
         "cutoff_date": args.cutoff_date,
+        "train_end_date": args.train_end_date,
+        "val_end_date": args.val_end_date,
         "metrics": metrics,
+        "params": {
+            "iterations": args.iterations,
+            "depth": args.depth,
+            "learning_rate": args.learning_rate,
+            "eval_metric": args.eval_metric,
+            "random_seed": args.random_seed,
+        },
     }
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)

@@ -33,6 +33,8 @@ def parse_args():
     p.add_argument("--team-elo", default=None, help="Path to team_elo.csv (optional)")
 
     p.add_argument("--cutoff-date", default=None, help="YYYY-MM-DD time split (train < cutoff, test >= cutoff)")
+    p.add_argument("--train-end-date", default=None, help="Last date (YYYY-MM-DD) used for train set in 3-way split")
+    p.add_argument("--val-end-date", default=None, help="Last date (YYYY-MM-DD) used for validation set in 3-way split")
     p.add_argument("--include-team-names", action="store_true", help="Include team_blue/team_red as categorical (LabelEncoded)")
     p.add_argument("--include-diffs", action="store_true", help="Add (blue - red) numeric diffs")
 
@@ -139,6 +141,34 @@ def label_encode_teams(X_train: pd.DataFrame, X_test: pd.DataFrame, cat_cols: Li
         encoders[c] = {"classes_": le.classes_.tolist()}
     return X_train, X_test, encoders
 
+def time_split_3way(df: pd.DataFrame,
+                    train_end_date: str,
+                    val_end_date: str):
+    """
+    Returns (train_idx, val_idx, test_idx) in chronological order:
+    - train: game_date <= train_end_date
+    - val  : train_end_date < game_date <= val_end_date
+    - test : game_date > val_end_date
+    """
+    df = df.sort_values("game_date")
+    train_end = pd.to_datetime(train_end_date)
+    val_end = pd.to_datetime(val_end_date)
+
+    if val_end <= train_end:
+        raise ValueError("val_end_date must be strictly after train_end_date.")
+
+    train_idx = df.index[df["game_date"] <= train_end]
+    val_idx = df.index[(df["game_date"] > train_end) & (df["game_date"] <= val_end)]
+    test_idx = df.index[df["game_date"] > val_end]
+
+    if len(train_idx) == 0 or len(val_idx) == 0 or len(test_idx) == 0:
+        raise ValueError(
+            f"3-way split produced empty subset(s). "
+            f"Check train_end_date={train_end_date} and val_end_date={val_end_date}."
+        )
+
+    return train_idx, val_idx, test_idx
+
 def main():
     args = parse_args()
     os.makedirs(args.save_dir, exist_ok=True)
@@ -149,25 +179,59 @@ def main():
     elo = load_csv(args.team_elo)
 
     if overall is None or "team" not in overall.columns:
-        raise SystemExit("team_stats_overall.csv must be provided and contain 'team' column.")
+        raise SystemExit("team_stats_overall must exist and contain 'team' column.")
 
     X_full, feature_names, cat_feature_names = merge_team_features(
-        matches, overall, lastN, elo, include_team_names=args.include_team_names, include_diffs=args.include_diffs
+        matches,
+        overall,
+        lastN,
+        elo,
+        include_team_names=args.include_team_names,
+        include_diffs=args.include_diffs,
     )
 
     y = derive_target(matches)
 
-    tr_idx, te_idx = time_split_index(matches, args.cutoff_date)
-    X_train, X_test = X_full.loc[tr_idx].reset_index(drop=True), X_full.loc[te_idx].reset_index(drop=True)
-    y_train, y_test = y.loc[tr_idx].values, y.loc[te_idx].values
+    use_3way = args.train_end_date is not None and args.val_end_date is not None
+
+    if use_3way:
+        tr_idx, val_idx, te_idx = time_split_3way(
+            matches, args.train_end_date, args.val_end_date
+        )
+        X_train = X_full.loc[tr_idx].reset_index(drop=True)
+        X_val = X_full.loc[val_idx].reset_index(drop=True)
+        X_test = X_full.loc[te_idx].reset_index(drop=True)
+
+        y_train = y.loc[tr_idx].values
+        y_val = y.loc[val_idx].values
+        y_test = y.loc[te_idx].values
+    else:
+        tr_idx, te_idx = time_split_index(matches, args.cutoff_date)
+        X_train = X_full.loc[tr_idx].reset_index(drop=True)
+        X_val = X_full.loc[te_idx].reset_index(drop=True)
+        X_test = X_val
+
+        y_train = y.loc[tr_idx].values
+        y_val = y.loc[te_idx].values
+        y_test = y_val
 
     encoders = {}
     if cat_feature_names:
-        X_train, X_test, encoders = label_encode_teams(X_train, X_test, cat_feature_names)
+        if use_3way:
+            X_rest = pd.concat([X_val, X_test], ignore_index=True)
+            X_train, X_rest_enc, encoders = label_encode_teams(
+                X_train, X_rest, cat_feature_names
+            )
+            X_val = X_rest_enc.iloc[: len(X_val)].reset_index(drop=True)
+            X_test = X_rest_enc.iloc[len(X_val) :].reset_index(drop=True)
+        else:
+            X_train, X_test, encoders = label_encode_teams(
+                X_train, X_test, cat_feature_names
+            )
+            X_val = X_test
 
-    # Build datasets
     lgb_train = lgb.Dataset(X_train, label=y_train, free_raw_data=False)
-    lgb_valid = lgb.Dataset(X_test, label=y_test, reference=lgb_train, free_raw_data=False)
+    lgb_valid = lgb.Dataset(X_val, label=y_val, reference=lgb_train, free_raw_data=False)
 
     params = {
         "objective": "binary",
@@ -186,8 +250,8 @@ def main():
     }
 
     callbacks = [
-    lgb.early_stopping(stopping_rounds=args.early_stopping_rounds, verbose=False),
-    lgb.log_evaluation(period=0)
+        lgb.early_stopping(stopping_rounds=args.early_stopping_rounds, verbose=False),
+        lgb.log_evaluation(period=0),
     ]
 
     booster = lgb.train(
@@ -213,6 +277,7 @@ def main():
         "roc_auc": safe_auc(y_test, proba),
         "brier": float(brier_score_loss(y_test, proba)),
         "n_train": int(len(X_train)),
+        "n_val": int(len(X_val)),
         "n_test": int(len(X_test)),
         "best_iteration": int(booster.best_iteration or 0),
     }
@@ -234,14 +299,16 @@ def main():
         "framework": "lightgbm",
         "model_path": os.path.abspath(model_path),
         "feature_names": feature_names,
-        "cat_feature_names": cat_feature_names,  # label-encoded
-        "label_encoders": encoders,              # mapping of classes per categorical col
+        "cat_feature_names": cat_feature_names,
+        "label_encoders": encoders,
         "include_team_names": args.include_team_names,
         "include_diffs": args.include_diffs,
         "team_stats_overall": os.path.abspath(args.team_stats_overall),
         "team_stats_lastN": os.path.abspath(args.team_stats_lastN) if args.team_stats_lastN else None,
         "team_elo": os.path.abspath(args.team_elo) if args.team_elo else None,
         "cutoff_date": args.cutoff_date,
+        "train_end_date": args.train_end_date,
+        "val_end_date": args.val_end_date,
         "params": params,
         "metrics": metrics,
     }
@@ -251,6 +318,7 @@ def main():
 
     print(f"Saved model to: {model_path}")
     print(f"Saved metadata to: {meta_path}")
+
 
 if __name__ == "__main__":
     main()
